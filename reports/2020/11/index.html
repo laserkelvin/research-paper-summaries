@@ -29,6 +29,7 @@
     </p>
     <div>
       <h2> 2011.12747v1&mdash;Symmetry-Aware Actor-Critic for 3D Molecular Design</h2>
+      <p><a href=http://arxiv.org/abs/2011.12747v1>Link to paper</a></p>
       <div id="author-block">
         <ul>
           <li>Gregor N. C. Simm</li>
@@ -55,25 +56,24 @@ generated molecules.</p>
         </div>
         <div class="pure-u-1-2">
           <h3>LLM summary</h3>
-          <p>Sure! Here are the answers to your questions about the paper "COVARIANT: A New Framework for Solving the Solvation Problem":</p>
           <p>Q: What is the problem statement of the paper - what are they trying to solve?
-A: The authors are trying to solve the solvation problem, which involves predicting the arrangement of molecules in a solvent environment and their interactions with each other and the solute. The goal is to find the most stable conformation of the solute in the presence of the solvent.</p>
+A: The paper is focused on solving the solvation task, which involves generating stable configurations of water molecules and solutes in a solvent environment. The authors aim to improve upon previous state-of-the-art methods for this task using a novel approach called COVARIANT.</p>
           <p>Q: What was the previous state of the art? How did this paper improve upon it?
-A: The previous state of the art for solving the solvation problem was the use of quantum-chemical methods, such as density functional theory (DFT) and ab initio calculations. These methods were found to be computationally expensive and often resulted in suboptimal solutions. The authors propose a new framework called COVARIANT, which combines classical optimization techniques with machine learning algorithms to solve the solvation problem more efficiently and accurately.</p>
+A: The previous state-of-the-art methods for the solvation task were based on quantum-chemical methods, which were found to be computationally expensive and not very well suited for modeling interactions between water molecules and solutes. The paper improves upon these methods by using a machine learning approach that is faster and more efficient.</p>
           <p>Q: What were the experiments proposed and carried out?
-A: The authors conducted experiments using a variety of molecules and solvents to test the performance of their COVARIANT algorithm. They used 5 H2O molecules and formaldehyde as the solute, and evaluated the performance of their algorithm on a set of 10 seeds. They also compared the runtimes between their algorithm and two other state-of-the-art algorithms: OPT and INTERNAL.</p>
+A: The authors conducted experiments using the COVARIANT agent on a variety of solutes, including formaldehyde, and evaluated its performance on the solvation task. They also compared the runtimes of COVARIANT, INTERNAL, and OPT (a baseline agent) to assess their efficiency.</p>
           <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
-A: Figures 1-5 and Tables 1-2 were referenced in the text most frequently. Figure 1 shows the average return of the COVARIANT algorithm across 10 seeds, while Table 1 compares the runtimes of the three algorithms. Figure 5 shows the distribution of the number of iterations required for convergence, and Table 2 compares the performance of the three algorithms on a set of 10 molecules.</p>
+A: Figures 10 and 11 were referenced frequently, as they show the performance of COVARIANT on the solvation task and compare its runtimes with INTERNAL and OPT. Table 1 was also referenced frequently, as it provides a summary of the agents' performances.</p>
           <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
-A: The reference [3] was cited the most frequently, as it provides a detailed overview of the solvation problem and the various methods that have been proposed to solve it. The authors also cite [2] and [4], which provide additional context for their proposed algorithm and its performance.</p>
+A: The reference to the quantum-chemical method used in the reward function was cited frequently, as it is the basis for the solvation task. The authors also cite other works on machine learning and quantum chemistry, which provide context for their approach and its potential applications.</p>
           <p>Q: Why is the paper potentially impactful or important?
-A: The paper proposes a new framework for solving the solvation problem, which is an important challenge in computational chemistry. The authors show that their algorithm can solve the task more efficiently and accurately than previous state-of-the-art methods, making it a valuable contribution to the field.</p>
+A: The paper has the potential to make a significant impact in the field of chemical simulations, as it proposes a novel approach that combines quantum chemistry and machine learning to solve complex problems efficiently. The authors also highlight the importance of their work for drug discovery and materials science applications.</p>
           <p>Q: What are some of the weaknesses of the paper?
-A: One potential weakness of the paper is the limited scope of the experiments conducted. The authors only tested their algorithm on a small set of molecules and solvents, which may not be representative of all possible cases. Additionally, the runtimes of their algorithm were found to be relatively slow compared to other methods, which may limit its practical applicability.</p>
+A: The authors acknowledge that their approach is not without limitations, such as the reliance on a quantum-chemical method for the reward function, which may not be well suited for modeling interactions between water molecules and solutes. They also note that further improvements could be made by incorporating additional information, such as the solute's electronic structure, into their approach.</p>
           <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
-A: No link to the Github code is provided in the paper.</p>
+A: I don't know. The paper does not provide a link to a Github repository for the COVARIANT agent.</p>
           <p>Q: Provide up to ten hashtags that describe this paper.
-A: #solvation #computationalchemistry #machinelearning #optimization #classicalmechanics #physics #chemistry #materialscience #molecularmodeling #quantumchemistry</p>
+A: #machinelearning #chemicalsimulation #solvationtask #quantumchemistry #drugdiscovery #materialscience #novelapproach #agentbased #rewardfunction #computationalefficiency</p>
         </div>
       </div>
     </div>

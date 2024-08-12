@@ -29,6 +29,7 @@
     </p>
     <div>
       <h2> 2306.12059v3&mdash;EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations</h2>
+      <p><a href=http://arxiv.org/abs/2306.12059v3>Link to paper</a></p>
       <div id="author-block">
         <ul>
           <li>Yi-Lun Liao</li>
@@ -61,23 +62,23 @@ datasets to better understand the performance gain brought by higher degrees.</p
         <div class="pure-u-1-2">
           <h3>LLM summary</h3>
           <p>Q: What is the problem statement of the paper - what are they trying to solve?
-A: The authors are attempting to improve upon the previous state of the art in terms of accuracy and efficiency for quantum chemistry simulations using a novel architecture based on eSCN convolutions, attention re-normalization, normalization, and layer normalization. They aim to address the challenge of scaling up quantum chemistry simulations to larger systems while minimizing computational cost.</p>
+A: The authors aim to improve upon the previous state of the art in terms of predicting the energy of an adsorbate on a catalyst surface using machine learning. They identify that the current methods have limitations in terms of accuracy and computational cost, and thus propose new architectural improvements to address these issues.</p>
           <p>Q: What was the previous state of the art? How did this paper improve upon it?
-A: The previous state of the art in terms of accuracy and efficiency for quantum chemistry simulations was achieved by EquiformerV2, which introduced a novel architecture based on eSCN convolutions. This paper improves upon EquiformerV2 by proposing additional architectural improvements, including attention re-normalization, normalization, and layer normalization, leading to further improved accuracy and efficiency.</p>
+A: The previous state of the art in terms of predicting the energy of an adsorbate on a catalyst surface using machine learning was the EquiformerV2 model proposed by Liao and Smidt (2023). The current paper improves upon this model by introducing new architectural improvements, such as increasing the maximum sequence length (Lmax), using eSCN convolutions, attention re-normalization, normalization of the input, and separable layer normalization. These improvements lead to improved performance in terms of lower MAE values compared to the EquiformerV2 model.</p>
           <p>Q: What were the experiments proposed and carried out?
-A: The authors conducted ablation studies on the proposed architectural improvements using the task of ∆ε on the QM9 dataset. They compared the performance of their proposed architecture with Equiformer baseline and analyzed the results to determine the impact of each improvement.</p>
+A: The authors conducted ablation studies on the proposed architectural improvements using the task of ∆ε on the QM9 dataset. They evaluated the performance of the different variants of the model and identified which improvements led to better results.</p>
           <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
-A: Figures 1, 2, 3, 4, and Tables 1-5 were referenced in the text most frequently, as they provide visualizations of the proposed architecture and ablation studies results.</p>
+A: Figures 6 and Table 14 were referenced the most frequently in the text. Figure 6 shows qualitative examples of the initial configuration of an adsorbate on a catalyst surface and the corresponding relaxed configurations obtained from different models, while Table 14 presents the results of ablation studies on the proposed architectural improvements.</p>
           <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
-A: The reference "Liao & Smidt (2023)" was cited the most frequently, as it provides a detailed overview of the EquiformerV2 architecture and its performance. The authors also cited their own work from earlier papers to provide context for their proposed improvements.</p>
+A: The reference cited the most frequently is Liao and Smidt (2023), who proposed the EquiformerV2 model. The authors mention this reference in the context of comparing their proposed improvements to the state of the art, highlighting the importance of their work in terms of improving machine learning models for predicting adsorbate energy on catalyst surfaces.</p>
           <p>Q: Why is the paper potentially impactful or important?
-A: The paper has the potential to be impactful in the field of quantum chemistry simulations as it proposes a novel architecture that improves upon the previous state of the art in terms of accuracy and efficiency. This could lead to faster and more accurate simulations, which would be beneficial for a wide range of applications, including drug discovery and materials science.</p>
+A: The authors argue that their proposed model has the potential to be impactful due to its improved accuracy and reduced computational cost compared to previous methods. This could lead to faster and more accurate simulations of adsorption processes, which are essential for optimizing catalyst design and predicting material properties.</p>
           <p>Q: What are some of the weaknesses of the paper?
-A: The authors acknowledge that their proposed architecture may suffer from overfitting due to the smaller size of the QM9 dataset compared to other datasets used in quantum chemistry simulations. They also mention that further improvements could be made by incorporating additional techniques, such as graph neural networks or spatial attention mechanisms.</p>
+A: The authors acknowledge that their proposed model is computationally expensive due to the use of eSCN convolutions, which could be a limitation for large-scale simulations. Additionally, they mention that the QM9 dataset has limitations in terms of size and diversity, which could impact the generalizability of their results to other datasets or systems.</p>
           <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
 A: No link to the Github code is provided in the paper.</p>
           <p>Q: Provide up to ten hashtags that describe this paper.
-A: #QuantumChemistry #Simulation #Architecture #eSCN #Attention #Normalization #LayerNormalization #AblationStudy #OC20 #QM9</p>
+A: #machinelearning #adsorption #catalyst #surfacechemistry #computationalmaterialscience #accurateprediction #efficientsimulation #materialsdesign #optimaldesign #accuracyimprovement #computationalcostreduction</p>
         </div>
       </div>
     </div>

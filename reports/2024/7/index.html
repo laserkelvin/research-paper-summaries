@@ -29,6 +29,7 @@
     </p>
     <div>
       <h2> 2407.20471v1&mdash;Relaxed Equivariant Graph Neural Networks</h2>
+      <p><a href=http://arxiv.org/abs/2407.20471v1>Link to paper</a></p>
       <div id="author-block">
         <ul>
           <li>Elyssa Hofgard</li>
@@ -51,23 +52,23 @@ correct amount of symmetry breaking.</p>
         <div class="pure-u-1-2">
           <h3>LLM summary</h3>
           <p>Q: What is the problem statement of the paper - what are they trying to solve?
-A: The paper is focused on developing a new approach to graph neural networks (GNNs) called relaxed equivariant GNNs, which aim to preserve the symmetry of the input graph while still capturing complex patterns in the data. The authors argue that existing GNNs often break symmetry unnecessarily, limiting their ability to model certain types of data, such as those with high symmetries.</p>
+A: The authors aim to develop a novel approach to graph neural networks (GNNs) that preserves the symmetry of the input graph while still capturing its structural information. They propose relaxed equivariant GNNs, which combine the equivariance of the traditional GNNs with the ability to break symmetries in specific layers, enabling the modeling of a wider range of graph structures.</p>
           <p>Q: What was the previous state of the art? How did this paper improve upon it?
-A: According to the authors, the previous state of the art in GNNs involved using Fourier or other symmetry-breaking techniques to capture patterns in the data. However, these methods often result in a loss of symmetry and are unable to model certain types of data with high symmetries. The proposed relaxed equivariant GNNs improve upon this by preserving the symmetry of the input graph while still capturing complex patterns.</p>
+A: The authors build upon the existing body of work on GNNs and symmetry-preserving neural networks (SP-GNNs). They demonstrate that their proposed approach leads to improved performance compared to traditional GNNs and SP-GNNs in various tasks, particularly in modeling graphs with high symmetry.</p>
           <p>Q: What were the experiments proposed and carried out?
-A: The authors conducted experiments on two tasks: shape deformations and a particle in an electromagnetic field. In the first task, they demonstrated that their relaxed equivariant GNNs can accurately predict the deformed shape of a graph without breaking symmetry, while in the second task, they showed that their model can capture complex patterns in the data despite preserving symmetry.</p>
+A: The authors conduct experiments on several graph classification tasks, including shape deformations and a particle in an electromagnetic field. They show that their proposed approach leads to improved performance compared to traditional GNNs and SP-GNNs in these tasks as well.</p>
           <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
-A: Figures 2, 3, and 5 are referenced the most frequently in the text, as they provide visualizations of the proposed relaxed equivariant GNNs and their performance on the two tasks. Table 4 is also important, as it presents the scalar signal f(x,y) for each layer of the model.</p>
+A: Figures 1, 2, 3, and Tables 1, 2, and 4 are referenced the most frequently in the text. Figure 1 illustrates the problem statement and the proposed approach of the paper, while Figure 2 shows the architecture of the relaxed equivariant GNN model. Table 1 provides a summary of the experimental setup, and Table 2 compares the performance of different models on various tasks.</p>
           <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
-A: The reference [3] by Kondor et al. is cited the most frequently, as it provides a theoretical framework for understanding the behavior of GNNs on symmetric graphs. The authors also provide a detailed analysis of the relationship between symmetry-breaking and model expressivity in GNNs.</p>
+A: The authors cite several papers related to GNNs and SP-GNNs, including Bruna et al. (2014), Kipf & Welling (2017), and Xu et al. (2019). They provide these citations to demonstrate the relevance of their proposed approach to existing work in the field.</p>
           <p>Q: Why is the paper potentially impactful or important?
-A: The paper could have a significant impact on the field of GNNs, as it proposes a new approach to modeling data with high symmetries. By preserving the symmetry of the input graph, the proposed relaxed equivariant GNNs could enable the modeling of a wider range of data types than previous methods. Additionally, the paper provides a theoretical framework for understanding the relationship between symmetry-breaking and model expressivity in GNNs, which could lead to further advancements in the field.</p>
+A: The authors argue that their proposed approach has the potential to enable new applications in graph-structured data, such as modeling complex molecular structures and understanding social networks. They also highlight the importance of preserving symmetries in neural network models, particularly in tasks involving physical simulations.</p>
           <p>Q: What are some of the weaknesses of the paper?
-A: One potential weakness of the paper is that it focuses solely on two tasks and does not provide a comprehensive evaluation of the proposed method on a wider range of tasks. Additionally, the authors do not provide a detailed analysis of the computational complexity of their proposed method, which could be an important consideration for large-scale applications.</p>
+A: The authors acknowledge that their proposed approach requires a trade-off between equivariance and symmetry breaking, which can limit its applicability in certain tasks. They also mention that further research is needed to better understand the theoretical foundations of their approach.</p>
           <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
-A: No, a link to the Github code is not provided in the paper.</p>
+A: No link to a Github repository is provided in the paper.</p>
           <p>Q: Provide up to ten hashtags that describe this paper.
-A: #GNNs #SymmetryPreservation #Equivariance #GraphNeuralNetworks #MachineLearning #ComputerVision #ParticlePhysics #ElectromagneticField #DataModeling #SymmetryBreaking</p>
+A: #GraphNeuralNetworks #SymmetryPreservingGNN #EquivariantGNN #ParticleInElectromagneticField #ShapeDeformations #MachineLearning #ComputerVision #PhysicsSimulation #DataStructures</p>
         </div>
       </div>
     </div>
