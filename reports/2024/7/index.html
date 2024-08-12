@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024&mdash;7 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2024/7</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 2407.20471v1&mdash;Relaxed Equivariant Graph Neural Networks</h2>
+      <div id="author-block">
+        <ul>
+          <li>Elyssa Hofgard</li>
+          <li>Rui Wang</li>
+          <li>Robin Walters</li>
+          <li>Tess Smidt</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>3D Euclidean symmetry equivariant neural networks have demonstrated notable
+success in modeling complex physical systems. We introduce a framework for
+relaxed $E(3)$ graph equivariant neural networks that can learn and represent
+symmetry breaking within continuous groups. Building on the existing e3nn
+framework, we propose the use of relaxed weights to allow for controlled
+symmetry breaking. We show empirically that these relaxed weights learn the
+correct amount of symmetry breaking.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper is focused on developing a new approach to graph neural networks (GNNs) called relaxed equivariant GNNs, which aim to preserve the symmetry of the input graph while still capturing complex patterns in the data. The authors argue that existing GNNs often break symmetry unnecessarily, limiting their ability to model certain types of data, such as those with high symmetries.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: According to the authors, the previous state of the art in GNNs involved using Fourier or other symmetry-breaking techniques to capture patterns in the data. However, these methods often result in a loss of symmetry and are unable to model certain types of data with high symmetries. The proposed relaxed equivariant GNNs improve upon this by preserving the symmetry of the input graph while still capturing complex patterns.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted experiments on two tasks: shape deformations and a particle in an electromagnetic field. In the first task, they demonstrated that their relaxed equivariant GNNs can accurately predict the deformed shape of a graph without breaking symmetry, while in the second task, they showed that their model can capture complex patterns in the data despite preserving symmetry.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 2, 3, and 5 are referenced the most frequently in the text, as they provide visualizations of the proposed relaxed equivariant GNNs and their performance on the two tasks. Table 4 is also important, as it presents the scalar signal f(x,y) for each layer of the model.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [3] by Kondor et al. is cited the most frequently, as it provides a theoretical framework for understanding the behavior of GNNs on symmetric graphs. The authors also provide a detailed analysis of the relationship between symmetry-breaking and model expressivity in GNNs.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have a significant impact on the field of GNNs, as it proposes a new approach to modeling data with high symmetries. By preserving the symmetry of the input graph, the proposed relaxed equivariant GNNs could enable the modeling of a wider range of data types than previous methods. Additionally, the paper provides a theoretical framework for understanding the relationship between symmetry-breaking and model expressivity in GNNs, which could lead to further advancements in the field.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it focuses solely on two tasks and does not provide a comprehensive evaluation of the proposed method on a wider range of tasks. Additionally, the authors do not provide a detailed analysis of the computational complexity of their proposed method, which could be an important consideration for large-scale applications.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No, a link to the Github code is not provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #GNNs #SymmetryPreservation #Equivariance #GraphNeuralNetworks #MachineLearning #ComputerVision #ParticlePhysics #ElectromagneticField #DataModeling #SymmetryBreaking</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

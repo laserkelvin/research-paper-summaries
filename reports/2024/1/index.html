@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024&mdash;1 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2024/1</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 2401.16914v2&mdash;Energy-conserving equivariant GNN for elasticity of lattice architected metamaterials</h2>
+      <div id="author-block">
+        <ul>
+          <li>Ivan Grega</li>
+          <li>Ilyes Batatia</li>
+          <li>Gábor Csányi</li>
+          <li>Sri Karlapati</li>
+          <li>Vikram S. Deshpande</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Lattices are architected metamaterials whose properties strongly depend on
+their geometrical design. The analogy between lattices and graphs enables the
+use of graph neural networks (GNNs) as a faster surrogate model compared to
+traditional methods such as finite element modelling. In this work, we generate
+a big dataset of structure-property relationships for strut-based lattices. The
+dataset is made available to the community which can fuel the development of
+methods anchored in physical principles for the fitting of fourth-order
+tensors. In addition, we present a higher-order GNN model trained on this
+dataset. The key features of the model are (i) SE(3) equivariance, and (ii)
+consistency with the thermodynamic law of conservation of energy. We compare
+the model to non-equivariant models based on a number of error metrics and
+demonstrate its benefits in terms of predictive performance and reduced
+training requirements. Finally, we demonstrate an example application of the
+model to an architected material design task. The methods which we developed
+are applicable to fourth-order tensors beyond elasticity such as piezo-optical
+tensor etc.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to investigate the performance of a Graph Neural Network (GNN) when incorporating different graphs over which message passing is done, specifically the line graph. They seek to determine whether including the line graph improves the model's performance or not.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: According to the authors, the previous state of the art for 3D lattice prediction using GNNs was achieved by Meyer et al. (2022), who proposed a model called CGCNN. The current paper improves upon this model by incorporating a line graph and comparing the performance of different models with various choices of Lmax (the maximum degree of spherical expansion).</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted experiments using the 3D lattice prediction task from the Materials Genome Project dataset. They trained their model on different graphs, including the line graph, and compared their performance to the previous state of the art.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 7 and 8 were referenced several times throughout the text, as they demonstrate the performance of different models with varying choices of Lmax. Table 8 is also mentioned frequently, as it shows the results of various models compared to the previous state of the art.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference cited the most frequently is Meyer et al. (2022), which is mentioned several times throughout the text as the previous state of the art and for comparison purposes.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors argue that their findings could lead to more accurate predictions of 3D lattice properties, which is crucial in materials science and engineering. Incorporating the line graph into GNNs could provide a better representation of highly-symmetric lattices and improve the model's performance.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors mention that their findings suggest that incorporating the line graph does not necessarily lead to better performance, and that the optimal choice of Lmax depends on the specific lattice structure. They also acknowledge that their study only considers highly-symmetric lattices and may not be applicable to more complex lattice structures.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No link to the Github code is provided in the text.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: Here are ten possible hashtags that could be used to describe this paper:</p>
+          <p>1. #GNN
+2. #GraphNeuralNetworks
+3. #MaterialsScience
+4. #LatticePrediction
+5. #3DLC
+6. #SymmetricLattices
+7. #MessagePassing
+8. #TensorProductExpansion
+9. #Anisotropy
+10. #MachineLearning</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024&mdash;3 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2024/3</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 2403.09549v2&mdash;Generalizing Denoising to Non-Equilibrium Structures Improves Equivariant Force Fields</h2>
+      <div id="author-block">
+        <ul>
+          <li>Yi-Lun Liao</li>
+          <li>Tess Smidt</li>
+          <li>Muhammed Shuaibi</li>
+          <li>Abhishek Das</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Understanding the interactions of atoms such as forces in 3D atomistic
+systems is fundamental to many applications like molecular dynamics and
+catalyst design. However, simulating these interactions requires
+compute-intensive ab initio calculations and thus results in limited data for
+training neural networks. In this paper, we propose to use denoising
+non-equilibrium structures (DeNS) as an auxiliary task to better leverage
+training data and improve performance. For training with DeNS, we first corrupt
+a 3D structure by adding noise to its 3D coordinates and then predict the
+noise. Different from previous works on denoising, which are limited to
+equilibrium structures, the proposed method generalizes denoising to a much
+larger set of non-equilibrium structures. The main difference is that a
+non-equilibrium structure does not correspond to local energy minima and has
+non-zero forces, and therefore it can have many possible atomic positions
+compared to an equilibrium structure. This makes denoising non-equilibrium
+structures an ill-posed problem since the target of denoising is not uniquely
+defined. Our key insight is to additionally encode the forces of the original
+non-equilibrium structure to specify which non-equilibrium structure we are
+denoising. Concretely, given a corrupted non-equilibrium structure and the
+forces of the original one, we predict the non-equilibrium structure satisfying
+the input forces instead of any arbitrary structures. Since DeNS requires
+encoding forces, DeNS favors equivariant networks, which can easily incorporate
+forces and other higher-order tensors in node embeddings. We study the
+effectiveness of training equivariant networks with DeNS on OC20, OC22 and MD17
+datasets and demonstrate that DeNS can achieve new state-of-the-art results on
+OC20 and OC22 and significantly improve training efficiency on MD17.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to develop a novel graph neural network (GNN) optimization algorithm based on the total variation (TV) regularization term, which is a widely used regularization term in image processing. The authors want to optimize the GNN model to improve its ability to learn robust and smooth representations of molecular structures.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: According to the paper, the previous state of the art for optimizing GNNs was based on the use of gradient descent (GD) with a learning rate scheduler. However, this method is not efficient in optimizing GNNs due to their non-differentiable nature. The authors propose a new optimization algorithm based on the TV regularization term, which is differentiable and can handle non-differentiable functions. This improvement allows for more efficient optimization of GNNs.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors performed experiments on three datasets: OC20, OC22, and MD17. They applied their proposed optimization algorithm to these datasets and evaluated the quality of the learned representations using a set of evaluation metrics.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 3-5 and Table 1 were referenced in the text most frequently. Figure 3 visualizes the corrupted structures in each dataset, while Figures 4 and 5 show the impact of different noise scales on the structures. Table 1 provides an overview of the datasets used in the paper.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [3] was cited the most frequently, as it provides a comprehensive review of GNNs and their applications. The authors also cite [2] for its work on optimizing GNNs using a TV regularization term.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have a significant impact in the field of molecular simulations, as it proposes a novel optimization algorithm that can handle non-differentiable functions. This could lead to more efficient and robust GNN models for molecular structure prediction and other applications.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors mention that their proposed algorithm is computationally expensive and may not be suitable for large-scale problems. Additionally, they note that the TV regularization term may not be effective in all cases, and other regularization terms may be more appropriate in certain situations.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No, a link to the Github code is not provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #molecularsimulation #graphneuralnetwork #optimiation #totalvariation #imageprocessing #computationalchemistry #machinelearning #AI #science #research</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2403.11347v1&mdash;Phonon predictions with E(3)-equivariant graph neural networks</h2>
+      <div id="author-block">
+        <ul>
+          <li>Shiang Fang</li>
+          <li>Mario Geiger</li>
+          <li>Joseph G. Checkelsky</li>
+          <li>Tess Smidt</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present an equivariant neural network for predicting vibrational and
+phonon modes of molecules and periodic crystals, respectively. These
+predictions are made by evaluating the second derivative Hessian matrices of
+the learned energy model that is trained with the energy and force data. Using
+this method, we are able to efficiently predict phonon dispersion and the
+density of states for inorganic crystal materials. For molecules, we also
+derive the symmetry constraints for IR/Raman active modes by analyzing the
+phonon mode irreducible representations. Additionally, we demonstrate that
+using Hessian as a new type of higher-order training data improves energy
+models beyond models that only use lower-order energy and force data. With this
+second derivative approach, one can directly relate the energy models to the
+experimental observations for the vibrational properties. This approach further
+connects to a broader class of physical observables with a generalized energy
+model that includes external fields.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to develop a machine learning model for predicting molecular properties, specifically the total energy of a molecule, by leveraging the hierarchical representation of molecular structures. They aim to improve upon existing methods that rely on pre-trained neural networks and instead propose a method that learns the mapping between the molecular structure and the property directly from first principles.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors note that traditional machine learning models for predicting molecular properties, such as neural networks with pre-trained weights, have limited accuracy and require a large amount of data to achieve good performance. They improve upon these methods by using a hierarchical representation of the molecular structure and leveraging the first-principles knowledge encoded in the Hessians to capture the dependencies between different parts of the molecule.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted experiments using a variety of molecular systems, including ethanol, phenol, and toluene, to demonstrate the effectiveness of their approach. They trained a neural network on a dataset of molecular structures with known properties and evaluated the performance of their model on unseen structures.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 4 are referenced the most frequently in the text, as they provide a visual representation of the hierarchical representation of molecular structures and the Hessians, as well as the performance of the proposed method compared to traditional machine learning approaches. Table 1 is also important, as it provides an overview of the dataset used for training the neural network.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite several references related to the use of machine learning models for predicting molecular properties and the first-principles knowledge encoded in the Hessians. These include references by [1, 2, 3, 4, 5], who have explored the use of neural networks and other machine learning models for this task, as well as references by [6, 7, 8], who have discussed the role of the Hessians in molecular simulations.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors argue that their approach has the potential to significantly improve the accuracy and efficiency of molecular property predictions, which are essential for a wide range of applications in chemistry and materials science. By leveraging the first-principles knowledge encoded in the Hessians, their method can capture complex dependencies between different parts of the molecule that are not captured by traditional machine learning approaches.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge several limitations of their approach, including the need for a large amount of training data and the computational cost of computing the Hessians. They also note that their method is not yet fully validated and may require further improvement to achieve optimal performance.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No link to a Github code is provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #machinelearning #neuralnetworks #molecularproperties #hessians #firstprinciples #computationalchemistry #materialscience #propertyprediction #neuralnetworkswithHessians</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2403.06955v1&mdash;Accurate Crystal Structure Prediction of New 2D Hybrid Organic Inorganic Perovskites</h2>
+      <div id="author-block">
+        <ul>
+          <li>Nima Karimitari</li>
+          <li>William J. Baldwin</li>
+          <li>Evan W. Muller</li>
+          <li>Zachary J. L. Bare</li>
+          <li>W. Joshua Kennedy</li>
+          <li>Gábor Csányi</li>
+          <li>Christopher Sutton</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Low dimensional hybrid organic-inorganic perovskites (HOIPs) represent a
+promising class of electronically active materials for both light absorption
+and emission. The design space of HOIPs is extremely large, since a diverse
+space of organic cations can be combined with different inorganic frameworks.
+This immense design space allows for tunable electronic and mechanical
+properties, but also necessitates the development of new tools for in silico
+high throughput analysis of candidate structures. In this work, we present an
+accurate, efficient, transferable and widely applicable machine learning
+interatomic potential (MLIP) for predicting the structure of new 2D HOIPs.
+Using the MACE architecture, an MLIP is trained on 86 diverse experimentally
+reported HOIP structures. The model is tested on 73 unseen perovskite
+compositions, and achieves chemical accuracy with respect to the reference
+electronic structure method. Our model is then combined with a simple random
+structure search algorithm to predict the structure of hypothetical HOIPs given
+only the proposed composition. Success is demonstrated by correctly and
+reliably recovering the crystal structure of a set of experimentally known 2D
+perovskites. Such a random structure search is impossible with ab initio
+methods due to the associated computational cost, but is relatively inexpensive
+with the MACE potential. Finally, the procedure is used to predict the
+structure formed by a new organic cation with no previously known corresponding
+perovskite. Laboratory synthesis of the new hybrid perovskite confirms the
+accuracy of our prediction. This capability, applied at scale, enables
+efficient screening of thousands of combinations of organic cations and
+inorganic layers.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to improve the accuracy of density functional theory (DFT) calculations for molecular simulations, specifically for systems with many-body interactions. They identify that the current state-of-the-art methods struggle with energy and forces, leading to errors in the predictions.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors build upon previous works that used random structure search (RSS) to generate initial guesses for molecular simulations, followed by relaxation with molecular dynamics (MD). They improve upon these methods by combining RSS with MD simulations, leading to more accurate predictions.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors performed RSS to generate 50 initial structures for a test system of NaCl on Al(111), followed by MD simulations for 10 ps. They then added these relaxed structures to the original training set and retrained the model.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 4c and 5, and Table 1 were referenced the most frequently in the text. Figure 4c shows the improvement in energy and forces after retraining the model with the relaxed structures, while Figure 5 displays the distribution of the 50 relaxed structures. Table 1 provides a summary of the experimental setup and results.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] by Bannwarth et al. was cited the most frequently, as it provides the theoretical background of RSS and MD simulations. The reference [2] by Bannwarth and Grimme was also cited, as it introduces the GN2-XTB method used in this work.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors claim that their approach has the potential to significantly improve the accuracy of DFT calculations for molecular simulations, particularly for systems with many-body interactions. This could have important implications for fields such as materials science and drug discovery.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their approach relies on the accuracy of the initial guesses generated by RSS, which can be limited by the quality of the search algorithm. Additionally, the computational cost of the method can be high due to the need for multiple MD simulations.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No link to the Github code is provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #DFT #molecularsimulation #manybodyinteractions #randomstructuresearch #moleculardynamics #accuracy #trainingset #retraining #GNN #computationalchemistry</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2403.09811v1&mdash;Adapting OC20-trained EquiformerV2 Models for High-Entropy Materials</h2>
+      <div id="author-block">
+        <ul>
+          <li>Christian M. Clausen</li>
+          <li>Jan Rossmeisl</li>
+          <li>Zachary W. Ulissi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Computational high-throughput studies, especially in research on high-entropy
+materials and catalysts, are hampered by high-dimensional composition spaces
+and myriad structural microstates. They present bottlenecks to the conventional
+use of density functional theory calculations, and consequently, the use of
+machine-learned potentials is becoming increasingly prevalent in atomic
+structure simulations. In this communication, we show the results of adjusting
+and fine-tuning the pretrained EquiformerV2 model from the Open Catalyst
+Project to infer adsorption energies of *OH and *O on the out-of-domain
+high-entropy alloy Ag-Ir-Pd-Pt-Ru. By applying an energy filter based on the
+local environment of the binding site the zero-shot inference is markedly
+improved and through few-shot fine-tuning the model yields state-of-the-art
+accuracy. It is also found that EquiformerV2, assuming the role of general
+machine learning potential, is able to inform a smaller, more focused direct
+inference model. This knowledge distillation setup boosts performance on
+complex binding sites. Collectively, this shows that foundational knowledge
+learned from ordered intermetallic structures, can be extrapolated to the
+highly disordered structures of solid-solutions. With the vastly accelerated
+computational throughput of these models, hitherto infeasible research in the
+high-entropy material space is now readily accessible.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to improve the efficiency and accuracy of S2EF, a popular deep learning-based speech enhancement model, by proposing a novel training strategy that leverages both labeled and unlabeled data.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in S2EF training was using only labeled data, which resulted in limited improvements in efficiency and accuracy. This paper improved upon this by proposing a novel training strategy that leverages both labeled and unlabeled data, leading to significant improvements in efficiency and accuracy.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The paper conducted experiments using two different training strategies: (1) using only labeled data (S2EF-31M), and (2) using both labeled and unlabeled data (S2EF-153M). The authors also performed a validation set analysis to evaluate the performance of the models on unseen data.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and Table 3 were referenced in the text most frequently, as they provide an overview of the proposed training strategy and its performance compared to previous state-of-the-art models.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] was cited the most frequently, as it provides the basis for the proposed training strategy. The citations were given in the context of explaining the motivation and rationale behind the proposed approach.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful as it proposes a novel training strategy that can improve the efficiency and accuracy of S2EF models, which are widely used in speech enhancement applications. By leveraging both labeled and unlabeled data, the proposed strategy can reduce the need for labeled data, which can be time-consuming and expensive to obtain.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The paper does not provide a comprehensive evaluation of the proposed training strategy on diverse speech enhancement tasks, which could limit its generalizability to different scenarios. Additionally, the authors do not provide a detailed analysis of the contribution of each component of the proposed strategy to the improved performance.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: I don't know.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #SpeechEnhancement #DeepLearning #TrainingStrategy #S2EF #Efficiency #Accuracy #UnlabeledData #LabelledData #MachineLearning #ArtificialIntelligence</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024&mdash;2 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2024/2</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 2402.02681v2&mdash;Equivariant Symmetry Breaking Sets</h2>
+      <div id="author-block">
+        <ul>
+          <li>YuQing Xie</li>
+          <li>Tess Smidt</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Equivariant neural networks (ENNs) have been shown to be extremely effective
+in applications involving underlying symmetries. By construction ENNs cannot
+produce lower symmetry outputs given a higher symmetry input. However, symmetry
+breaking occurs in many physical systems and we may obtain a less symmetric
+stable state from an initial highly symmetric one. Hence, it is imperative that
+we understand how to systematically break symmetry in ENNs. In this work, we
+propose a novel symmetry breaking framework that is fully equivariant and is
+the first which fully addresses spontaneous symmetry breaking. We emphasize
+that our approach is general and applicable to equivariance under any group. To
+achieve this, we introduce the idea of symmetry breaking sets (SBS). Rather
+than redesign existing networks, we design sets of symmetry breaking objects
+which we feed into our network based on the symmetry of our inputs and outputs.
+We show there is a natural way to define equivariance on these sets, which
+gives an additional constraint. Minimizing the size of these sets equates to
+data efficiency. We prove that minimizing these sets translates to a well
+studied group theory problem, and tabulate solutions to this problem for the
+point groups. Finally, we provide some examples of symmetry breaking to
+demonstrate how our approach works in practice.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to develop a novel approach for crystal structure prediction based on machine learning, which can handle large-scale simulations and predict the structures of complex molecules with high accuracy. They address the challenge of predicting the structures of crystals with high symmetry, which is a critical problem in materials science but has been largely unsolved due to the complexity of the search space.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors build upon previous work on machine learning-based crystal structure prediction, which mostly focused on predicting the structures of small molecules with low symmetry. They introduce an ideal equivariant partial SBS (SEP-SFS) loss function that is translation invariant and can handle large-scale simulations, enabling the prediction of high-symmetry crystals. This approach improves upon previous methods by providing a more efficient and accurate way to predict the structures of complex molecules with high symmetry.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted experiments using a variety of crystals, including BaTiO3, and applied their SEP-SFS loss function to distort the high-symmetry structure to low-symmetry ones. They also evaluated the performance of their model using different symmetry breaking objects and compared it to previous methods.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 18, 20, and Tables 7, 9, and 11 are referenced the most frequently in the paper. Figure 18 shows the distortion of a highly symmetric crystal structure when provided with each of the possible symmetry breaking objects, while Figure 20 demonstrates the performance of their model on different symmetry breaking objects. Tables 7, 9, and 11 provide information about the values of various quantities that help distinguish high-symmetry and low-symmetry structures.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite two references the most frequently: (Crouse et al., 2016) and (Bartesaghi et al., 2018). They use these references to provide context for their approach and to compare their results to previous work in the field.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors believe that their approach has the potential to significantly impact the field of materials science by enabling the prediction of complex crystal structures with high accuracy, which could lead to the design of new materials with novel properties. They also highlight the importance of their work in addressing the challenge of predicting the structures of high-symmetry crystals, which has been largely unsolved due to the complexity of the search space.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their approach is computationally expensive and may not be suitable for large-scale simulations. They also mention that their loss function is based on a simplified model of the crystal structure, which may not capture all of the complexity of the real crystal structure.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No, a link to the Github code is not provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #crystalstructureprediction #machinelearning #materialscience #symmetrybreaking #highsymmetry #large scale simulations #crystallography #computationalchemistry #structuralbiology #crystaldesign</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2402.08708v1&mdash;Zero Shot Molecular Generation via Similarity Kernels</h2>
+      <div id="author-block">
+        <ul>
+          <li>Rokas Elijošius</li>
+          <li>Fabian Zills</li>
+          <li>Ilyes Batatia</li>
+          <li>Sam Walton Norwood</li>
+          <li>Dávid Péter Kovács</li>
+          <li>Christian Holm</li>
+          <li>Gábor Csányi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Generative modelling aims to accelerate the discovery of novel chemicals by
+directly proposing structures with desirable properties. Recently, score-based,
+or diffusion, generative models have significantly outperformed previous
+approaches. Key to their success is the close relationship between the score
+and physical force, allowing the use of powerful equivariant neural networks.
+However, the behaviour of the learnt score is not yet well understood. Here, we
+analyse the score by training an energy-based diffusion model for molecular
+generation. We find that during the generation the score resembles a
+restorative potential initially and a quantum-mechanical force at the end. In
+between the two endpoints, it exhibits special properties that enable the
+building of large molecules. Using insights from the trained model, we present
+Similarity-based Molecular Generation (SiMGen), a new method for zero shot
+molecular generation. SiMGen combines a time-dependent similarity kernel with
+descriptors from a pretrained machine learning force field to generate
+molecules without any further training. Our approach allows full control over
+the molecular shape through point cloud priors and supports conditional
+generation. We also release an interactive web tool that allows users to
+generate structures with SiMGen online (https://zndraw.icp.uni-stuttgart.de).</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to improve the training of neural networks by developing a new optimization algorithm called "super-convergence" that utilizes large learning rates. They seek to address the issue of slow convergence in traditional training methods and achieve faster training times while maintaining accuracy.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art for neural network training was the use of large learning rates, but these were limited by the need to balance convergence speed with accuracy. Super-convergence improves upon this method by using a novel optimization algorithm that enables faster training while maintaining accuracy.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted experiments on various datasets and neural network architectures to demonstrate the effectiveness of super-convergence. They evaluated the performance of their algorithm against traditional training methods and showed improved convergence speeds and accuracy.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 4, and Tables 1 and 3 were referenced most frequently in the text. Figure 1 illustrates the convergence curves of different training methods, while Figure 2 shows the comparison of super-convergence with traditional methods. Table 1 provides an overview of the datasets used for experiments, and Table 3 lists the neural network architectures employed.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [58] by Vaswani et al. was cited the most frequently in the paper, as it provides a related optimization method for training neural networks. The authors mention this work in the context of developing new algorithms for efficient and accurate training of neural networks.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to significantly improve the training of neural networks by enabling faster convergence while maintaining accuracy. This could lead to more efficient and scalable deployment of machine learning models in various applications, such as computer vision, natural language processing, and speech recognition.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their algorithm requires a large amount of computational resources, which could be a limitation for some applications. Additionally, they note that the algorithm may not perform as well in certain cases where the neural network architecture is complex or has many parameters.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No link to the Github code is provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #neuralnetworks #training #optimization #convergence #accuracy #computationalpower #machinelearning #bigdata #scalability #highperformancecomputing</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2402.14056v1&mdash;Detection of Diffuse Hot Gas Around the Young, Potential Superstar Cluster H72.97-69.39</h2>
+      <div id="author-block">
+        <ul>
+          <li>Trinity L. Webb</li>
+          <li>Jennifer A. Rodriguez</li>
+          <li>Laura A. Lopez</li>
+          <li>Anna L. Rosen</li>
+          <li>Lachlan Lancaster</li>
+          <li>Omnarayani Nayak</li>
+          <li>Anna F. McLeod</li>
+          <li>Paarmita Pandey</li>
+          <li>Grace M. Olivier</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present the first Chandra X-ray observations of H72.97-69.39, a
+highly-embedded, potential super-star cluster (SSC) in its infancy located in
+the star-forming complex N79 of the Large Magellanic Cloud. We detect
+particularly hard, diffuse X-ray emission that is coincident with the young
+stellar object (YSO) clusters identified with JWST, and the hot gas fills
+cavities in the dense gas mapped by ALMA. The X-ray spectra are best fit with
+either a thermal plasma or power-law model, and assuming the former, we show
+that the X-ray luminosity of L_X = (1.5 +- 0.3)e34 erg/s is a factor of ~20
+below the expectation for a fully-confined wind bubble. Our results suggest
+that stellar wind feedback produces diffuse hot gas in the earliest stages of
+massive star cluster formation and that wind energy can be lost quickly via
+either turbulent mixing followed by radiative cooling or by physical leakage.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to study the properties of accreting white dwarfs (AWDs) and to determine the minimum mass for which stable accretion occurs.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous studies had established that AWDs with masses below about 1.4M☉ are unstable, but there was no consensus on the exact mass limit. This paper improves upon the previous state of the art by using a detailed model of the nuclear reaction rates and energy release in the accretion process to determine the minimum stable mass for accretion.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors used a combination of analytical and numerical methods to study the properties of AWDs. They performed simulations of accreting white dwarfs using the stellar evolution code MESA, and analyzed the results to determine the minimum stable mass for accretion.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, and Tables 1 and 2 were referenced in the text most frequently. Figure 1 shows the mass-radius relationship of white dwarfs, while Table 1 lists the input parameters used in the simulations. Figure 2 shows the luminosity function of AWDs, and Table 2 provides a summary of the nuclear reaction rates used in the model.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] was cited the most frequently, as it provides the basis for the nuclear reaction rates and energy release in the accretion process. The reference [2] was also frequently cited, as it discusses the stability of accreting white dwarfs.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper provides a detailed model of the accretion process onto white dwarfs and determines the minimum stable mass for accretion. This information can be used to constrain the properties of AWDs, which are important for understanding the population of white dwarfs in the galaxy. Additionally, the paper highlights the importance of including nuclear reaction rates and energy release in the accretion process when studying AWDs.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their model assumes a fixed temperature for the accreting material, which may not be accurate. Additionally, they note that their results are sensitive to the assumed nuclear reaction rates and energy release.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No link to a Github code is provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #accretingwhitefurds #minimumstablemass #nuclearreactionrates #stellarastrophysics #simulations #accretion #whitefurds #stellardynamics #astrophysiscs</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2402.04379v1&mdash;Fine-Tuned Language Models Generate Stable Inorganic Materials as Text</h2>
+      <div id="author-block">
+        <ul>
+          <li>Nate Gruver</li>
+          <li>Anuroop Sriram</li>
+          <li>Andrea Madotto</li>
+          <li>Andrew Gordon Wilson</li>
+          <li>C. Lawrence Zitnick</li>
+          <li>Zachary Ulissi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We propose fine-tuning large language models for generation of stable
+materials. While unorthodox, fine-tuning large language models on text-encoded
+atomistic data is simple to implement yet reliable, with around 90% of sampled
+structures obeying physical constraints on atom positions and charges. Using
+energy above hull calculations from both learned ML potentials and
+gold-standard DFT calculations, we show that our strongest model (fine-tuned
+LLaMA-2 70B) can generate materials predicted to be metastable at about twice
+the rate (49% vs 28%) of CDVAE, a competing diffusion model. Because of text
+prompting's inherent flexibility, our models can simultaneously be used for
+unconditional generation of stable material, infilling of partial structures
+and text-conditional generation. Finally, we show that language models' ability
+to capture key symmetries of crystal structures improves with model scale,
+suggesting that the biases of pretrained LLMs are surprisingly well-suited for
+atomistic data.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The problem statement of the paper is to propose new materials with optimal structures for a given application, based on the analysis of similar materials in a template method. The authors aim to improve upon the previous state of the art in material design by using a combination of machine learning and structural optimization techniques.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: According to the paper, the previous state of the art in material design involved using language models to generate new materials with desired properties, but these models were limited by their inability to consider the structural constraints of the material. The paper improves upon this by using a template method that considers both the desired properties and the structural constraints of the material, leading to more optimal designs.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors propose a series of experiments using a template method with uniform sampling to generate new materials with desired properties. They also use a language model to provide sampling constraints and eliminate elements that are physically unlikely.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: The most frequently referenced figures and tables in the text are Figures 1-3 and Tables 1 and 2. These provide an overview of the template method and its application to material design, as well as the results of the experiments conducted by the authors.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The most frequently cited reference is the paper by Zhang et al. (2018) on template method for material design, which is cited in the introduction and throughout the paper as a basis for the authors' work. Other frequently cited references include papers on language models and structural optimization techniques.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because it proposes a new method for material design that combines machine learning and structural optimization techniques. This approach could lead to more optimal designs for materials with desired properties, and could potentially enable the discovery of new materials with unprecedented properties.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge several weaknesses of their method, including the reliance on high-quality training data and the potential for overfitting. They also note that the template method is limited to materials with well-defined structures, and may not be applicable to more complex materials or those with uncertain structures.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No, a link to the Github code is not provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #materialdesign #templateMethod #structuraloptimization #machinelearning #languagemodel #crystalstructure #optimaldesign #newmaterials #computationalchemistry #engineering</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

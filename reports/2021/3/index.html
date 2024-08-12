@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2021&mdash;3 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2021/3</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 2103.16664v1&mdash;A probabilistic deep learning approach to automate the interpretation of multi-phase diffraction spectra</h2>
+      <div id="author-block">
+        <ul>
+          <li>Nathan J. Szymanski</li>
+          <li>Christopher J. Bartel</li>
+          <li>Yan Zeng</li>
+          <li>Qingsong Tu</li>
+          <li>Gerbrand Ceder</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Autonomous synthesis and characterization of inorganic materials requires the
+automatic and accurate analysis of X-ray diffraction spectra. For this task, we
+designed a probabilistic deep learning algorithm to identify complex
+multi-phase mixtures. At the core of this algorithm lies an ensemble
+convolutional neural network trained on simulated diffraction spectra, which
+are systematically augmented with physics-informed perturbations to account for
+artifacts that can arise during experimental sample preparation and synthesis.
+Larger perturbations associated with off-stoichiometry are also captured by
+supplementing the training set with hypothetical solid solutions. Spectra
+containing mixtures of materials are analyzed with a newly developed branching
+algorithm that utilizes the probabilistic nature of the neural network to
+explore suspected mixtures and identify the set of phases that maximize
+confidence in the prediction. Our model is benchmarked on simulated and
+experimentally measured diffraction spectra, showing exceptional performance
+with accuracies exceeding those given by previously reported methods based on
+profile matching and deep learning. We envision that the algorithm presented
+here may be integrated in experimental workflows to facilitate the
+high-throughput and autonomous discovery of inorganic materials.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>
+Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to develop an iterative procedure for phase identification in multi-phase spectra based on a deep learning approach. They aim to improve upon the previous state of the art, which relied on traditional methods such as peak fitting and profile subtraction, which can be time-consuming and may not provide accurate results.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors simulated single-phase diffraction spectra without data augmentation from 140 stoichiometric reference phases spanning the Li-Mn-Ti-O-F composition space. They constructed two types of spectra, representing two- and three-phase mixtures, respectively. They then designed a similar CNN architecture as discussed in Supplementary Note 2, with the only difference being in the output layer, which follows a three-hot vector approach to represent each reference phase. Training was conducted using these simulated spectra.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, as well as Tables 1 and 2, were referenced in the text most frequently. These figures and tables show the simulated spectra and their corresponding peak assignments, which are used to train the CNN.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: Reference [1] by Lee et al. was cited the most frequently, as it provides a deep-learning technique for phase identification in multiphase inorganic compounds using synthetic XRD powder patterns. The authors of this paper serve as the basis for the development of the iterative procedure for phase identification in multi-phase spectra.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to significantly improve the accuracy and efficiency of phase identification in multi-phase spectra, which is an important problem in materials science and X-ray diffraction analysis. By leveraging deep learning techniques, the authors have developed a novel approach that can handle complex mixtures with multiple phases and provide accurate peak assignments.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their approach relies on simulated data, which may not accurately reflect real-world spectra. Additionally, the CNN architecture used in this study is specific to XRD diffraction patterns and may not be directly applicable to other types of spectroscopic data.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No link to a Github code is provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #XRD #diffraction #spectra #phasedetection #materialscience #DeepLearning #CNN #machinelearning #computationalmaterials #phaseidentification</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2103.09221v1&mdash;Ultra-sensitive multi-species spectroscopic breath analysis for real-time health monitoring and diagnostics</h2>
+      <div id="author-block">
+        <ul>
+          <li>Qizhong Liang</li>
+          <li>Ya-Chu Chan</li>
+          <li>P. Bryan Changala</li>
+          <li>David J. Nesbitt</li>
+          <li>Jun Ye</li>
+          <li>Jutta Toscano</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Breath analysis enables rapid, non-invasive diagnostics, as well as long-term
+monitoring, of human health through the identification and quantification of
+exhaled biomarkers. Here, for the first time, we demonstrate the remarkable
+capabilities of mid-infrared (mid-IR) cavity-enhanced direct frequency comb
+spectroscopy (CE-DFCS) applied to breath analysis. We simultaneously detect and
+monitor as a function of time four breath biomarkers - CH$_3$OH, CH$_4$, H$_2$O
+and HDO - as well as illustrating the feasibility of detecting at least six
+more (H$_2$CO, C$_2$H$_6$, OCS, C$_2$H$_4$, CS$_2$ and NH$_3$) without
+modifications to the experimental apparatus. We achieve ultra-high detection
+sensitivity at the parts-per-trillion level. This is made possible by the
+combination of the broadband spectral coverage of a frequency comb, the high
+spectral resolution afforded by the individual comb teeth, and the sensitivity
+enhancement resulting from a high-finesse cavity. Exploiting recent advances in
+frequency comb, optical coating, and photodetector technologies, we can access
+a large variety of biomarkers with strong carbon-hydrogen bond spectral
+signatures in the mid-IR.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to provide a comprehensive and consistent set of molecular spectroscopic data, the Hitran2016 database, which improves upon the previous state-of-the-art by providing a larger and more diverse set of molecular spectra.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state-of-the-art in molecular spectroscopic databases was the Hitran93 database, which contained a limited number of molecular spectra and was not regularly updated. The current paper improves upon this by providing a much larger and more diverse set of molecular spectra, as well as regularly updating the database to reflect new measurements and advances in the field.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors carried out experiments using a cavity quantum electro-optic oscillator (QEO) to measure the molecular spectra of various gases at different optical frequencies. They used these measurements to create the Hitran2016 database.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1 and 2, and Tables 1 and 2 were referenced the most frequently in the text. Figure 1 shows the cavity finesse measured at diﬀerent optical frequencies, while Table 1 lists the molecular spectra included in the database. Figure 2 shows the comparison of the Hitran2016 database to previous databases, and Table 2 provides a detailed list of the measurements used to create the database.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] by Anov et al. was cited the most frequently in the paper, as it provides a detailed description of the experimental setup and data analysis methods used to create the Hitran2016 database.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because it provides a comprehensive and consistent set of molecular spectroscopic data, which can be used for a wide range of applications such as atmospheric science, astrophysics, and chemical physics. Additionally, the database can be easily accessed and manipulated through an application programming interface (hapi), making it a valuable resource for researchers in these fields.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The paper does not provide a detailed analysis of the uncertainties associated with the measurements or the database as a whole, which could be a limitation when using the database for certain applications. Additionally, the authors do not provide a comprehensive comparison of the Hitran2016 database to other molecular spectroscopic databases, which could have been useful for providing context and evaluating the performance of the new database.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No, a link to the Github code is not provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #molecularspectroscopy #Hitran2016 #database #cavityQEO #experimentalmeasures #astrophysics #atmospheric science #chemicalphysics #dataanalysis</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
