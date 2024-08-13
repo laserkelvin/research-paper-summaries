@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023&mdash;4 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2023/4</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 2304.06089v1&mdash;A hybrid quantum-classical algorithm for multichannel quantum scattering of atoms and molecules</h2>
+      <p><a href=http://arxiv.org/abs/2304.06089v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Xiaodong Xing</li>
+          <li>Alejandro Gomez Cadavid</li>
+          <li>Artur F. Izmaylov</li>
+          <li>Timur V. Tscherbul</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We propose a hybrid quantum-classical algorithm for solving the
+time-independent Schr\"odinger equation for atomic and molecular collisions.
+The algorithm is based on the $S$-matrix version of the Kohn variational
+principle, which computes the fundamental scattering $S$-matrix by inverting
+the Hamiltonian matrix expressed in the basis of square-integrable functions.
+The computational bottleneck of the classical algorithm -- symmetric matrix
+inversion -- is addressed here using the variational quantum linear solver
+(VQLS), a recently developed noisy intermediate-scale quantum (NISQ) algorithm
+for solving systems of linear equations. We apply our algorithm to single and
+multichannel quantum scattering problems, obtaining accurate vibrational
+relaxation probabilities in collinear atom-molecule collisions. We also show
+how the algorithm could be scaled up to simulate collisions of large polyatomic
+molecules. Our results demonstrate that it is possible to calculate scattering
+cross sections and rates for complex molecular collisions on NISQ quantum
+processors, opening up the possibility of scalable digital quantum computation
+of gas-phase bimolecular collisions and reactions of relevance to
+astrochemistry and ultracold chemistry.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors of the paper aim to solve the channel scattering problem in quantum many-body physics, specifically for the 2D SJ model, by inverting a 2x2 M matrix. They want to find the optimal depth of the ansatz to achieve a good accuracy in the solution.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: According to the paper, the previous state of the art for solving the channel scattering problem in 2D many-body systems was based on the Variational Quantum Eigensolver (VQLS) algorithm. The authors improved upon this by using a symmetric orthogonalization technique to overcome the overcompleteness problem that arises when using L2 basis functions.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors performed experiments on the Qiskit platform using the VQLS algorithm to invert the 2x2 M matrix for the channel scattering problem. They also estimated the optimal depth of the ansatz based on the fidelity and computational cost.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1 and 2, and Table S1 are referenced frequently in the text. Figure 1 shows the problem statement and the proposed method, while Figure 2 displays the optimal depth of the ansatz as a function of the number of layers. Table S1 provides the fidelity and computational cost for different numbers of layers in the ansatz.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The paper cites several references related to the VQLS algorithm and its applications, including [21, 22, 23]. These citations are given in the context of explaining the previous state of the art and how the authors improved upon it.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have a significant impact on the field of quantum many-body physics by providing an efficient and accurate method for solving the channel scattering problem. This problem is crucial in understanding the behavior of many-body systems, and the proposed method has the potential to enable new applications and simulations.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors mention that the proposed method relies on the VQLS algorithm, which can be computationally expensive for large systems. They also note that further optimizations of the orthogonalization technique could lead to even better results.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I cannot provide a Github repository link for this paper as it is a scientific article and not a software development project.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #QuantumManyBodyPhysics #ChannelScatteringProblem #VQLSAlgorithm #SymmetricOrthogonalization #OvercompletenessProblem #OptimalDepthOfAnsatz #Fidelity #ComputationalCost #2DManyBodySystems #QuantumComputing</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2304.12665v2&mdash;Imperfectly coordinated water molecules pave the way for homogeneous ice nucleation</h2>
+      <p><a href=http://arxiv.org/abs/2304.12665v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Mingyi Chen</li>
+          <li>Lin Tan</li>
+          <li>Han Wang</li>
+          <li>Linfeng Zhang</li>
+          <li>Haiyang Niu</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Water freezing is ubiquitous on Earth, affecting many areas from biology to
+climate science and aviation technology. Probing the atomic structure in the
+homogeneous ice nucleation process from scratch is of great value but still
+experimentally unachievable. Theoretical simulations have found that ice
+originates from the low-mobile region with increasing abundance and persistence
+of tetrahedrally coordinated water molecules. However, a detailed microscopic
+picture of how the disordered hydrogen-bond network rearranges itself into an
+ordered network is still unclear. In this work, we use a deep neural network
+(DNN) model to "learn" the interatomic potential energy from quantum mechanical
+data, thereby allowing for large-scale and long molecular dynamics (MD)
+simulations with ab initio accuracy. The nucleation mechanism and dynamics at
+atomic resolution, represented by a total of 36 $\mu$s-long MD trajectories,
+are deeply affected by the structural and dynamical heterogeneity in
+supercooled water. We find that imperfectly coordinated (IC) water molecules
+with high mobility pave the way for hydrogen-bond network rearrangement,
+leading to the growth or shrinkage of the ice nucleus. The hydrogen-bond
+network formed by perfectly coordinated (PC) molecules stabilizes the nucleus,
+thus preventing it from vanishing and growing. Consequently, ice is born
+through competition and cooperation between IC and PC molecules. We anticipate
+that our picture of the microscopic mechanism of ice nucleation will provide
+new insights into many properties of water and other relevant materials.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

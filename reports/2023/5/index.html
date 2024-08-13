@@ -142,5 +142,134 @@ A: #sodium #spectroscopy #mixingangle #pointcloudregistration #resonance #absorp
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2306.00031v1&mdash;Morphological Classification of Radio Galaxies using Semi-Supervised Group Equivariant CNNs</h2>
+      <p><a href=http://arxiv.org/abs/2306.00031v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Mir Sazzat Hossain</li>
+          <li>Sugandha Roy</li>
+          <li>K. M. B. Asad</li>
+          <li>Arshad Momen</li>
+          <li>Amin Ahsan Ali</li>
+          <li>M Ashraful Amin</li>
+          <li>A. K. M. Mahbubur Rahman</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Out of the estimated few trillion galaxies, only around a million have been
+detected through radio frequencies, and only a tiny fraction, approximately a
+thousand, have been manually classified. We have addressed this disparity
+between labeled and unlabeled images of radio galaxies by employing a
+semi-supervised learning approach to classify them into the known
+Fanaroff-Riley Type I (FRI) and Type II (FRII) categories. A Group Equivariant
+Convolutional Neural Network (G-CNN) was used as an encoder of the
+state-of-the-art self-supervised methods SimCLR (A Simple Framework for
+Contrastive Learning of Visual Representations) and BYOL (Bootstrap Your Own
+Latent). The G-CNN preserves the equivariance for the Euclidean Group E(2),
+enabling it to effectively learn the representation of globally oriented
+feature maps. After representation learning, we trained a fully-connected
+classifier and fine-tuned the trained encoder with labeled data. Our findings
+demonstrate that our semi-supervised approach outperforms existing
+state-of-the-art methods across several metrics, including cluster quality,
+convergence rate, accuracy, precision, recall, and the F1-score. Moreover,
+statistical significance testing via a t-test revealed that our method
+surpasses the performance of a fully supervised G-CNN. This study emphasizes
+the importance of semi-supervised learning in radio galaxy classification,
+where labeled data are still scarce, but the prospects for discovery are
+immense.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to develop a machine learning-based morphological classification scheme for a large sample of radio galaxies, with the goal of improving upon previous methods that rely on visual inspection by human observers.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in machine learning-based classification of radio galaxies was a method proposed by Best et al. (2015), which used a supervised learning approach with a limited number of labels. In contrast, the present paper proposes a semi-supervised learning approach that leverages a much larger unlabelled data set to improve the accuracy of the classification.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted a series of experiments using a semi-supervised learning algorithm to classify radio galaxy images into different morphological types, based on a large unlabelled data set of 14,245 radio galaxies selected from the Best et al. (2015) sample. They evaluated the performance of their algorithm using a set of test images and compared it to the performance of a supervised learning approach.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 3, and 5 were referenced in the text most frequently, as they provide visual representations of the unlabelled data set, the performance of the semi-supervised learning algorithm, and the results of the classification experiment. Table 1 was also referenced frequently, as it lists the properties of the radio galaxy sample used in the study.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference (Best et al., 2015) was cited the most frequently in the paper, as it provides the basis for the machine learning-based classification method proposed by the authors. The reference (Slijepcevic et al., 2022) was also cited frequently, as it presents a similar semi-supervised learning approach for radio galaxy classification.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have significant implications for the field of astrophysics, as it proposes a machine learning-based approach to classifying radio galaxies that can potentially reduce the amount of time and effort required for visual inspection by human observers. This could lead to faster and more efficient classification of large data sets, which could in turn improve our understanding of the properties and behaviors of radio galaxies.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it relies on a limited number of test images to evaluate the performance of the semi-supervised learning algorithm, which may not be representative of the full range of morphological types present in the unlabelled data set. Additionally, the authors do not provide a detailed analysis of the performance of their algorithm on different sub-samples of the data, which could have provided additional insights into its strengths and limitations.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #RadioGalaxyClassification #MachineLearning #SemiSupervisedLearning #Astrophysics #DataMining #BigData #NaturalLanguageProcessing #ComputerVision #MachineReasoning</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2305.19698v1&mdash;Investigation of the Robustness of Neural Density Fields</h2>
+      <p><a href=http://arxiv.org/abs/2305.19698v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Jonas Schuhmacher</li>
+          <li>Fabio Gratl</li>
+          <li>Dario Izzo</li>
+          <li>Pablo Gómez</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Recent advances in modeling density distributions, so-called neural density
+fields, can accurately describe the density distribution of celestial bodies
+without, e.g., requiring a shape model - properties of great advantage when
+designing trajectories close to these bodies. Previous work introduced this
+approach, but several open questions remained. This work investigates neural
+density fields and their relative errors in the context of robustness to
+external factors like noise or constraints during training, like the maximal
+available gravity signal strength due to a certain distance exemplified for 433
+Eros and 67P/Churyumov-Gerasimenko. It is found that both models trained on a
+polyhedral and mascon ground truth perform similarly, indicating that the
+ground truth is not the accuracy bottleneck. The impact of solar radiation
+pressure on a typical probe affects training neglectable, with the relative
+error being of the same magnitude as without noise. However, limiting the
+precision of measurement data by applying Gaussian noise hurts the obtainable
+precision. Further, pretraining is shown as practical in order to speed up
+network training. Hence, this work demonstrates that training neural networks
+for the gravity inversion problem is appropriate as long as the gravity signal
+is distinguishable from noise.
+  Code and results are available at https://github.com/gomezzz/geodesyNets</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to develop a novel approach for efficient polyhedral gravity modeling in modern C++.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in polyhedral gravity modeling was limited by the complexity and computational cost of existing methods, which the authors aim to overcome with their proposed approach.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted a series of experiments using different shapes and sizes of polyhedra to evaluate the efficiency and accuracy of their proposed method.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-3 and Tables 1-2 were referenced the most frequently in the text.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] was cited the most frequently, as it provides a comprehensive overview of polyhedral gravity modeling and serves as the basis for the authors' proposed approach.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to significantly improve the efficiency and accuracy of polyhedral gravity modeling, which is an important area of research in various fields such as space exploration, geophysics, and computer graphics.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors mention that their proposed approach is still limited by the complexity of the polyhedral modeling problem, which may lead to computational costs and accuracy issues in certain scenarios.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not provided in the text.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: Here are ten possible hashtags that could be used to describe this paper:</p>
+          <p>1. #PolyhedralGravityModeling
+2. #ModernC++
+3. #EfficientComputationalMethods
+4. #SpaceExploration
+5. #Geophysics
+6. #ComputerGraphics
+7. #NumericalMethods
+8. #Scientific Computing
+9. #SimulationAndModeling
+10. #ResearchInProgress</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

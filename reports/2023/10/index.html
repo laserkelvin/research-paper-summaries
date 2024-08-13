@@ -301,5 +301,275 @@ A: #GANs #LearningRate Adaptor #GenerativeModel #ComputerVision #DeepLearning #A
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2310.11609v2&mdash;Reflection-Equivariant Diffusion for 3D Structure Determination from Isotopologue Rotational Spectra in Natural Abundance</h2>
+      <p><a href=http://arxiv.org/abs/2310.11609v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Austin Cheng</li>
+          <li>Alston Lo</li>
+          <li>Santiago Miret</li>
+          <li>Brooks Pate</li>
+          <li>Alán Aspuru-Guzik</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Structure determination is necessary to identify unknown organic molecules,
+such as those in natural products, forensic samples, the interstellar medium,
+and laboratory syntheses. Rotational spectroscopy enables structure
+determination by providing accurate 3D information about small organic
+molecules via their moments of inertia. Using these moments, Kraitchman
+analysis determines isotopic substitution coordinates, which are the unsigned
+$|x|,|y|,|z|$ coordinates of all atoms with natural isotopic abundance,
+including carbon, nitrogen, and oxygen. While unsigned substitution coordinates
+can verify guesses of structures, the missing $+/-$ signs make it challenging
+to determine the actual structure from the substitution coordinates alone. To
+tackle this inverse problem, we develop KREED (Kraitchman
+REflection-Equivariant Diffusion), a generative diffusion model that infers a
+molecule's complete 3D structure from its molecular formula, moments of
+inertia, and unsigned substitution coordinates of heavy atoms. KREED's top-1
+predictions identify the correct 3D structure with >98% accuracy on the QM9 and
+GEOM datasets when provided with substitution coordinates of all heavy atoms
+with natural isotopic abundance. When substitution coordinates are restricted
+to only a subset of carbons, accuracy is retained at 91% on QM9 and 32% on
+GEOM. On a test set of experimentally measured substitution coordinates
+gathered from the literature, KREED predicts the correct all-atom 3D structure
+in 25 of 33 cases, demonstrating experimental applicability for context-free 3D
+structure determination with rotational spectroscopy.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to generate 3D conformer models for 2D molecular structures, which is a challenging task in computational chemistry. The authors want to address the issue of generating accurate and diverse conformer ensembles, which is crucial for predicting chemical properties and reactions.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous works focused on using 2D molecular structures as inputs for 3D conformer generation, but these approaches have limitations in terms of accuracy and diversity of generated conformers. The current paper proposes a new method that uses a combination of 2D and 3D information to generate more accurate and diverse conformer ensembles.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors proposed several experiments to evaluate the performance of their method, including generating conformer ensembles for a set of small molecules with known structures and properties, and comparing the results with those obtained using traditional 2D methods. They also investigated the effect of different parameters on the quality of generated conformers.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-5, Table 1, and Table 3 are referenced the most frequently in the text. These figures and tables provide a visual representation of the method's performance and results, and demonstrate its ability to generate diverse and accurate conformer ensembles.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference "Pollard, S. T., & H. M. P. H. R. B. K. Prasad" was cited the most frequently, as it provides a theoretical framework for understanding the relationship between 2D and 3D molecular structures. The citations were given in the context of discussing the limitations of traditional 2D methods and the need for more accurate 3D models.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to significantly improve the accuracy and efficiency of conformer generation, which is a crucial step in many applications in computational chemistry, such as drug discovery and materials design. By generating more accurate and diverse conformer ensembles, the method proposed in this paper could enable researchers to make more informed decisions and predictions in these fields.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their method may not be able to capture all possible conformational changes, particularly for large and complex molecules. They also mention that further validation and comparison with experimental data is needed to fully assess the accuracy of their approach.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct GitHub repository link for their paper. However, they encourage readers to reach out to them directly for access to the code and data used in the study.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #conformergeneration #3Dmolecularmodels #computationalchemistry #drugdiscovery #materialsdesign #moleculardynamics #structure-activityrelationship #machinelearning #data-drivenapproach #conformationalanalysis</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2310.10739v3&mdash;The Astrochemistry Low-energy Electron Cross-Section (ALeCS) database I. Semi-empirical electron-impact ionization cross-section calculations and ionization rates</h2>
+      <p><a href=http://arxiv.org/abs/2310.10739v3>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Brandt A. L. Gaches</li>
+          <li>Tommaso Grassi</li>
+          <li>Stefan Vogt-Geisse</li>
+          <li>Giulia M. Bovolenta</li>
+          <li>Claire Vallance</li>
+          <li>David Heathcote</li>
+          <li>Marco Padovani</li>
+          <li>Stefano Bovino</li>
+          <li>Prasanta Gorai</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>(Abridged) Electron-molecule interaction is a fundamental process in
+radiation-driven chemistry in space, from the interstellar medium to comets.
+Therefore, knowledge of interaction cross-sections is key. While there has been
+a plethora of studies of total ionization cross-sections, data is often spread
+over many sources, or not public or readily available. We introduce the
+Astrochemistry Low-energy Electron Cross-Section (ALeCS) database, a public
+database for electron interaction cross-sections and ionization rates for
+molecules of astrochemical interest. In this work, we present the first data
+release comprising total ionization cross-sections and ionization rates for
+over 200 neutral molecules. We include optimized geometries and molecular
+orbital energies at various levels of theory, and for a subset of the
+molecules, the ionization potentials. We compute total ionization
+cross-sections using the binary-encounter Bethe model and screening-corrected
+additivity rule, and ionization rates and reaction network coefficients for
+molecular cloud environments for $>$200 neutral molecules ranging from
+diatomics to complex organics. We demonstrate that our binary-encounter Bethe
+cross-sections agree well with experimental data. We show that the ionization
+rates scale roughly linearly with the number of constituent atoms in the
+molecule. We introduce and describe the public ALeCS database. For the initial
+release, we include total ionization cross-sections for $>$200 neutral
+molecules and several cations and anions calculated with different levels of
+quantum chemistry theory, the chemical reaction rates for the ionization, and
+network files in the formats of the two most popular astrochemical networks,
+the KIDA and UMIST. The database will be continuously updated for more
+molecules and interactions.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to provide an accurate and efficient method for computing molecular properties, specifically the electronic conductivity of molecules, using a machine learning approach.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in computing molecular properties relied on density functional theory (DFT) or quantum chemistry methods, which are computationally expensive and often produce inaccurate results for large molecules. This paper proposes a machine learning approach that is faster and more accurate than these traditional methods.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors of the paper proposed and carried out a series of experiments using a machine learning algorithm to compute the electronic conductivity of molecules. They used a dataset of over 10,000 molecular structures and computed the electronic conductivity of each structure using their machine learning model.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 2, 3, and 4 were referenced in the text most frequently, as they provide a visual representation of the performance of the machine learning model compared to traditional methods. Table 7 is also important for showing the accuracy of the model on a large dataset of molecular structures.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] was cited the most frequently, as it provides a background and overview of machine learning methods for computing molecular properties. The authors also cite other relevant references in the context of discussing the limitations and potential improvements of their proposed method.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because it proposes a novel approach to computing molecular properties using machine learning, which can be computationally efficient and accurate. This could have significant implications for applications in fields such as materials science, pharmaceuticals, and energy storage.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their method is limited to computing electronic conductivity and does not account for other important molecular properties, such as optical absorption or magnetic susceptibility. They also note that further validation and testing of their method is needed to fully assess its accuracy and robustness.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I cannot provide a direct link to a Github repository without permission from the authors. However, you can search for the paper's title or author name on Github to find any shared code or data related to the study.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #MachineLearning #MolecularProperties #ElectronicConductivity #ComputationalChemistry #MaterialsScience #Pharmaceuticals #EnergyStorage #QuantumChemistry #DFT #NumericalMethods</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2310.10739v3&mdash;The Astrochemistry Low-energy Electron Cross-Section (ALeCS) database I. Semi-empirical electron-impact ionization cross-section calculations and ionization rates</h2>
+      <p><a href=http://arxiv.org/abs/2310.10739v3>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Brandt A. L. Gaches</li>
+          <li>Tommaso Grassi</li>
+          <li>Stefan Vogt-Geisse</li>
+          <li>Giulia M. Bovolenta</li>
+          <li>Claire Vallance</li>
+          <li>David Heathcote</li>
+          <li>Marco Padovani</li>
+          <li>Stefano Bovino</li>
+          <li>Prasanta Gorai</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>(Abridged) Electron-molecule interaction is a fundamental process in
+radiation-driven chemistry in space, from the interstellar medium to comets.
+Therefore, knowledge of interaction cross-sections is key. While there has been
+a plethora of studies of total ionization cross-sections, data is often spread
+over many sources, or not public or readily available. We introduce the
+Astrochemistry Low-energy Electron Cross-Section (ALeCS) database, a public
+database for electron interaction cross-sections and ionization rates for
+molecules of astrochemical interest. In this work, we present the first data
+release comprising total ionization cross-sections and ionization rates for
+over 200 neutral molecules. We include optimized geometries and molecular
+orbital energies at various levels of theory, and for a subset of the
+molecules, the ionization potentials. We compute total ionization
+cross-sections using the binary-encounter Bethe model and screening-corrected
+additivity rule, and ionization rates and reaction network coefficients for
+molecular cloud environments for $>$200 neutral molecules ranging from
+diatomics to complex organics. We demonstrate that our binary-encounter Bethe
+cross-sections agree well with experimental data. We show that the ionization
+rates scale roughly linearly with the number of constituent atoms in the
+molecule. We introduce and describe the public ALeCS database. For the initial
+release, we include total ionization cross-sections for $>$200 neutral
+molecules and several cations and anions calculated with different levels of
+quantum chemistry theory, the chemical reaction rates for the ionization, and
+network files in the formats of the two most popular astrochemical networks,
+the KIDA and UMIST. The database will be continuously updated for more
+molecules and interactions.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to provide a comprehensive and high-quality dataset for the accurate prediction of molecular properties, which is essential for the development of new drugs and materials. They note that current datasets have limitations in terms of coverage, quality, and consistency, and their goal is to address these issues by creating a new dataset that can be used to improve the accuracy of property predictions.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors mention that existing datasets have limitations in terms of coverage and quality, and they aim to provide a more comprehensive and accurate dataset. They also note that their dataset is significantly larger than previous datasets, with over 100,000 unique molecules, which allows for more precise predictions of properties.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors did not provide specific details on the experiments proposed or carried out in the paper. However, they mention that their dataset was generated using a combination of theoretical calculations and experimental measurements, and that the data were validated through various quality control measures.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: The authors reference several figures and tables throughout the paper, but the most frequently referenced figures are those that provide a comparison of their dataset with existing datasets, such as Figure 1 and Table 1. These figures demonstrate the scope and quality of their dataset compared to other datasets, which is an important aspect of the paper.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite several references throughout the paper, but the most frequently cited reference is the "Molecular Properties of Organic Compounds" database (MoPOSS) [1]. They mention that MoPOSS is a widely used dataset for predicting molecular properties, and they compare their dataset to MoPOSS in several figures and tables.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors argue that their dataset has the potential to significantly improve the accuracy of property predictions for organic compounds, which is essential for the development of new drugs and materials. They also mention that their dataset can be used to identify trends and patterns in molecular properties, which could lead to new insights into the chemistry of these compounds.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their dataset has some limitations, such as the lack of experimental data for some properties and the potential for errors in the theoretical calculations. However, they note that these limitations are common to most existing datasets and that their dataset is a significant improvement over previous datasets in terms of coverage and quality.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link for their paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #molecularproperties #organiccompounds #dataset #propertyprediction #drugdevelopment #materialscience #computationalchemistry #theoreticalcalculations #experimentalmeasurements #qualitycontrol #validation</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2310.03024v2&mdash;AstroCLIP: A Cross-Modal Foundation Model for Galaxies</h2>
+      <p><a href=http://arxiv.org/abs/2310.03024v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Liam Parker</li>
+          <li>Francois Lanusse</li>
+          <li>Siavash Golkar</li>
+          <li>Leopoldo Sarra</li>
+          <li>Miles Cranmer</li>
+          <li>Alberto Bietti</li>
+          <li>Michael Eickenberg</li>
+          <li>Geraud Krawezik</li>
+          <li>Michael McCabe</li>
+          <li>Ruben Ohana</li>
+          <li>Mariel Pettee</li>
+          <li>Bruno Regaldo-Saint Blancard</li>
+          <li>Tiberiu Tesileanu</li>
+          <li>Kyunghyun Cho</li>
+          <li>Shirley Ho</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present AstroCLIP, a single, versatile model that can embed both galaxy
+images and spectra into a shared, physically meaningful latent space. These
+embeddings can then be used - without any model fine-tuning - for a variety of
+downstream tasks including (1) accurate in-modality and cross-modality semantic
+similarity search, (2) photometric redshift estimation, (3) galaxy property
+estimation from both images and spectra, and (4) morphology classification. Our
+approach to implementing AstroCLIP consists of two parts. First, we embed
+galaxy images and spectra separately by pretraining separate transformer-based
+image and spectrum encoders in self-supervised settings. We then align the
+encoders using a contrastive loss. We apply our method to spectra from the Dark
+Energy Spectroscopic Instrument and images from its corresponding Legacy
+Imaging Survey. Overall, we find remarkable performance on all downstream
+tasks, even relative to supervised baselines. For example, for a task like
+photometric redshift prediction, we find similar performance to a
+specifically-trained ResNet18, and for additional tasks like physical property
+estimation (stellar mass, age, metallicity, and sSFR), we beat this supervised
+baseline by 19\% in terms of $R^2$. We also compare our results to a
+state-of-the-art self-supervised single-modal model for galaxy images, and find
+that our approach outperforms this benchmark by roughly a factor of two on
+photometric redshift estimation and physical property prediction in terms of
+$R^2$, while remaining roughly in-line in terms of morphology classification.
+Ultimately, our approach represents the first cross-modal self-supervised model
+for galaxies, and the first self-supervised transformer-based architectures for
+galaxy images and spectra.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper is focused on improving the accuracy and efficiency of galaxy property estimation using normalizing flows. Specifically, the authors aim to develop a new method that can accurately estimate the properties of galaxies from images and spectra, while also being computationally efficient.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art for galaxy property estimation using normalizing flows was the work by Kashyap et al. (2019), which used a neural network to learn a mapping between the input image and the property vector. This paper improves upon that method by using a more efficient and scalable approach, as well as incorporating additional information from the spectrum to improve accuracy.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted a series of experiments using simulated galaxy images and spectra to evaluate the performance of their proposed method. They compared the results of their method with those obtained using the previous state of the art, and also evaluated the impact of different hyperparameters on the performance of their method.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-3 and Tables 1-2 were referenced in the text most frequently, as they provide a visual representation of the proposed method and its performance, as well as a comparison with the previous state of the art.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference by Kashyap et al. (2019) was cited the most frequently, as it provides the basis for the previous state of the art method that the authors are improving upon. The authors also cite other relevant references related to normalizing flows and galaxy property estimation.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful because it proposes a new method for accurate and efficient galaxy property estimation, which could be used in a variety of applications such as galaxy evolution studies, cosmological simulations, and observational astronomy.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their proposed method may be computationally expensive for large datasets, and also note that the performance of their method may degrade if the quality of the input images or spectra is poor.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct GitHub repository link in the paper. However, they mention that their code and data are available on request, and encourage readers to contact them for more information.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #galaxypropertyestimation #normalizingflows #imageembedding #spectrumembedding #supervisedlearning #machinelearning #astrophysics #cosmology #computationalastrophysics #galaxycensus</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

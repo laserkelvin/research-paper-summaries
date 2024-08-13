@@ -97,5 +97,117 @@ A: #exoplanets #exoplanetdetection #machinelearning #Gaussianprocesses #waveleta
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2111.13139v2&mdash;Group equivariant neural posterior estimation</h2>
+      <p><a href=http://arxiv.org/abs/2111.13139v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Maximilian Dax</li>
+          <li>Stephen R. Green</li>
+          <li>Jonathan Gair</li>
+          <li>Michael Deistler</li>
+          <li>Bernhard Schölkopf</li>
+          <li>Jakob H. Macke</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Simulation-based inference with conditional neural density estimators is a
+powerful approach to solving inverse problems in science. However, these
+methods typically treat the underlying forward model as a black box, with no
+way to exploit geometric properties such as equivariances. Equivariances are
+common in scientific models, however integrating them directly into expressive
+inference networks (such as normalizing flows) is not straightforward. We here
+describe an alternative method to incorporate equivariances under joint
+transformations of parameters and data. Our method -- called group equivariant
+neural posterior estimation (GNPE) -- is based on self-consistently
+standardizing the "pose" of the data while estimating the posterior over
+parameters. It is architecture-independent, and applies both to exact and
+approximate equivariances. As a real-world application, we use GNPE for
+amortized inference of astrophysical binary black hole systems from
+gravitational-wave observations. We show that GNPE achieves state-of-the-art
+accuracy while reducing inference times by three orders of magnitude.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to improve the accuracy of GW170814 event's parameter estimation using chained NPE, by addressing the issue of inaccurate initial estimates of the pose (tH and tL). They want to demonstrate that this can be done by using an oracle version of the algorithm, which uses a slow nested sampling algorithm to provide a more accurate estimate of the pose.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art for GW170814 parameter estimation was achieved using the LALInference algorithm, which provided a good estimate of the non-pose parameters ϕ ⊂θ. However, the algorithm did not provide full pose information, as it automatically marginalized over tc. The current paper improves upon this by using an oracle version of the algorithm that uses a slow nested sampling algorithm to provide a more accurate estimate of the pose.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors performed several experiments to compare the performance of chained NPE with an oracle version of the algorithm. They used a neural network density estimator qinit to generate an initial estimate of the non-pose parameters ϕ ⊂θ, and then applied chained NPE to improve the estimate of the pose (tH and tL). They also compared the performance of chained NPE with an oracle version of the algorithm, which used a slow nested sampling algorithm to provide a more accurate estimate of the pose.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures D.6 and D.7 are referred to the most frequently in the paper, as they show the corner plot for GW170814 event's parameter estimation using chained NPE with an oracle version of the algorithm. These figures demonstrate the improvement in accuracy achieved by using an oracle version of the algorithm.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [Ashton et al., 2019] was cited the most frequently, as it provides a method for training neural network density estimators for GW signal processing. The authors mention that this reference is relevant to their work as it provides a way to train a neural network to extract the pose from the data.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper is potentially impactful as it demonstrates a new approach to GW signal processing using chained NPE, which can improve the accuracy of parameter estimation for GW events. This could have implications for the detection and characterization of gravitational waves, particularly for events with high noise levels or low signal-to-noise ratios.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it relies on the accuracy of the initial estimate of the non-pose parameters ϕ ⊂θ, which can be challenging to obtain in practice. Additionally, the use of a neural network density estimator may introduce additional uncertainties and biases into the estimation process.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The paper does not provide a Github repository link.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #GravitationalWaves #GW170814 #ParameterEstimation #NPE #ChainedNPE #OracleVersion #NeuralNetworkDensityEstimator #GravitationalWaveAstronomy #GravitationalWaveSignalProcessing</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2111.04742v2&mdash;E(2) Equivariant Self-Attention for Radio Astronomy</h2>
+      <p><a href=http://arxiv.org/abs/2111.04742v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Micah Bowles</li>
+          <li>Matthew Bromley</li>
+          <li>Max Allen</li>
+          <li>Anna Scaife</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>In this work we introduce group-equivariant self-attention models to address
+the problem of explainable radio galaxy classification in astronomy. We
+evaluate various orders of both cyclic and dihedral equivariance, and show that
+including equivariance as a prior both reduces the number of epochs required to
+fit the data and results in improved performance. We highlight the benefits of
+equivariance when using self-attention as an explainable model and illustrate
+how equivariant models statistically attend the same features in their
+classifications as human astronomers.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Sure, I'd be happy to help you with your questions about the paper! Here are my answers in the format you requested:</p>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The problem statement of the paper is to design a steerable CNN that can perform well on a variety of tasks while using a minimal number of parameters. The authors want to improve upon the previous state of the art in this area by developing a single neural network architecture that can be adapted to different tasks without requiring significant modifications.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: According to the paper, the previous state of the art in steerable CNNs involved using multiple neural networks for each task, which resulted in a high number of parameters and computations. The authors improved upon this by proposing a single neural network architecture that can be adapted to different tasks through a series of parameter transformations, thereby reducing the number of parameters and computations required.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The paper presents several experiments to evaluate the performance of the proposed steerable CNN. These include (1) training the network on a variety of tasks and evaluating its performance on each task, (2) comparing the performance of the steerable CNN with that of traditional CNNs on each task, and (3) analyzing the impact of different parameter transformations on the network's performance.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: The most frequently referenced figures in the text are Figures 1-4, which show the architecture of the proposed steerable CNN and its adaptation to different tasks. These figures are important for understanding the main contribution of the paper, which is the development of a single neural network architecture that can be adapted to different tasks without requiring significant modifications.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [18] by Vaswani et al. is cited the most frequently in the paper, as it provides a relevant framework for understanding the attention mechanism used in the proposed steerable CNN. The authors mention that their work builds upon the attention mechanism proposed in [18], which allows the network to selectively focus on different parts of the input data when performing each task.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because it proposes a novel approach to steerable CNNs that can improve upon the previous state of the art in terms of computational efficiency and adaptability to different tasks. This could lead to significant advances in a wide range of applications, including image classification, object detection, and segmentation.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it assumes that the input data for each task is fixed and known ahead of time, which may not always be the case in practice. Additionally, the authors do not provide a detailed analysis of the trade-offs between computational efficiency and task adaptability, which could have provided additional insights into the strengths and limitations of their proposed approach.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not provided in the text.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: Sure! Here are ten possible hashtags that could be used to describe this paper:</p>
+          <p>1. #SteerableCNNs
+2. #NeuralNetworks
+3. #AttentionMechanism
+4. #TaskAdaptability
+5. #ComputationalEfficiency
+6. #DeepLearning
+7. #ImageProcessing
+8. #MachineLearning
+9. #NeuralArchitecture
+10. #FutureOfAI</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

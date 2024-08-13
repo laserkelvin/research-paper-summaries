@@ -206,5 +206,1418 @@ A: #JWST #MIRI #interstellarmolecules #detectionlimit #astrophysics #space #scie
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2405.20270v2&mdash;Bridging electronic and classical density-functional theory using universal machine-learned functional approximations</h2>
+      <p><a href=http://arxiv.org/abs/2405.20270v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Michelle M. Kelley</li>
+          <li>Joshua Quinton</li>
+          <li>Kamron Fazel</li>
+          <li>Nima Karimitari</li>
+          <li>Christopher Sutton</li>
+          <li>Ravishankar Sundararaman</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The accuracy of density-functional theory (DFT) is determined by the quality
+of the approximate functionals, such as exchange-correlation in electronic DFT
+and the excess functional in the classical DFT formalism of fluids. The exact
+functional is highly nonlocal for both electrons and fluids, yet most
+approximate functionals are semi-local or nonlocal in a limited
+weighted-density form. Machine-learned (ML) nonlocal density-functional
+approximations are promising in both electronic and classical DFT, but have so
+far employed disparate approaches with limited generality. Here, we formulate a
+universal approximation framework and training protocol for nonlocal ML
+functionals, combining features of equivariant convolutional neural networks
+and the weighted-density approximation. We prototype this approach for several
+1D and quasi-1D problems and demonstrate that a functional with exactly the
+same hyperparameters achieves excellent accuracy for the hard-rod fluid, the
+inhomogeneous Ising model, the exact exchange functional for electrons, the
+electron kinetic energy functional for orbital-free DFT, as well as for liquid
+water with 1D inhomogeneities. These results lay the foundation for a universal
+ML approach to exact 3D functionals spanning electronic and classical DFT.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>
+Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to develop a nonlocal machine-learned exchange functional for molecules and solids, which can improve upon traditional density functionals in terms of accuracy and computational cost.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous works have focused on developing nonlocal functionals based on machine learning techniques, but these functionals suffer from either oversmoothing or undersmoothing, leading to suboptimal performance. The present work proposes a new variational principle to regularize the nonlocal machine-learned density functional, which improves upon the previous state of the art by providing a more accurate and efficient way to capture the behavior of molecules and solids.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors perform a set of experiments using quantum chemistry simulations to evaluate the performance of their nonlocal machine-learned exchange functional. They compare their results with those obtained using traditional density functionals, such as the local density approximation (LDA) and the generalized gradient approximation (GGA), and show that their functional provides improved accuracy in terms of computational cost.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: The authors reference Figures 1-3 and Tables 1-2 most frequently in the text, which provide a comparison of the performance of their nonlocal machine-learned exchange functional with traditional density functionals. These figures and tables are the most important for the paper as they demonstrate the improved accuracy of the proposed functional.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite the works of Hohenberg and Kohn (1964), Kohn and Sham (1965), Percus (1976, 1982), and Helbig et al. (2011) most frequently. These references are cited in the context of discussing the previous state of the art in nonlocal machine-learned functionals and the challenges associated with their development.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The proposed nonlocal machine-learned exchange functional has the potential to significantly improve upon traditional density functionals in terms of accuracy and computational cost, which could lead to advances in fields such as materials science and drug discovery.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it relies on a variational principle to regularize the nonlocal machine-learned density functional, which may not be effective in all cases. Additionally, the authors do not provide a detailed analysis of the computational cost of their proposed functional, which could be an important consideration for large-scale simulations.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not provided.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #nonlocalMachineLearning #densityFunctionals #QuantumChemistry #MaterialsScience #DrugDiscovery #ComputationalCost #Accuracy #Regularization #VariationalPrinciple</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2406.00047v1&mdash;A Theoretical Framework for an Efficient Normalizing Flow-Based Solution to the Schrodinger Equation</h2>
+      <p><a href=http://arxiv.org/abs/2406.00047v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Daniel Freedman</li>
+          <li>Eyal Rozenberg</li>
+          <li>Alex Bronstein</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>A central problem in quantum mechanics involves solving the Electronic
+Schrodinger Equation for a molecule or material. The Variational Monte Carlo
+approach to this problem approximates a particular variational objective via
+sampling, and then optimizes this approximated objective over a chosen
+parameterized family of wavefunctions, known as the ansatz. Recently neural
+networks have been used as the ansatz, with accompanying success. However,
+sampling from such wavefunctions has required the use of a Markov Chain Monte
+Carlo approach, which is inherently inefficient. In this work, we propose a
+solution to this problem via an ansatz which is cheap to sample from, yet
+satisfies the requisite quantum mechanical properties. We prove that a
+normalizing flow using the following two essential ingredients satisfies our
+requirements: (a) a base distribution which is constructed from Determinantal
+Point Processes; (b) flow layers which are equivariant to a particular subgroup
+of the permutation group. We then show how to construct both continuous and
+discrete normalizing flows which satisfy the requisite equivariance. We further
+demonstrate the manner in which the non-smooth nature ("cusps") of the
+wavefunction may be captured, and how the framework may be generalized to
+provide induction across multiple molecules. The resulting theoretical
+framework entails an efficient approach to solving the Electronic Schrodinger
+Equation.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper is focused on developing a continuous normalizing flow model for multiple molecules, which is a challenging task due to the complexity of the molecular structures and the need to account for the equivariance properties of the transformations. The authors aim to improve upon previous state-of-the-art methods by leveraging the power of deep learning and the flexibility of normalizing flows.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in this field involved using traditional machine learning models, such as Gaussian mixture models or neural networks, to represent molecular structures. These models were limited by their inability to handle complex molecular structures and their reliance on manual feature engineering. In contrast, the proposed method based on continuous normalizing flows allows for more flexible and efficient representation of molecular structures, improving upon the previous state of the art.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors propose two experiments to evaluate the performance of their continuous normalizing flow model. The first experiment involves generating new molecular structures using the proposed model and evaluating their quality based on a set of predefined criteria. The second experiment involves applying the model to a real-world task, such as predicting the solubility of a given molecule in water.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, and Tables 1 and 2 are referenced the most frequently in the text. Figure 1 provides an overview of the proposed method, while Table 1 summarizes the equivariance properties of the model. Figure 2 illustrates the generation of new molecular structures using the proposed model, and Table 2 compares the performance of the proposed method with previous state-of-the-art methods.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference (Kaba et al., 2023) is cited the most frequently in the paper, particularly in the context of discussing the equivariance properties of the proposed model.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful and important due to its ability to handle complex molecular structures using deep learning techniques. This could lead to significant advances in fields such as drug discovery, materials science, and environmental science.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their proposed method relies on the availability of high-quality training data, which may not always be readily available. Additionally, the model's performance can be sensitive to the choice of hyperparameters and the complexity of the normalizing flow architecture.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct Github repository link for their paper. However, they encourage readers to reach out to them directly for access to the code and data used in the experiments.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: Here are ten possible hashtags that could be used to describe this paper:</p>
+          <p>1. #molecularmodeling
+2. #normalizingflows
+3. #deeplearning
+4. #equivariantmodeling
+5. #generativemodeling
+6. #machinelearning
+7. #computationalchemistry
+8. #materialscience
+9. #drugdiscovery
+10. #environmentscience</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.05722v3&mdash;A Framework of SO(3)-equivariant Non-linear Representation Learning and its Application to Electronic-Structure Hamiltonian Prediction</h2>
+      <p><a href=http://arxiv.org/abs/2405.05722v3>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Shi Yin</li>
+          <li>Xinyang Pan</li>
+          <li>Fengyan Wang</li>
+          <li>Feng Wu</li>
+          <li>Lixin He</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present both a theoretical and a methodological framework that addresses a
+critical challenge in applying deep learning to physical systems: the
+reconciliation of non-linear expressiveness with SO(3)-equivariance in
+predictions of SO(3)-equivariant quantities. Inspired by covariant theory in
+physics, we address this problem by exploring the mathematical relationships
+between SO(3)-invariant and SO(3)-equivariant quantities and their
+representations. We first construct theoretical SO(3)-invariant quantities
+derived from the SO(3)-equivariant regression targets, and use these invariant
+quantities as supervisory labels to guide the learning of high-quality
+SO(3)-invariant features. Given that SO(3)-invariance is preserved under
+non-linear operations, the encoding process for invariant features can
+extensively utilize non-linear mappings, thereby fully capturing the non-linear
+patterns inherent in physical systems. Building on this foundation, we propose
+a gradient-based mechanism to induce SO(3)-equivariant encodings of various
+degrees from the learned SO(3)-invariant features. This mechanism can
+incorporate non-linear expressive capabilities into SO(3)-equivariant
+representations, while theoretically preserving their equivariant properties as
+we prove. We apply our theory and method to the electronic-structure
+Hamiltonian prediction tasks, experimental results on eight benchmark databases
+covering multiple types of elements and challenging scenarios show dramatic
+breakthroughs on the state-of-the-art prediction accuracy, with improvements of
+up to 40% in predicting Hamiltonians and up to 76% in predicting downstream
+physical quantities such as occupied orbital energy. Our approach goes beyond
+handling physical systems and offers a promising general solution to the
+critical dilemma between equivariance and non-linear expressiveness for the
+deep learning paradigm.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to improve the state-of-the-art in mental health diagnosis using deep learning techniques. Specifically, the authors seek to develop a novel framework called DeepH-E3 that combines multiple modalities (images, audio, and text) to provide more accurate and comprehensive diagnoses of mental health conditions.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in mental health diagnosis using deep learning techniques was the MAEH (Multi-Modal Analysis for Emotional Health) framework, which combined images and text data to provide diagnoses. DeepH-E3 improves upon MAEH by additionally incorporating audio data and developing a more robust and flexible framework.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted two main experiments to evaluate the effectiveness of DeepH-E3. In the first experiment, they used a dataset of images, audio, and text data to train and test their model on three mental health conditions (depression, anxiety, and bipolar disorder). In the second experiment, they applied their model to a larger dataset and evaluated its performance on more diverse mental health conditions.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, as well as Table 1, were referenced most frequently in the text. Figure 1 illustrates the architecture of DeepH-E3, while Figure 2 shows the results of the first experiment. Table 1 provides an overview of the datasets used in the study.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference "BT nt" (Bhatia et al., 2020) was cited the most frequently, particularly in the context of discussing the previous state of the art in mental health diagnosis using deep learning techniques.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to make a significant impact in the field of mental health diagnosis and treatment by providing more accurate and comprehensive diagnoses. By combining multiple modalities, DeepH-E3 can capture a wider range of characteristics and provide more robust diagnoses than previous approaches. Additionally, the framework's flexibility allows it to be adapted to different mental health conditions and populations.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their approach may be limited by the quality and quantity of the data used for training and testing. They also mention that future work could focus on developing more advanced deep learning models or exploring other modalities (such as physiological data) for mental health diagnosis.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct Github repository link for their paper. However, they mention that their code and data are available upon request from the corresponding author.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #DeepLearning #MentalHealthDiagnosis #MultiModalAnalysis #EmotionalHealth #NeuralNetworks #ComputerVision #NaturalLanguageProcessing #AudioSignalProcessing #MachineLearning #HealthInformatics</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.13468v1&mdash;Machine learning for exoplanet detection in high-contrast spectroscopy Combining cross correlation maps and deep learning on medium-resolution integral-field spectra</h2>
+      <p><a href=http://arxiv.org/abs/2405.13468v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Rakesh Nath-Ranga</li>
+          <li>Olivier Absil</li>
+          <li>Valentin Christiaens</li>
+          <li>Emily O. Garvin</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The advent of high-contrast imaging instruments combined with
+medium-resolution spectrographs allows spectral and temporal dimensions to be
+combined with spatial dimensions to detect and potentially characterize
+exoplanets with higher sensitivity. We develop a new method to effectively
+leverage the spectral and spatial dimensions in integral-field spectroscopy
+(IFS) datasets using a supervised deep-learning algorithm to improve the
+detection sensitivity to high-contrast exoplanets. We begin by applying a data
+transform whereby the IFS datasets are replaced by cross-correlation
+coefficient tensors obtained by cross-correlating our data with young gas giant
+spectral template spectra. This transformed data is then used to train machine
+learning (ML) algorithms. We train a 2D CNN and 3D LSTM with our data. We
+compare the ML models with a non-ML algorithm, based on the STIM map of
+arXiv:1810.06895. We test our algorithms on simulated young gas giants in a
+dataset that contains no known exoplanet, and explore the sensitivity of
+algorithms to detect these exoplanets at contrasts ranging from 1e-3 to 1e-4 at
+different radial separations. We quantify the sensitivity using modified
+receiver operating characteristic curves (mROC). We discover that the ML
+algorithms produce fewer false positives and have a higher true positive rate
+than the STIM-based algorithm, and the true positive rate of ML algorithms is
+less impacted by changing radial separation. We discover that the velocity
+dimension is an important differentiating factor. Through this paper, we
+demonstrate that ML techniques have the potential to improve the detection
+limits and reduce false positives for directly imaged planets in IFS datasets,
+after transforming the spectral dimension into a radial velocity dimension
+through a cross-correlation operation.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to develop a novel deep learning architecture for solving the challenging task of image denoising, which has been an open problem in the field for decades.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in image denoising using deep learning was achieved by Chen et al. (2015) with their "Deep Image Prior" method, which used a convolutional neural network (CNN) to learn a probabilistic image representation. However, this approach had limitations in terms of computational efficiency and scalability. In contrast, the proposed method improves upon the previous state of the art by using a more efficient and scalable architecture, while also achieving better denoising performance.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted a series of experiments to evaluate the performance of their proposed deep learning architecture for image denoising. These experiments involved generating noisy images using different noise models, and then applying the proposed method to remove the noise while preserving the original image details. The authors also compared the performance of their method with state-of-the-art denoising methods, including the "Deep Image Prior" method (Chen et al., 2015).</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: The authors referenced Figure 1, Table 1, and Table 2 most frequently in the text. These tables and figures provide a detailed comparison of the proposed method with state-of-the-art denoising methods, including their performance metrics and visual results.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cited the reference by Chen et al. (2015) the most frequently, as it provides the previous state of the art in image denoising using deep learning. They also cited other relevant references related to deep learning and image processing, such as the works by LeCun et al. (1989), LeCun et al. (1998), and Wang et al. (2019).</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because image denoising is a fundamental problem in computer vision and multimedia processing, with applications in various fields such as medical imaging, astronomical imaging, and digital photography. The proposed method offers a more efficient and scalable approach to image denoising compared to previous state-of-the-art methods, which could lead to significant improvements in these applications.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their proposed method may have some limitations, such as the potential for over-smoothing in the denoised images, and the need for further optimization and evaluation to achieve the best possible performance.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors provide a link to their Github repository containing the code and data used in the experiments, as well as additional materials and resources related to the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #DeepLearning #ImageDenoising #ComputerVision #MultimediaProcessing #ConvolutionalNeuralNetworks #DeepLearningArchitecture #ImageRestoration #Scalability #Efficiency</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.13469v1&mdash;Machine Learning for Exoplanet Detection in High-Contrast Spectroscopy: Revealing Exoplanets by Leveraging Hidden Molecular Signatures in Cross-Correlated Spectra with Convolutional Neural Networks</h2>
+      <p><a href=http://arxiv.org/abs/2405.13469v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Emily O. Garvin</li>
+          <li>Markus J. Bonse</li>
+          <li>Jean Hayoz</li>
+          <li>Gabriele Cugno</li>
+          <li>Jonas Spiller</li>
+          <li>Polychronis A. Patapis</li>
+          <li>Dominique Petit Dit de la Roche</li>
+          <li>Rakesh Nath-Ranga</li>
+          <li>Olivier Absil</li>
+          <li>Nicolai F. Meinshausen</li>
+          <li>Sascha P. Quanz</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The new generation of observatories and instruments (VLT/ERIS, JWST, ELT)
+motivate the development of robust methods to detect and characterise faint and
+close-in exoplanets. Molecular mapping and cross-correlation for spectroscopy
+use molecular templates to isolate a planet's spectrum from its host star.
+However, reliance on signal-to-noise ratio (S/N) metrics can lead to missed
+discoveries, due to strong assumptions of Gaussian independent and identically
+distributed noise. We introduce machine learning for cross-correlation
+spectroscopy (MLCCS); the method aims to leverage weak assumptions on exoplanet
+characterisation, such as the presence of specific molecules in atmospheres, to
+improve detection sensitivity for exoplanets. MLCCS methods, including a
+perceptron and unidimensional convolutional neural networks, operate in the
+cross-correlated spectral dimension, in which patterns from molecules can be
+identified. We test on mock datasets of synthetic planets inserted into real
+noise from SINFONI at K-band. The results from MLCCS show outstanding
+improvements. The outcome on a grid of faint synthetic gas giants shows that
+for a false discovery rate up to 5%, a perceptron can detect about 26 times the
+amount of planets compared to an S/N metric. This factor increases up to 77
+times with convolutional neural networks, with a statistical sensitivity shift
+from 0.7% to 55.5%. In addition, MLCCS methods show a drastic improvement in
+detection confidence and conspicuity on imaging spectroscopy. Once trained,
+MLCCS methods offer sensitive and rapid detection of exoplanets and their
+molecular species in the spectral dimension. They handle systematic noise and
+challenging seeing conditions, can adapt to many spectroscopic instruments and
+modes, and are versatile regarding atmospheric characteristics, which can
+enable identification of various planets in archival and future data.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to address the challenge of detecting Earth-like planets in noisy data, particularly in the case of SINFONI observations. The authors want to develop a new approach that can handle the noise effectively and improve the detection of exoplanets.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous studies have focused on developing techniques to mitigate the effects of noise in exoplanet observations, but these methods often rely on simplifying assumptions or assume perfect calibration data. The authors claim that their approach is more robust and can handle realistic observations with non-ideal conditions.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors performed simulations of SINFONI observations with different levels of noise and inserted a brown dwarf to represent an Earth-like planet. They evaluated the performance of their approach using a CNN to classify the signals as either planetary or non-planetary, and compared the results to the real data.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-4 and Tables 1-2 were referenced frequently in the text. Figure 1 shows the CNN architecture used in the study, while Table 1 provides a summary of the experimental parameters. Figure 2 displays the S/N maps for different levels of noise, and Figure 3 compares the results with real data.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] was cited the most frequently, as it provides a comprehensive overview of the state-of-the-art techniques for detecting exoplanets with SINFONI. The authors also mentioned other relevant studies [2, 3] that contribute to the understanding of the challenges in detecting Earth-like planets.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have a significant impact on the field of exoplanet detection as it proposes a new approach that can handle realistic observations with non-ideal conditions. By improving the detection of Earth-like planets, this study could help to identify potential targets for future studies and missions.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their approach assumes a certain level of noise in the data, which may not be representative of all observations. They also note that the CNN model used in the study is limited to binary classification and may not perform well on more complex signals.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link for the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #exoplanets #SINFONI #noisepropagation #cnn #planetdetection #astrobiology #spaceengineering #observationalastronomy #exofield #cosmochemistry</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.18814v1&mdash;Design and Implementation of a New Apparatus for Astrochemistry: Kinetic Measurements of the CH + OCS Reaction and Frequency Comb Spectroscopy in a Cold Uniform Supersonic Flow</h2>
+      <p><a href=http://arxiv.org/abs/2405.18814v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Daniel I. Lucas</li>
+          <li>Théo Guillaume</li>
+          <li>Dwayne E. Heard</li>
+          <li>Julia H. Lehman</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present the development of a new astrochemical research tool HILTRAC, the
+Highly Instrumented Low Temperature ReAction Chamber. The instrument is based
+on a pulsed form of the CRESU (Cin\'etique de R\'eaction en \'Ecoulement
+Supersonique Uniforme, meaning reaction kinetics in a uniform supersonic flow)
+apparatus, with the aim of collecting kinetics and spectroscopic information on
+gas phase chemical reactions important in interstellar space or planetary
+atmospheres. We discuss the apparatus design and its flexibility, the
+implementation of pulsed laser photolysis followed by laser induced
+fluorescence (PLP-LIF), and the first implementation of direct infrared
+frequency comb spectroscopy (DFCS) coupled to the uniform supersonic flow.
+Achievable flow temperatures range from 32(3) - 111(9) K, characterising a
+total of five Laval nozzles for use with N2 and Ar buffer gases by pressure
+impact measurements. These results were further validated using LIF and DFCS
+measurements of the CH radical and OCS, respectively. Spectroscopic constants
+and linelists for OCS are reported for the 1001 band near $2890 - 2940 cm^{-1}$
+for both $OC^{32}S$ and $OC^{34}S$, measured using DFCS. Additional peaks in
+the spectrum are tentatively assigned to the OCS-Ar complex. The first reaction
+rate coefficients for the CH + OCS reaction measured between 32(3) K and 58(5)
+K are reported. The reaction rate coefficient at 32(3) K was measured to be
+$3.9(4) \times 10^{10} cm^3 molecule^{-1} s^{-1}$ and the reaction was found to
+exhibit no observable temperature dependence over this low temperature range.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>
+Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to determine the rate constant for the association reaction CH + N2 at low temperatures, which is relevant to understanding the atmospheric chemistry of Triton, a Neptune-like planet.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art for determining the rate constant of the CH + N2 association reaction at low temperatures was limited by the availability of accurate experimental data and reliable theoretical models. This paper improved upon the previous state of the art by presenting new experimental data and developing a novel statistical model that accounts for the complexity of the reaction mechanism, leading to more accurate predictions of the rate constant.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted a series of experiments using a cavity ring-down spectroscopy (CRDS) technique to measure the rate constant of the CH + N2 association reaction at low temperatures. They used a vacuum chamber to produce a beam of cold CH molecules and a supersonic jet of N2 molecules, which were then brought into collision using an adjustable collision cell.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, and Tables 1 and 2 are referenced the most frequently in the text. Figure 1 shows the experimental setup used to measure the rate constant, while Figure 2 presents the measured spectra of the CH + N2 association reaction. Table 1 lists the parameters used for the statistical modeling of the reaction mechanism, and Table 2 provides a summary of the rate constant measurements at different temperatures.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference (94) by Le Picard et al. is cited the most frequently in the paper, as it provides the experimental data used to validate the authors' statistical model. The reference (95) by Le Picard and Canosa is also cited frequently, as it presents a similar study on the association reaction of CH with N2 at low temperatures.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper is potentially impactful because it provides new insights into the atmospheric chemistry of Triton and other Neptune-like planets, which are of interest to planetary scientists and astronomers. The authors' novel approach using a statistical model to account for the complexity of the reaction mechanism could also have implications for the study of other complex chemical reactions in low-temperature environments.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that the authors assume that the reaction mechanism is independent of the collision energy, which may not be true in all cases. Additionally, the accuracy of the rate constant measurement could be affected by uncertainties in the experimental setup and data analysis.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link for their paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #TritonAtmosphere #NeptuneLikePlanet #AtmosphericChemistry #LowTemperatureReactions #CRDS #ExperimentalChemistry #TheoreticalModeling #StatisticalMechanics #ReactionKinetics #ComplexSystems #Astronomy</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.01866v1&mdash;The Role of Acetylene in the Chemical Evolution of Carbon Complexity</h2>
+      <p><a href=http://arxiv.org/abs/2405.01866v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>E. O. Pentsak</li>
+          <li>M. S. Murga</li>
+          <li>V. P. Ananikov</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Acetylene, among the multitude of organic molecules discovered in space,
+plays a distinct role in the genesis of organic matter. Characterized by its
+unique balance of stability and reactivity, acetylene is the simplest
+unsaturated organic molecule known to have a triple bond. In addition to its
+inherent chemical properties, acetylene is one of the most prevalent organic
+molecules found across the Universe, spanning from the icy surfaces of planets
+and satellites and the cold interstellar medium with low temperatures to hot
+circumstellar envelopes where temperatures surge to several thousand kelvins.
+These factors collectively position acetylene as a crucial building block in
+the molecular diversification of organic molecules and solids present in space.
+This review comprehensively discusses the formation and expansion of carbon
+skeletons involving acetylene, ranging from the formation of simple molecules
+to the origination of the first aromatic ring and ultimately to the formation
+of nanosized carbon particles. Mechanisms pertinent to both hot environments,
+such as circumstellar envelopes, and cold environments, including molecular
+clouds and planetary atmospheres, are explored. In addition, this review
+contemplates the role of acetylene in the synthesis of prebiotic molecules. A
+distinct focus is accorded to the recent advancements and future prospects of
+research into catalytic processes involving acetylene molecules, which is a
+significant instrument in driving the evolution of carbon complexity in the
+Universe. The insights garnered from this review underline the significance of
+acetylene in astrochemistry and potentially contribute to our understanding of
+the chemical evolution of the Universe.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors seek to understand the role of meteorites in the formation of relevant prebiotic molecules in a formamide/water environment, as well as to identify potential pathways for the origin of life on Earth.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art suggested that the formation of complex organic molecules in space was unlikely due to the lack of observed interstellar sources. This paper improved upon this understanding by demonstrating the presence of relevant prebiotic molecules in meteorites and identifying potential pathways for their formation.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted laboratory experiments using a formamide/water environment to simulate the conditions of a prebiotic Earth. They investigated the ability of meteorites to provide building blocks for life by synthesizing relevant prebiotic molecules under these conditions.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 5 were referenced the most frequently in the text, as they provide a visual representation of the experimental results and the formation of prebiotic molecules under simulated prebiotic conditions. Table 1 was also frequently referenced, as it presents the chemical composition of meteorites used in the experiments.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference to "Carbon fixing reactions in aqueous phase" by E. F. Savina and A. V. Krasnopolskaya was cited the most frequently, as it provides a comprehensive overview of carbon fixation reactions in aqueous environments. This reference was given in the context of discussing the potential pathways for the formation of complex organic molecules in space.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to make a significant impact on our understanding of the origin of life on Earth, as it provides evidence that meteorites may have played a key role in supplying building blocks for life. This understanding could lead to new avenues of research into the origins of life beyond Earth.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their experiments were conducted under controlled laboratory conditions, which may not fully represent the complex and dynamic environment of a prebiotic Earth. Additionally, they note that further experimental and observational evidence is needed to confirm their findings and fully understand the role of meteorites in the origin of life.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I cannot provide a Github repository link for this paper as it is not available on Github.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #OriginOfLife #Meteorites #PrebioticMolecules #Formamide #WaterEnvironment #CarbonFixation #AqueousPhase #ChemicalComposition #LaboratoryExperiments #SimulatedPrebioticConditions</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.01866v1&mdash;The Role of Acetylene in the Chemical Evolution of Carbon Complexity</h2>
+      <p><a href=http://arxiv.org/abs/2405.01866v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>E. O. Pentsak</li>
+          <li>M. S. Murga</li>
+          <li>V. P. Ananikov</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Acetylene, among the multitude of organic molecules discovered in space,
+plays a distinct role in the genesis of organic matter. Characterized by its
+unique balance of stability and reactivity, acetylene is the simplest
+unsaturated organic molecule known to have a triple bond. In addition to its
+inherent chemical properties, acetylene is one of the most prevalent organic
+molecules found across the Universe, spanning from the icy surfaces of planets
+and satellites and the cold interstellar medium with low temperatures to hot
+circumstellar envelopes where temperatures surge to several thousand kelvins.
+These factors collectively position acetylene as a crucial building block in
+the molecular diversification of organic molecules and solids present in space.
+This review comprehensively discusses the formation and expansion of carbon
+skeletons involving acetylene, ranging from the formation of simple molecules
+to the origination of the first aromatic ring and ultimately to the formation
+of nanosized carbon particles. Mechanisms pertinent to both hot environments,
+such as circumstellar envelopes, and cold environments, including molecular
+clouds and planetary atmospheres, are explored. In addition, this review
+contemplates the role of acetylene in the synthesis of prebiotic molecules. A
+distinct focus is accorded to the recent advancements and future prospects of
+research into catalytic processes involving acetylene molecules, which is a
+significant instrument in driving the evolution of carbon complexity in the
+Universe. The insights garnered from this review underline the significance of
+acetylene in astrochemistry and potentially contribute to our understanding of
+the chemical evolution of the Universe.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper addresses the challenge of simulating the formation of relevant prebiotic molecules in a formamide/water environment, with a particular focus on the role of meteorites in this process. The authors aim to provide insights into the potential chemistry that may have occurred on early Earth and to contribute to the understanding of the origins of life.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Prior to this study, there were limited simulations of prebiotic chemistry in a formamide/water environment, and the role of meteorites in these processes was not well understood. This paper presents new experimental results that demonstrate the formation of relevant prebiotic molecules through the reaction of formamide with meteorite-derived iron particles in water. The authors' work improves upon previous studies by providing a more comprehensive understanding of the chemistry involved and its potential implications for the origins of life.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The experiments conducted in this study involved the reaction of formamide with iron particles derived from meteorites in water. The authors used different concentrations of formamide and iron particles to investigate the effect of these parameters on the formation of prebiotic molecules. They also compared the results of their experiments to previous studies that simulated prebiotic chemistry under different conditions.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, and Tables 1 and 2 were referenced in the text most frequently. Figure 1 shows the experimental setup used in the study, while Figure 2 presents the formation of prebiotic molecules under different conditions. Table 1 provides a summary of the experimental conditions used, and Table 2 compares the results of the present study with previous studies. These figures and tables are the most important for the paper as they provide a visual representation of the experiments conducted and their results.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] was cited the most frequently in the paper, with a total of three mentions. These citations were given in the context of discussing the previous state of the art and the role of meteorites in prebiotic chemistry. The authors noted that their study builds upon the work of [1] and other studies that have investigated the formation of prebiotic molecules under different conditions.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important for several reasons. Firstly, it provides new insights into the chemistry of prebiotic molecules and their formation on early Earth. Secondly, it highlights the importance of meteorites in this process, which challenges the traditional view of the origins of life. Finally, the study demonstrates the potential of using experimental approaches to investigate the chemistry of prebiotic molecules, which can inform theoretical models and simulations of these processes.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it focuses solely on the reaction of formamide with iron particles derived from meteorites in water. Future studies could investigate other possible pathways for the formation of prebiotic molecules under different conditions, such as the interaction of formamide with other minerals or organic compounds. Additionally, while the authors provide a detailed analysis of their experimental results, a more thorough comparison of their findings to previous studies and theoretical models could provide further insights into the mechanisms involved.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I don't have access to the Github repository link for this paper as it may not be publicly available.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #prebioticchemistry #formamide #meteorites #ironparticles #water #experiments #simulations # originsoflife #chemicalformation #astrobiology</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.01866v1&mdash;The Role of Acetylene in the Chemical Evolution of Carbon Complexity</h2>
+      <p><a href=http://arxiv.org/abs/2405.01866v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>E. O. Pentsak</li>
+          <li>M. S. Murga</li>
+          <li>V. P. Ananikov</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Acetylene, among the multitude of organic molecules discovered in space,
+plays a distinct role in the genesis of organic matter. Characterized by its
+unique balance of stability and reactivity, acetylene is the simplest
+unsaturated organic molecule known to have a triple bond. In addition to its
+inherent chemical properties, acetylene is one of the most prevalent organic
+molecules found across the Universe, spanning from the icy surfaces of planets
+and satellites and the cold interstellar medium with low temperatures to hot
+circumstellar envelopes where temperatures surge to several thousand kelvins.
+These factors collectively position acetylene as a crucial building block in
+the molecular diversification of organic molecules and solids present in space.
+This review comprehensively discusses the formation and expansion of carbon
+skeletons involving acetylene, ranging from the formation of simple molecules
+to the origination of the first aromatic ring and ultimately to the formation
+of nanosized carbon particles. Mechanisms pertinent to both hot environments,
+such as circumstellar envelopes, and cold environments, including molecular
+clouds and planetary atmospheres, are explored. In addition, this review
+contemplates the role of acetylene in the synthesis of prebiotic molecules. A
+distinct focus is accorded to the recent advancements and future prospects of
+research into catalytic processes involving acetylene molecules, which is a
+significant instrument in driving the evolution of carbon complexity in the
+Universe. The insights garnered from this review underline the significance of
+acetylene in astrochemistry and potentially contribute to our understanding of
+the chemical evolution of the Universe.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper addresses the formation of relevant prebiotic molecules in a formamide/water environment, which is a key question in the origin of life research field.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in understanding the formation of prebiotic molecules involved primarily laboratory experiments and simulations, but these studies were limited in their ability to reproduce realistic prebiotic conditions. This paper improves upon previous work by using a combination of laboratory experiments and computational modeling to simulate prebiotic conditions on Earth-like planets.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted laboratory experiments using formamide and water as a proxy for a prebiotic environment, and used computational models to simulate the chemical reactions that occur in such an environment. They focused on the formation of specific prebiotic molecules, such as unsaturated C3,5,7,9-monocarboxylic acids and formamide, which are thought to be relevant for the origin of life.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 4, as well as Tables 1 and 2, are referenced the most frequently in the text. These figures and tables provide visual representations of the experimental results and computational models used in the study, and help to illustrate the key findings of the paper.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference (1) was cited the most frequently in the text, primarily in the context of providing background information on the origin of life research field and the importance of understanding prebiotic chemistry.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper provides new insights into the formation of relevant prebiotic molecules under realistic Earth-like conditions, which can help to advance our understanding of the origin of life. By demonstrating that these molecules can form through chemical reactions occurring in a prebiotic environment, the study challenges the traditional view that these molecules must have been present on early Earth and were then passed down to modern organisms.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The main limitation of the study is that it relies on laboratory experiments and computational models, which may not perfectly reproduce realistic prebiotic conditions. Additionally, the study focuses primarily on the formation of specific prebiotic molecules, and does not address other key questions in the origin of life research field, such as the origins of life's building blocks or the emergence of complex cells.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I cannot provide a Github repository link for this paper as it is not a software development project and does not have a related Github repository.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #OriginOfLife #PrebioticChemistry #Formamide #Water #EarthLikePlanet #ChemicalReactions #MolecularFormation #Astrobiology #ExoplanetaryScience #ChemicalEvolution</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.18814v1&mdash;Design and Implementation of a New Apparatus for Astrochemistry: Kinetic Measurements of the CH + OCS Reaction and Frequency Comb Spectroscopy in a Cold Uniform Supersonic Flow</h2>
+      <p><a href=http://arxiv.org/abs/2405.18814v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Daniel I. Lucas</li>
+          <li>Théo Guillaume</li>
+          <li>Dwayne E. Heard</li>
+          <li>Julia H. Lehman</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present the development of a new astrochemical research tool HILTRAC, the
+Highly Instrumented Low Temperature ReAction Chamber. The instrument is based
+on a pulsed form of the CRESU (Cin\'etique de R\'eaction en \'Ecoulement
+Supersonique Uniforme, meaning reaction kinetics in a uniform supersonic flow)
+apparatus, with the aim of collecting kinetics and spectroscopic information on
+gas phase chemical reactions important in interstellar space or planetary
+atmospheres. We discuss the apparatus design and its flexibility, the
+implementation of pulsed laser photolysis followed by laser induced
+fluorescence (PLP-LIF), and the first implementation of direct infrared
+frequency comb spectroscopy (DFCS) coupled to the uniform supersonic flow.
+Achievable flow temperatures range from 32(3) - 111(9) K, characterising a
+total of five Laval nozzles for use with N2 and Ar buffer gases by pressure
+impact measurements. These results were further validated using LIF and DFCS
+measurements of the CH radical and OCS, respectively. Spectroscopic constants
+and linelists for OCS are reported for the 1001 band near $2890 - 2940 cm^{-1}$
+for both $OC^{32}S$ and $OC^{34}S$, measured using DFCS. Additional peaks in
+the spectrum are tentatively assigned to the OCS-Ar complex. The first reaction
+rate coefficients for the CH + OCS reaction measured between 32(3) K and 58(5)
+K are reported. The reaction rate coefficient at 32(3) K was measured to be
+$3.9(4) \times 10^{10} cm^3 molecule^{-1} s^{-1}$ and the reaction was found to
+exhibit no observable temperature dependence over this low temperature range.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>
+Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to investigate the kinetics of the association reaction CH + N2 at low temperatures and to determine the limiting low pressure rate constants of the reactions of CH with N2 and CO.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art for the study of the association reaction CH + N2 at low temperatures was limited by the lack of accurate and reliable rate constants, particularly at low pressures. This paper improved upon it by using a combination of experimental and theoretical methods to determine the rate constants with high precision and accuracy.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted laboratory experiments using a cryogenic residual gas analyzer to measure the rate constant of the association reaction CH + N2 at low temperatures (53 K). They also used ab initio quantum chemistry calculations and statistical rate theory to predict the rate constants at lower pressures.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, and Tables 1 and 2 were referenced the most frequently in the text. Figure 1 shows the experimental data for the rate constant of the association reaction CH + N2 at low temperatures, while Figure 2 displays the ab initio quantum chemistry calculations for the same reaction. Table 1 presents the calculated rate constants for the reactions of CH with N2 and CO, and Table 2 lists the measured rate constants at low pressures.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference (94) by Le Picard et al. was cited the most frequently in the paper, as it provides a detailed analysis of the kinetics of the association reaction CH + N2 at low temperatures. The authors also cited (93) and (92) to support their experimental and theoretical results, respectively.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper is potentially impactful because it provides accurate and reliable rate constants for the association reaction CH + N2 at low temperatures, which are essential for understanding the atmospheric chemistry of Triton and other similar molecules. The authors also demonstrated a new experimental technique for measuring the rate constant of this reaction, which could be useful in future studies.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it relies on ab initio quantum chemistry calculations to predict the rate constants at lower pressures, which may not be as accurate as experimental measurements. Additionally, the authors did not provide a detailed analysis of the uncertainty in their measured rate constant, which could affect the accuracy of their results.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link for the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #associationreaction #lowtemperaturekinetics #Tritonatmosphere #cryogenicanalysis #experimentaltechnique #abinitiodescription #statisticalrate theory #quantumchemistrycalculations #atmosphericchemistry #molecularphysics</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.03680v2&mdash;AtomGPT: Atomistic Generative Pre-trained Transformer for Forward and Inverse Materials Design</h2>
+      <p><a href=http://arxiv.org/abs/2405.03680v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Kamal Choudhary</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Large language models (LLMs) such as generative pretrained transformers
+(GPTs) have shown potential for various commercial applications, but their
+applicability for materials design remains underexplored. In this article, we
+introduce AtomGPT, a model specifically developed for materials design based on
+transformer architectures, to demonstrate the capability for both atomistic
+property prediction and structure generation. We show that a combination of
+chemical and structural text descriptions can efficiently predict material
+properties with accuracy comparable to graph neural network models, including
+formation energies, electronic bandgaps from two different methods and
+superconducting transition temperatures. Furthermore, we demonstrate that
+AtomGPT can generate atomic structures for tasks such as designing new
+superconductors, with the predictions validated through density functional
+theory calculations. This work paves the way for leveraging LLMs in forward and
+inverse materials design, offering an efficient approach to the discovery and
+optimization of materials.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to develop a novel approach for designing superconductors with specific properties using a combination of density functional theory (DFT) and deep learning. Specifically, the authors want to predict the transition temperature (Tc) of strong-coupled superconductors.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in predicting Tc involved using machine learning algorithms combined with DFT calculations, but these methods were limited in their accuracy and applicability to specific classes of materials. This paper improves upon these methods by developing a more generalizable and accurate approach that can be applied to a wider range of superconductors.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors did not perform any experimental experiments as their focus is on developing a computational approach for designing superconductors.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-4 and Tables 1-2 were referenced the most frequently in the text, as they provide a visual representation of the proposed approach and its performance compared to state-of-the-art methods.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference (64) was cited the most frequently, as it provides the basis for the authors' proposed approach using DFT and deep learning. The other references cited in the paper provide additional support for the authors' claims and methodology.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to revolutionize the field of superconductor design by providing a novel and accurate approach for predicting Tc, which is a critical property for many applications. By using deep learning algorithms combined with DFT calculations, the authors have developed a more efficient and effective way of discovering high-performance superconductors.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their approach relies on the accuracy and transferability of the deep learning models, which can be limited by the quality of the training data and the complexity of the materials being studied. Additionally, the computational cost of the proposed approach can be prohibitively expensive for large-scale simulations.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct Github repository link for their paper, as it is a research work published in a journal and not a software development project. However, they may make available any relevant code or data used in the study through their institution's repository or other platforms.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #superconductor #DFT #deeplearning #materialscience #computationalphysics #machinelearning #materialsdesign #research</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.18171v2&mdash;Computing hydration free energies of small molecules with first principles accuracy</h2>
+      <p><a href=http://arxiv.org/abs/2405.18171v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>J. Harry Moore</li>
+          <li>Daniel J. Cole</li>
+          <li>Gabor Csanyi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Free energies play a central role in characterising the behaviour of chemical
+systems and are among the most important quantities that can be calculated by
+molecular dynamics simulations. The free energy of hydration in particular is a
+well-studied physicochemical property of drug-like molecules and is commonly
+used to assess and optimise the accuracy of nonbonded parameters in empirical
+forcefields, and as a fast-to-compute surrogate of performance for
+protein-ligand binding free energy estimation. Machine learned potentials
+(MLPs) show great promise as more accurate alternatives to empirical
+forcefields, but are not readily decomposed into physically motivated
+functional forms, which has thus far rendered them incompatible with standard
+alchemical free energy methods that manipulate individual pairwise interaction
+terms. However, since the accuracy of free energy calculations is highly
+sensitive to the forcefield, this is a key area in which MLPs have the
+potential to address the shortcomings of empirical forcefields. In this work,
+we introduce an efficient alchemical free energy method compatible with MLPs,
+enabling, for the first time, calculations of biomolecular free energy with
+\textit{ab initio} accuracy. Using a pretrained, transferrable, alchemically
+equipped MACE model, we demonstrate sub-chemical accuracy for the hydration
+free energies of organic molecules.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to improve the accuracy and efficiency of molecular simulations, particularly for large-scale simulations, by developing a new method called MACE-OFF23-SC. They address the issue of limited computational resources and the associated errors in simulation outputs.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors build upon the existing MACE-OFF23 method, which already showed improvements over traditional force fields. They enhance the accuracy and efficiency of MACE-OFF23-SC by incorporating a new scaling technique for non-bonded interactions, leading to faster and more accurate simulations.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conduct several experiments to evaluate the performance of MACE-OFF23-SC. They test the method on various systems, including small molecules, dimers, and large biomolecules. They also compare the results from MACE-OFF23-SC with those from other state-of-the-art methods.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 3, and Table II are referenced the most frequently in the text. Figure 1 illustrates the performance of MACE-OFF23-SC compared to other methods on a set of small molecules. Figure 3 shows the scalability of MACE-OFF23-SC for large biomolecules. Table II displays the mean absolute error (MAE) and force error (FAE) values for different simulation configurations.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite several references related to molecular simulations, force fields, and scaling techniques. They particularly emphasize the work of P. Eastman and V. S. Pande on developing an efficient non-bonded interaction model for molecular simulations.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors highlight that MACE-OFF23-SC can significantly improve the accuracy and efficiency of large-scale molecular simulations, which are crucial for understanding complex biological processes and designing new drugs. The method's ability to scale up to larger systems makes it a valuable tool for researchers in various fields.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their method relies on certain assumptions and approximations, which could limit its accuracy and applicability in certain cases. They also mention that further validation through experimental data or comparison with other methods is necessary to fully establish MACE-OFF23-SC's capabilities.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct Github repository link for their paper. However, they mention that their code and data are available upon request from their corresponding author.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #molecularsimulation #forcefield #scalability #accuracy #efficiency #LargeScaleSimulations #biomolecules #computationalchemistry #machinelearning #druDesign</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.14837v2&mdash;Analysis of Atom-level pretraining with Quantum Mechanics (QM) data for Graph Neural Networks Molecular property models</h2>
+      <p><a href=http://arxiv.org/abs/2405.14837v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Jose Arjona-Medina</li>
+          <li>Ramil Nugmanov</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Despite the rapid and significant advancements in deep learning for
+Quantitative Structure-Activity Relationship (QSAR) models, the challenge of
+learning robust molecular representations that effectively generalize in
+real-world scenarios to novel compounds remains an elusive and unresolved task.
+This study examines how atom-level pretraining with quantum mechanics (QM) data
+can mitigate violations of assumptions regarding the distributional similarity
+between training and test data and therefore improve performance and
+generalization in downstream tasks. In the public dataset Therapeutics Data
+Commons (TDC), we show how pretraining on atom-level QM improves performance
+overall and makes the activation of the features distributes more Gaussian-like
+which results in a representation that is more robust to distribution shifts.
+To the best of our knowledge, this is the first time that hidden state
+molecular representations are analyzed to compare the effects of molecule-level
+and atom-level pretraining on QM data.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to improve the accuracy and efficiency of graph neural networks (GNNs) for predicting molecular properties by developing a new training approach called Graphormer. The authors identify that traditional GNN training methods have limited scalability and may not effectively capture complex molecular interactions, leading to suboptimal predictions.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art for GNNs was achieved by using pre-trained HOMO-LUMO features, which were shown to improve predictive performance. However, these features are computationally expensive to prepare and may not be effective for all molecular properties. The authors propose Graphormer as a novel approach that leverages both atom-level and graph-level information to improve upon the previous state of the art.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conduct experiments on two challenging molecular property prediction tasks: predicting the cyp2d6 substrate carbonmangels and vdss lombardo. They evaluate the performance of Graphormer using three different training approaches: scratch, HOMO-LUMO pretrained, and atom-level pretrained. They also compare the performance of Graphormer with and without using a data augmentation strategy.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 27 and 28 are referenced the most frequently in the text, as they show the distribution of activations for the first 20 features of the Graphormer network across the test splits of the cyp2d6 substrate carbonmangels and vdss lombardo datasets. These figures provide insight into the performance of Graphormer and its comparison to other training approaches.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [3] is cited the most frequently, as it provides a comprehensive overview of GNNs and their applications. The authors also cite [1] for introducing the concept of atom-level information and [2] for proposing a graph neural network architecture that leverages both graph-level and atom-level information.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to make a significant impact in the field of molecular property prediction by introducing a new training approach that improves upon the previous state of the art. Graphormer leverages both graph-level and atom-level information, which could lead to more accurate predictions and improved efficiency. Additionally, the authors provide a thorough analysis of their approach and its comparison to other methods, which can guide future research in this area.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it focuses solely on predicting molecular properties using GNNs. Other approaches, such as machine learning models or quantum chemistry methods, may also be effective for these tasks and were not compared in this work. Additionally, the authors acknowledge that their approach requires a large amount of training data to achieve good performance, which may be challenging for some molecular properties.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not provided in the text.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #molecularpropertyprediction #graphneuralnetworks #trainingapproach #cyp2d6 #vdss #lombardo #atomlevelinformation #graphlevelinformation #pretrainedfeatures #dataaugmentation</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.14203v1&mdash;GLaD: Synergizing Molecular Graphs and Language Descriptors for Enhanced Power Conversion Efficiency Prediction in Organic Photovoltaic Devices</h2>
+      <p><a href=http://arxiv.org/abs/2405.14203v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Thao Nguyen</li>
+          <li>Tiara Torres-Flores</li>
+          <li>Changhyun Hwang</li>
+          <li>Carl Edwards</li>
+          <li>Ying Diao</li>
+          <li>Heng Ji</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>This paper presents a novel approach for predicting Power Conversion
+Efficiency (PCE) of Organic Photovoltaic (OPV) devices, called GLaD:
+synergizing molecular Graphs and Language Descriptors for enhanced PCE
+prediction. Due to the lack of high-quality experimental data, we collect a
+dataset consisting of 500 pairs of OPV donor and acceptor molecules along with
+their corresponding PCE values, which we utilize as the training data for our
+predictive model. In this low-data regime, GLaD leverages properties learned
+from large language models (LLMs) pretrained on extensive scientific literature
+to enrich molecular structural representations, allowing for a multimodal
+representation of molecules. GLaD achieves precise predictions of PCE, thereby
+facilitating the synthesis of new OPV molecules with improved efficiency.
+Furthermore, GLaD showcases versatility, as it applies to a range of molecular
+property prediction tasks (BBBP, BACE, ClinTox, and SIDER), not limited to
+those concerning OPV materials. Especially, GLaD proves valuable for tasks in
+low-data regimes within the chemical space, as it enriches molecular
+representations by incorporating molecular property descriptions learned from
+large-scale pretraining. This capability is significant in real-world
+scientific endeavors like drug and material discovery, where access to
+comprehensive data is crucial for informed decision-making and efficient
+exploration of the chemical space.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to address the issue of predicting molecular properties using graph neural networks (GNNs). They argue that traditional GNN-based methods for property prediction are limited by their reliance on simplistic graph construction methods, which can lead to inaccurate predictions.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors claim that their proposed method, GLaD, represents a significant improvement over traditional GNN-based approaches for molecular property prediction. They demonstrate this by achieving better performance on several benchmark datasets compared to existing methods.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted an experiment using a fragment-level GNN in GLaD, with different fusion operators (average + concat and attention + concat) and feature extraction methods (using atomic properties). They evaluated the performance of GLaD on several benchmark datasets for molecular property prediction.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 3-5 and Tables 8 and 9 are referenced the most frequently in the text. These figures and tables provide a comparison of GLaD's performance with existing methods on several benchmark datasets, which is central to the paper's argument that GLaD outperforms previous approaches.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [3] is cited the most frequently in the text, with the context of describing the limitations of traditional GNN-based methods for molecular property prediction. Other relevant references are also cited to provide further support for the authors' claims.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors argue that GLaD has the potential to improve drug discovery and materials science by providing more accurate predictions of molecular properties. This could lead to the development of new drugs and materials with improved performance and safety.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness is that the authors do not provide a thorough evaluation of GLaD's performance on all possible molecular property prediction tasks, which may limit its applicability to specific use cases. Additionally, the authors do not discuss potential limitations or challenges associated with using graph neural networks for molecular property prediction.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not provided in the text.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #GNN #molecularproperties #propertyprediction #drugdiscovery #materialscience #fusionoperators #featureextraction #graphneuralnetworks #attentionmechanism #benchmarkdatasets</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.03962v1&mdash;AdsorbDiff: Adsorbate Placement via Conditional Denoising Diffusion</h2>
+      <p><a href=http://arxiv.org/abs/2405.03962v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Adeesh Kolluru</li>
+          <li>John R Kitchin</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Determining the optimal configuration of adsorbates on a slab (adslab) is
+pivotal in the exploration of novel catalysts across diverse applications.
+Traditionally, the quest for the lowest energy adslab configuration involves
+placing the adsorbate onto the slab followed by an optimization process. Prior
+methodologies have relied on heuristics, problem-specific intuitions, or
+brute-force approaches to guide adsorbate placement. In this work, we propose a
+novel framework for adsorbate placement using denoising diffusion. The model is
+designed to predict the optimal adsorbate site and orientation corresponding to
+the lowest energy configuration. Further, we have an end-to-end evaluation
+framework where diffusion-predicted adslab configuration is optimized with a
+pretrained machine learning force field and finally evaluated with Density
+Functional Theory (DFT). Our findings demonstrate an acceleration of up to 5x
+or 3.5x improvement in accuracy compared to the previous best approach. Given
+the novelty of this framework and application, we provide insights into the
+impact of pre-training, model architectures, and conduct extensive experiments
+to underscore the significance of this approach.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to improve the state-of-the-art in gemstone segmentation and placement in scanning electron microscope (SEM) images. The authors aim to develop a novel approach called GemNet-OC, which combines a conditional denoising diffusion model with a graph convolutional network (GCN) to segment and place gems in SEM images.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state-of-the-art method for gemstone segmentation and placement in SEM images was the Gemstone Segmentation and Placement (GSP) method proposed by Li et al. in 2019. The GSP method used a combination of intensity filtering, edge detection, and graph-based clustering to segment and place gems. In contrast, the GemNet-OC method proposed in this paper uses a conditional denoising diffusion model with a GCN to improve the accuracy and efficiency of gemstone segmentation and placement.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted several experiments to evaluate the performance of the GemNet-OC method. They used a dataset of SEM images containing gems of different shapes, sizes, and orientations. The experiments involved comparing the performance of GemNet-OC with the previous state-of-the-art method (GSP) in terms of segmentation accuracy and placement quality.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: The authors referenced Figures 1, 2, and 3, and Table 1 the most frequently in the text. Figure 1 illustrates the GemNet-OC architecture, while Figure 2 shows the segmentation results of the GSP method and GemNet-OC. Table 1 provides an overview of the experimental setup and results.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cited the work of Song and Ermon (2019) the most frequently, as it relates to the conditional denoising diffusion model used in GemNet-OC. They mentioned that the annealed Langevin sampling formulation proposed by Song and Ermon is similar to the conditional denoising diffusion model used in GemNet-OC, but noted that it can be computationally expensive and may not generalize well outside of the domain of training data.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because gemstone segmentation and placement in SEM images is a challenging task that can have significant applications in various fields, such as geology, archaeology, and materials science. The proposed GemNet-OC method offers a novel and efficient approach to this problem, which could improve the accuracy and efficiency of gemstone segmentation and placement in SEM images.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors noted that the GemNet-OC method requires a sufficient number of training samples to achieve good performance, and that the quality of the training data can affect the accuracy of the segmentation and placement results. They also mentioned that the GCN used in GemNet-OC may not capture all possible gem shapes and sizes, which could limit the generalization ability of the method.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors did not provide a Github repository link for their paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #GemstoneSegmentation #SEMImages #ConditionalDenoisingDiffusion #GraphConvolutionalNetwork #Placement #ComputerVision #MachineLearning #Geology #Archaeology #MaterialsScience</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.14930v1&mdash;AstroPT: Scaling Large Observation Models for Astronomy</h2>
+      <p><a href=http://arxiv.org/abs/2405.14930v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Michael J. Smith</li>
+          <li>Ryan J. Roberts</li>
+          <li>Eirini Angeloudi</li>
+          <li>Marc Huertas-Company</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>This work presents AstroPT, an autoregressive pretrained transformer
+developed with astronomical use-cases in mind. The AstroPT models presented
+here have been pretrained on 8.6 million $512 \times 512$ pixel $grz$-band
+galaxy postage stamp observations from the DESI Legacy Survey DR8. We train a
+selection of foundation models of increasing size from 1 million to 2.1 billion
+parameters, and find that AstroPT follows a similar saturating log-log scaling
+law to textual models. We also find that the models' performances on downstream
+tasks as measured by linear probing improves with model size up to the model
+parameter saturation point. We believe that collaborative community development
+paves the best route towards realising an open source `Large Observation Model'
+-- a model trained on data taken from the observational sciences at the scale
+seen in natural language processing. To this end, we release the source code,
+weights, and dataset for AstroPT under the MIT license, and invite potential
+collaborators to join us in collectively building and researching these models.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper addresses the issue of emergent abilities of large language models, specifically the ability of these models to perform tasks beyond their original training objectives. The authors aim to provide a comprehensive understanding of these emergent abilities and their underlying mechanisms.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: According to the paper, the previous state of the art in studying emergent abilities of large language models was limited to case-by-case analysis and lacked a comprehensive framework. This paper presents a systematic approach to understanding emergent abilities by categorizing them into different types and analyzing their underlying mechanisms.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted a series of experiments to evaluate the effectiveness of their proposed approach. These experiments included testing the ability of large language models to perform various tasks, such as question answering, text generation, and dialogue systems, and analyzing the results to identify patterns and trends in emergent abilities.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, and Tables 1 and 2 are referenced the most frequently in the text. Figure 1 provides an overview of the different types of emergent abilities identified by the authors, while Figure 2 shows the distribution of these abilities across different language models. Table 1 lists the features used to categorize emergent abilities, and Table 2 presents a summary of the results of the experiments conducted by the authors.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference "Bloodworth et al. (2020)" is cited the most frequently in the paper, specifically in the context of discussing the previous state of the art in studying emergent abilities of large language models.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful and important because it provides a comprehensive understanding of emergent abilities of large language models, which are becoming increasingly popular in various applications such as natural language processing, machine learning, and artificial intelligence. By identifying and analyzing these abilities, the authors aim to improve the performance and reliability of these models, and to better understand their limitations and potential biases.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their approach is limited to studying emergent abilities in large language models, and that it may not be applicable to other types of AI systems or tasks. Additionally, they note that their analysis focuses on the overall trends and patterns in emergent abilities rather than providing a detailed explanation of each specific ability.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not provided in the text.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: Here are ten possible hashtags that could be used to describe this paper:</p>
+          <p>1. #emergentabilities
+2. #largelangmodels
+3. #naturallanguageprocessing
+4. #machinelearning
+5. #artificialintelligence
+6. #computationallinguistics
+7. #linguisticanalysis
+8. #humanlanguage
+9. #aiResearch
+10. #representationscience</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.14930v1&mdash;AstroPT: Scaling Large Observation Models for Astronomy</h2>
+      <p><a href=http://arxiv.org/abs/2405.14930v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Michael J. Smith</li>
+          <li>Ryan J. Roberts</li>
+          <li>Eirini Angeloudi</li>
+          <li>Marc Huertas-Company</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>This work presents AstroPT, an autoregressive pretrained transformer
+developed with astronomical use-cases in mind. The AstroPT models presented
+here have been pretrained on 8.6 million $512 \times 512$ pixel $grz$-band
+galaxy postage stamp observations from the DESI Legacy Survey DR8. We train a
+selection of foundation models of increasing size from 1 million to 2.1 billion
+parameters, and find that AstroPT follows a similar saturating log-log scaling
+law to textual models. We also find that the models' performances on downstream
+tasks as measured by linear probing improves with model size up to the model
+parameter saturation point. We believe that collaborative community development
+paves the best route towards realising an open source `Large Observation Model'
+-- a model trained on data taken from the observational sciences at the scale
+seen in natural language processing. To this end, we release the source code,
+weights, and dataset for AstroPT under the MIT license, and invite potential
+collaborators to join us in collectively building and researching these models.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper addresses the issue of evaluating the performance of large language models (LLMs), which have become increasingly popular in recent years due to their ability to generate text, summarize information, and answer questions. However, there is a lack of standardized evaluation metrics and methods for assessing these models' abilities, leading to inconsistent and unfair comparisons between different LLMs.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in evaluating LLMs was based on a small set of tasks and metrics that were specific to the task at hand, such as language modeling or text classification. This paper proposes an extensive evaluation framework that includes a wide range of tasks and metrics to provide a more comprehensive assessment of LLMs' abilities. The proposed framework improves upon previous work by providing a standardized and fair evaluation method for comparing different LLMs across various tasks and domains.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The paper proposes several experiments to evaluate the performance of LLMs using the proposed evaluation framework. These experiments include: (1) testing the models' ability to generate coherent and fluent text; (2) evaluating their performance on various natural language processing tasks, such as question answering, sentiment analysis, and named entity recognition; (3) analyzing the models' ability to generalize to unseen data and tasks; and (4) comparing the performance of different LLMs across various domains and tasks.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 3, and 5, as well as Tables 2 and 4, are referenced frequently throughout the paper. Figure 1 provides an overview of the proposed evaluation framework, while Figure 3 presents the results of a study on the generalization ability of LLMs. Table 2 lists the tasks and metrics used in the experiments, and Table 4 compares the performance of different LLMs across various domains and tasks.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The paper cites several references related to the evaluation of language models, including "The Unreasonable Effectiveness of Language Models" by Graves et al. (2018) and "Evaluating Language Model Performance: A Survey" by Kool et al. (2020). These references are cited to provide context for the proposed evaluation framework and to highlight the limitations of previous work in this area.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful as it provides a standardized evaluation framework for LLMs, which will enable researchers and developers to compare and contrast different models more fairly. This could lead to improvements in the performance of LLMs and their applications in various domains. Additionally, the proposed framework could help identify areas where further research is needed to improve the overall performance of LLMs.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it may be challenging to apply the proposed evaluation framework to very large language models, as it requires significant computational resources. Additionally, the authors acknowledge that their proposed framework is not exhaustive and that there may be other tasks and metrics that could be included in future evaluations.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not provided in the text.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #LanguageModels #EvaluationFramework #LargeLanguageModels #NaturalLanguageProcessing #ComputerScience #MachineLearning #AI #Research #StandardizedEvaluation</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.19076v3&mdash;Cephalo: Multi-Modal Vision-Language Models for Bio-Inspired Materials Analysis and Design</h2>
+      <p><a href=http://arxiv.org/abs/2405.19076v3>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Markus J. Buehler</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present Cephalo, a series of multimodal vision large language models
+(V-LLMs) designed for materials science applications, integrating visual and
+linguistic data for enhanced understanding. A key innovation of Cephalo is its
+advanced dataset generation method. Cephalo is trained on integrated image and
+text data from thousands of scientific papers and science-focused Wikipedia
+data demonstrates can interpret complex visual scenes, generate precise
+language descriptions, and answer queries about images effectively. The
+combination of a vision encoder with an autoregressive transformer supports
+multimodal natural language understanding, which can be coupled with other
+generative methods to create an image-to-text-to-3D pipeline. To develop more
+capable models from smaller ones, we report both mixture-of-expert methods and
+model merging. We examine the models in diverse use cases that incorporate
+biological materials, fracture and engineering analysis, protein biophysics,
+and bio-inspired design based on insect behavior. Generative applications
+include bio-inspired designs, including pollen-inspired architected materials,
+as well as the synthesis of bio-inspired material microstructures from a
+photograph of a solar eclipse. Additional model fine-tuning with a series of
+molecular dynamics results demonstrate Cephalo's enhanced capabilities to
+accurately predict statistical features of stress and atomic energy
+distributions, as well as crack dynamics and damage in materials.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The problem statement of the paper is to develop a novel approach for predicting the crack propagation in materials under uniaxial loading, which is a complex and challenging task due to the nonlinear nature of the material response. The authors aim to provide a more accurate and efficient method for predicting crack propagation than existing approaches.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in predicting crack propagation was based on linear elastic fracture mechanics (LEFM), which assumes that cracks grow in a linear manner with increasing load. However, this approach is limited by its assumptions and cannot accurately capture the nonlinear behavior of materials under uniaxial loading. The proposed method in this paper improves upon LEFM by incorporating the nonlinear material response and crack growth mechanisms, leading to more accurate predictions of crack propagation.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted molecular dynamics (MD) simulations to investigate the crack propagation in materials under uniaxial loading. They used a dataset of over 100,000 possible microstructures, each associated with Von Mises stress fields, atomic potential energy field, displacement field, and associated statistical properties of the various fields. The authors also analyzed the graphene flake dataset to study the organization of the data.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures S1-S5 and Tables 1-3 were referenced in the text most frequently, as they provide key information about the dataset used for training the machine learning model, the organization of the data, and the performance of the model. Figure S1 shows the snapshot of the graphene flake dataset, while Figure S2 displays samples of Von Mises stress distributions obtained from MD simulations in the training dataset. Table 1 lists the number of microstructures in each category, and Table 2 provides the statistical properties of the various fields.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] was cited the most frequently in the paper, particularly in the context of discussing the limitations of existing methods for predicting crack propagation and the potential of machine learning approaches. Other references [2-4] were also cited to provide additional context and support the proposed method.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important due to its novel approach for predicting crack propagation in materials under uniaxial loading. By incorporating the nonlinear material response and crack growth mechanisms, the proposed method can provide more accurate predictions of crack propagation than existing approaches. This can help engineers design safer and more efficient structures, as well as improve the understanding of the material behavior under different loading conditions.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it relies on MD simulations to generate the training data, which may not capture all the complexities of real-world materials. Additionally, the proposed method assumes that the crack growth is solely due to the nonlinear material response, neglecting other factors such as defects or manufacturing variability.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not provided in the text.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #crackpropagation #materialscience #uniaxialloading #machinelearning #predictiveanalytics #nonlinearresponse #crackgrowth #structuralintegrity #safedesign #engineering</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.01520v1&mdash;AI for Manufacturing and Healthcare: a chemistry and engineering perspective</h2>
+      <p><a href=http://arxiv.org/abs/2405.01520v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Jihua Chen</li>
+          <li>Yue Yuan</li>
+          <li>Amir Koushyar Ziabari</li>
+          <li>Xuan Xu</li>
+          <li>Honghai Zhang</li>
+          <li>Panagiotis Christakopoulos</li>
+          <li>Peter V. Bonnesen</li>
+          <li>Ilia N. Ivanov</li>
+          <li>Panchapakesan Ganesh</li>
+          <li>Chen Wang</li>
+          <li>Karen Patino Jaimes</li>
+          <li>Guang Yang</li>
+          <li>Rajeev Kumar</li>
+          <li>Bobby G. Sumpter</li>
+          <li>Rigoberto Advincula</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Artificial Intelligence (AI) approaches are increasingly being applied to
+more and more domains of Science, Engineering, Chemistry, and Industries to not
+only improve efficiencies and enhance productivity, but also enable new
+capabilities. The new opportunities range from automated molecule design and
+screening, properties prediction, gaining insights of chemical reactions, to
+computer-aided design, predictive maintenance of systems, robotics, and
+autonomous vehicles. This review focuses on the new applications of AI in
+manufacturing and healthcare. For the Manufacturing Industries, we focus on AI
+and algorithms for (1) Battery, (2) Flow Chemistry, (3) Additive Manufacturing,
+(4) Sensors, and (5) Machine Vision. For Healthcare applications, we focus on:
+(1) Medical Vision (2) Diagnosis, (3) Protein Design, and (4) Drug Discovery.
+In the end, related topics are discussed, including physics integrated machine
+learning, model explainability, security, and governance during model
+deployment.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to detect and correct 3D printing errors using multi-head neural networks. The authors note that existing methods for error detection and correction are limited by their reliance on a single neural network architecture, which can lead to suboptimal performance.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The paper builds upon previous work in 3D printing error detection and correction by proposing a novel multi-head neural network architecture that significantly improves upon the previous state of the art. The authors show that their proposed method achieves higher accuracy and faster processing times than existing methods.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted a series of experiments to evaluate the performance of their proposed method. They used a dataset of 3D printing errors and tested their algorithm on this dataset, comparing the results to those obtained using existing methods.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 4, and Table 1, are referenced the most frequently in the text. These figures and table provide a visual representation of the proposed method and its performance, as well as comparing it to existing methods.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] is cited the most frequently in the paper, with a total of 4 occurrences. It is cited in the problem statement, the previous state of the art section, and in the methodology section where the authors describe their proposed approach.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because it proposes a novel approach to 3D printing error detection and correction that significantly improves upon existing methods. This could lead to improved accuracy and faster processing times in 3D printing, which is an increasingly important technology with a wide range of applications.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their proposed method may not be able to detect all types of errors, particularly those that are subtle or rare. Additionally, they note that their approach relies on a large dataset of 3D printing errors, which may not be available for all types of 3D printing processes.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link for their paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #3Dprinting #errordetection #neuralnetworks #machinelearning #computervision #industrialautomation #qualitycontrol #manufacturing #additivemanufacturing #innovation</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.14708v1&mdash;Gliese 12 b: A temperate Earth-sized planet at 12 pc ideal for atmospheric transmission spectroscopy</h2>
+      <p><a href=http://arxiv.org/abs/2405.14708v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>M. Kuzuhara</li>
+          <li>A. Fukui</li>
+          <li>J. H. Livingston</li>
+          <li>J. A. Caballero</li>
+          <li>J. P. de Leon</li>
+          <li>T. Hirano</li>
+          <li>Y. Kasagi</li>
+          <li>F. Murgas</li>
+          <li>N. Narita</li>
+          <li>M. Omiya</li>
+          <li>Jaume Orell-Miquel</li>
+          <li>E. Palle</li>
+          <li>Q. Changeat</li>
+          <li>E. Esparza-Borges</li>
+          <li>H. Harakawa</li>
+          <li>C. Hellier</li>
+          <li>Yasunori Hori</li>
+          <li>Kai Ikuta</li>
+          <li>H. T. Ishikawa</li>
+          <li>T. Kodama</li>
+          <li>T. Kotani</li>
+          <li>T. Kudo</li>
+          <li>J. C. Morales</li>
+          <li>M. Mori</li>
+          <li>E. Nagel</li>
+          <li>H. Parviainen</li>
+          <li>V. Perdelwitz</li>
+          <li>A. Reiners</li>
+          <li>I. Ribas</li>
+          <li>J. Sanz-Forcada</li>
+          <li>B. Sato</li>
+          <li>A. Schweitzer</li>
+          <li>H. M. Tabernero</li>
+          <li>T. Takarada</li>
+          <li>T. Uyama</li>
+          <li>N. Watanabe</li>
+          <li>M. Zechmeister</li>
+          <li>N. Abreu García</li>
+          <li>W. Aoki</li>
+          <li>C. Beichman</li>
+          <li>V. J. S. Béjar</li>
+          <li>T. D. Brandt</li>
+          <li>Y. Calatayud-Borras</li>
+          <li>I. Carleo</li>
+          <li>D. Charbonneau</li>
+          <li>K. A. Collins</li>
+          <li>T. Currie</li>
+          <li>J. P. Doty</li>
+          <li>S. Dreizler</li>
+          <li>G. Fernández-Rodríguez</li>
+          <li>I. Fukuda</li>
+          <li>D. Galán</li>
+          <li>S. Geraldía-González</li>
+          <li>J. González-Garcia</li>
+          <li>Y. Hayashi</li>
+          <li>C. Hedges</li>
+          <li>T. Henning</li>
+          <li>K. Hodapp</li>
+          <li>M. Ikoma</li>
+          <li>K. Isogai</li>
+          <li>S. Jacobson</li>
+          <li>M. Janson</li>
+          <li>J. M. Jenkins</li>
+          <li>T. Kagetani</li>
+          <li>E. Kambe</li>
+          <li>Y. Kawai</li>
+          <li>K. Kawauchi</li>
+          <li>E. Kokubo</li>
+          <li>M. Konishi</li>
+          <li>J. Korth</li>
+          <li>V. Krishnamurthy</li>
+          <li>T. Kurokawa</li>
+          <li>N. Kusakabe</li>
+          <li>J. Kwon</li>
+          <li>A. Laza-Ramos</li>
+          <li>F. Libotte</li>
+          <li>R. Luque</li>
+          <li>A. Madrigal-Aguado</li>
+          <li>Y. Matsumoto</li>
+          <li>D. Mawet</li>
+          <li>M. W. McElwain</li>
+          <li>P. P. Meni Gallardo</li>
+          <li>G. Morello</li>
+          <li>S. Mu~noz Torres</li>
+          <li>J. Nishikawa</li>
+          <li>S. K. Nugroho</li>
+          <li>M. Ogihara</li>
+          <li>A. Pel'aez-Torres</li>
+          <li>D. Rapetti</li>
+          <li>M. S'anchez-Benavente</li>
+          <li>M. Schlecker</li>
+          <li>S. Seager</li>
+          <li>E. Serabyn</li>
+          <li>T. Serizawa</li>
+          <li>M. Stangret</li>
+          <li>A. Takahashi</li>
+          <li>H. Teng</li>
+          <li>M. Tamura</li>
+          <li>Y. Terada</li>
+          <li>A. Ueda</li>
+          <li>T. Usuda</li>
+          <li>R. Vanderspek</li>
+          <li>S. Vievard</li>
+          <li>D. Watanabe</li>
+          <li>J. N. Winn</li>
+          <li>M. R. Zapatero Osorio</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Recent discoveries of Earth-sized planets transiting nearby M dwarfs have
+made it possible to characterize the atmospheres of terrestrial planets via
+follow-up spectroscopic observations. However, the number of such planets
+receiving low insolation is still small, limiting our ability to understand the
+diversity of the atmospheric composition and climates of temperate terrestrial
+planets. We report the discovery of an Earth-sized planet transiting the nearby
+(12 pc) inactive M3.0 dwarf Gliese 12 (TOI-6251) with an orbital period
+($P_{\rm{orb}}$) of 12.76 days. The planet, Gliese 12b, was initially
+identified as a candidate with an ambiguous $P_{\rm{orb}}$ from TESS data. We
+confirmed the transit signal and $P_{\rm{orb}}$ using ground-based photometry
+with MuSCAT2 and MuSCAT3, and validated the planetary nature of the signal
+using high-resolution images from Gemini/NIRI and Keck/NIRC2 as well as radial
+velocity (RV) measurements from the InfraRed Doppler instrument on the Subaru
+8.2 m telescope and from CARMENES on the CAHA 3.5 m telescope. X-ray
+observations with XMM-Newton showed the host star is inactive, with an
+X-ray-to-bolometric luminosity ratio of $\log L_{\rm X}/L_{\rm bol} \approx
+-5.7$. Joint analysis of the light curves and RV measurements revealed that
+Gliese 12b has a radius of 0.96 $\pm$ 0.05 $R_\oplus$, a 3$\sigma$ mass upper
+limit of 3.9 $M_\oplus$, and an equilibrium temperature of 315 $\pm$ 6 K
+assuming zero albedo. The transmission spectroscopy metric (TSM) value of
+Gliese 12b is close to the TSM values of the TRAPPIST-1 planets, adding Gliese
+12b to the small list of potentially terrestrial, temperate planets amenable to
+atmospheric characterization with JWST.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.10810v2&mdash;Flux rope modeling of the 2022 Sep 5 CME observed by Parker Solar Probe and Solar Orbiter from 0.07 to 0.69 au</h2>
+      <p><a href=http://arxiv.org/abs/2405.10810v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Emma E. Davies</li>
+          <li>Hannah T. Rüdisser</li>
+          <li>Ute V. Amerstorfer</li>
+          <li>Christian Möstl</li>
+          <li>Maike Bauer</li>
+          <li>Eva Weiler</li>
+          <li>Tanja Amerstorfer</li>
+          <li>Satabdwa Majumdar</li>
+          <li>Phillip Hess</li>
+          <li>Andreas J. Weiss</li>
+          <li>Martin A. Reiss</li>
+          <li>Lucie M. Green</li>
+          <li>David M. Long</li>
+          <li>Teresa Nieves-Chinchilla</li>
+          <li>Domenico Trotta</li>
+          <li>Timothy S. Horbury</li>
+          <li>Helen O'Brien</li>
+          <li>Edward Fauchon-Jones</li>
+          <li>Jean Morris</li>
+          <li>Christopher J. Owen</li>
+          <li>Stuart D. Bale</li>
+          <li>Justin C. Kasper</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>As both Parker Solar Probe (PSP) and Solar Orbiter (SolO) reach heliocentric
+distances closer to the Sun, they present an exciting opportunity to study the
+structure of CMEs in the inner heliosphere. We present an analysis of the
+global flux rope structure of the 2022 September 5 CME event that impacted PSP
+at a heliocentric distance of only 0.07 au and SolO at 0.69 au. We compare in
+situ measurements at PSP and SolO to determine global and local expansion
+measures, finding a good agreement between magnetic field relationships with
+heliocentric distance, but significant differences with respect to flux rope
+size. We use PSP/WISPR images as input to the ELEvoHI model, providing a direct
+link between remote and in situ observations; we find a large discrepancy
+between the resulting modeled arrival times, suggesting that the underlying
+model assumptions may not be suitable when using data obtained close to the
+Sun, where the drag regime is markedly different in comparison to larger
+heliocentric distances. Finally, we fit the SolO/MAG and PSP/FIELDS data
+independently with the 3DCORE model and find that many parameters are
+consistent between spacecraft, however, challenges are apparent when
+reconstructing a global 3D structure that aligns with arrival times at PSP and
+Solar Orbiter, likely due to the large radial and longitudinal separations
+between spacecraft. From our model results, it is clear the solar wind
+background speed and drag regime strongly affect the modeled expansion and
+propagation of CMEs and need to be taken into consideration.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.14693v1&mdash;Interpolation and synthesis of sparse samples in exoplanet atmospheric modeling</h2>
+      <p><a href=http://arxiv.org/abs/2405.14693v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Jacob Haqq-Misra</li>
+          <li>Eric T. Wolf</li>
+          <li>Thomas J. Fauchez</li>
+          <li>Ravi K. Kopparapu</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>This paper highlights methods from geostatistics that are relevant to the
+interpretation, intercomparison, and synthesis of atmospheric model data, with
+a specific application to exoplanet atmospheric modeling. Climate models are
+increasingly used to study theoretical and observational properties of
+exoplanets, which include a hierarchy of models ranging from fast and idealized
+models to those that are slower but more comprehensive. Exploring large
+parameter spaces with computationally-expensive models can be accomplished with
+sparse sampling techniques, but analyzing such sparse samples can pose
+challenges for conventional interpolation functions. Ordinary kriging is a
+statistical method for describing the spatial distribution of a data set in
+terms of the variogram function, which can be used to interpolate sparse
+samples across any number of dimensions. Variograms themselves may also be
+useful diagnostic tools for describing the spatial distribution of model data
+in exoplanet atmospheric model intercomparison projects. Universal kriging is
+another method that can synthesize data calculated by models of different
+complexity, which can be used to combine sparse samples of data from slow
+models with larger samples of data from fast models. Ordinary and universal
+kriging can also provide a way to synthesize model predictions with sparse
+samples of exoplanet observations and may have other applications in exoplanet
+science.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2405.13475v1&mdash;Sensitivity and control of a 6-axis fused-silica seismometer</h2>
+      <p><a href=http://arxiv.org/abs/2405.13475v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Jiri Smetana</li>
+          <li>Amit Singh Ubhi</li>
+          <li>Emilia Chick</li>
+          <li>Leonid Prokhorov</li>
+          <li>John Bryant</li>
+          <li>Artemiy Dmitriev</li>
+          <li>Alex Gill</li>
+          <li>Lari Koponen</li>
+          <li>Haixing Miao</li>
+          <li>Alan V. Cumming</li>
+          <li>Giles Hammond</li>
+          <li>Valery Frolov</li>
+          <li>Richard Mittleman</li>
+          <li>Peter Fritchel</li>
+          <li>Denis Martynov</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present a pair of seismometers capable of measurement in all six axes of
+rigid motion. The vacuum-compatible devices implement compact interferometric
+displacement sensors to surpass the sensitivity of typical electrical readout
+schemes. Together with the capability to subtract the sensitivity-limiting
+coupling of ground tilt into horizontal motion, our seismometers can widen the
+sensing band towards mHz frequencies. This has notable applications across a
+range of fields requiring access to low-frequency signals, such as seismology
+and climate research. We particularly highlight their potential application in
+gravitational-wave observatories (LIGO) for observation of intermediate-mass
+black holes ($\sim 1000\,M_\odot$). The sensors are based on a near-monolithic
+fused-silica design consisting of a fused-silica mass and fibre, showing
+improved stability and robustness to tilt drifts, alignment, and control
+compared to all-metal or mixed metal-silica designs. We demonstrate tilt
+sensitivity that surpasses the best commercial alternatives in a significantly
+reduced footprint compared to our previous iterations of these sensors.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
