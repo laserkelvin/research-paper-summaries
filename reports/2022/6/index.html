@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022&mdash;6 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2022/6</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 2206.07697v2&mdash;MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields</h2>
+      <p><a href=http://arxiv.org/abs/2206.07697v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Ilyes Batatia</li>
+          <li>Dávid Péter Kovács</li>
+          <li>Gregor N. C. Simm</li>
+          <li>Christoph Ortner</li>
+          <li>Gábor Csányi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Creating fast and accurate force fields is a long-standing challenge in
+computational chemistry and materials science. Recently, several equivariant
+message passing neural networks (MPNNs) have been shown to outperform models
+built using other approaches in terms of accuracy. However, most MPNNs suffer
+from high computational cost and poor scalability. We propose that these
+limitations arise because MPNNs only pass two-body messages leading to a direct
+relationship between the number of layers and the expressivity of the network.
+In this work, we introduce MACE, a new equivariant MPNN model that uses higher
+body order messages. In particular, we show that using four-body messages
+reduces the required number of message passing iterations to just two,
+resulting in a fast and highly parallelizable model, reaching or exceeding
+state-of-the-art accuracy on the rMD17, 3BPA, and AcAc benchmark tasks. We also
+demonstrate that using higher order messages leads to an improved steepness of
+the learning curves.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to improve the state of the art in molecular dynamics simulation by developing a new algorithm called NequIP, which combines the advantages of both classical and quantum mechanics for simulating molecular systems. Specifically, the authors seek to overcome the limitations of current methods, such as the accuracy and computational cost of simulations.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in molecular dynamics simulation was the QM/MM method, which combined quantum mechanics (QM) and molecular mechanics (MM) to simulate molecular systems. However, this method had limitations due to the computational cost and accuracy issues. The paper proposes a new algorithm called NequIP that improves upon the QM/MM method by incorporating additional quantum mechanical effects, such as electronic structure and tunneling, while maintaining the efficiency of MM simulations.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted several experiments to test the performance of NequIP. They trained models on a variety of molecules using different numbers of layers and evaluated their performance on validation sets. They also compared the performance of NequIP with other state-of-the-art methods, such as QM/MM and classical mechanics simulations.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, and Table 1 are referenced frequently in the text and are the most important for understanding the performance of NequIP. Figure 1 shows the structure of the NequIP model, while Figure 2 compares the performance of NequIP with other methods. Table 1 lists the molecules used for training and validation.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The paper cites several references related to quantum mechanics, molecular mechanics, and machine learning. These references are cited frequently in the text to justify the development of NequIP and to compare its performance with other methods. For example, reference [36] is cited for the comparison of NequIP with QM/MM simulations.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful because it proposes a new algorithm that combines the advantages of both classical and quantum mechanics for simulating molecular systems. This could lead to more accurate and efficient simulations, which are essential for understanding complex biological processes and developing new drugs and materials.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that NequIP is still a relatively simple method compared to full QM simulations, and that further developments may be necessary to achieve more accurate results. Additionally, the computational cost of NequIP can be high for large molecules, which could limit its applicability.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No link to the Github code is provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #moleculardynamics #quantummechanics #machinelearning #computationalchemistry #biophysics #drugdiscovery #materialscience #simulation #computationalmodelling #quantumfieldtheory</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2206.14331v2&mdash;Spherical Channels for Modeling Atomic Interactions</h2>
+      <p><a href=http://arxiv.org/abs/2206.14331v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>C. Lawrence Zitnick</li>
+          <li>Abhishek Das</li>
+          <li>Adeesh Kolluru</li>
+          <li>Janice Lan</li>
+          <li>Muhammed Shuaibi</li>
+          <li>Anuroop Sriram</li>
+          <li>Zachary Ulissi</li>
+          <li>Brandon Wood</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Modeling the energy and forces of atomic systems is a fundamental problem in
+computational chemistry with the potential to help address many of the world's
+most pressing problems, including those related to energy scarcity and climate
+change. These calculations are traditionally performed using Density Functional
+Theory, which is computationally very expensive. Machine learning has the
+potential to dramatically improve the efficiency of these calculations from
+days or hours to seconds. We propose the Spherical Channel Network (SCN) to
+model atomic energies and forces. The SCN is a graph neural network where nodes
+represent atoms and edges their neighboring atoms. The atom embeddings are a
+set of spherical functions, called spherical channels, represented using
+spherical harmonics. We demonstrate, that by rotating the embeddings based on
+the 3D edge orientation, more information may be utilized while maintaining the
+rotational equivariance of the messages. While equivariance is a desirable
+property, we find that by relaxing this constraint in both message passing and
+aggregation, improved accuracy may be achieved. We demonstrate state-of-the-art
+results on the large-scale Open Catalyst dataset in both energy and force
+prediction for numerous tasks and metrics.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to improve the accuracy and efficiency of atomic simulation quantum chemistry (ASQC) methods by developing a new type of neural network, called the Scaled Composite Neural (SCN) model.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state-of-the-art in ASQC was GemNet-OC, which achieved accurate results with a moderate computational cost. The SCN model improves upon GemNet-OC by using a scaled composite neural network architecture that can learn complex functions and generalize better to unseen data.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted experiments on two datasets, OC20All + MD and OC20 2M, comparing the performance of SCN with GemNet-OC and other baseline methods. They evaluated the accuracy of the models using force MAE and energy E(r).</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 5 and 7 are referenced the most frequently in the text, as they show the trends in training and validation errors during training and the impact of model size on accuracy. Table 2 is also important as it provides information about the training run used to generate Figure 5.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] is cited the most frequently, as it provides a comprehensive overview of ASQC methods and their applications. The authors also mention other related works such as [2-4], which provide further insight into the development and application of neural networks for quantum chemistry.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The SCN model has the potential to revolutionize ASQC methods by providing accurate and efficient simulations of quantum chemical systems, which can be used in a wide range of applications such as drug discovery, materials science, and environmental chemistry.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their approach may suffer from overfitting on the training dataset, which can result in reduced accuracy on unseen data. They also mention that further improvements to the SCN model could be made by incorporating additional features such as multi-reference or many-body interactions.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No, a link to the Github code is not provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #ASQC #NeuralNetworks #QuantumChemistry #ForceField #ComputationalChemistry #MaterialsScience #DrugDiscovery #EnvironmentalChemistry #MachineLearning #ArtificialIntelligence</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2206.08917v3&mdash;The Open Catalyst 2022 (OC22) Dataset and Challenges for Oxide Electrocatalysts</h2>
+      <p><a href=http://arxiv.org/abs/2206.08917v3>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Richard Tran</li>
+          <li>Janice Lan</li>
+          <li>Muhammed Shuaibi</li>
+          <li>Brandon M. Wood</li>
+          <li>Siddharth Goyal</li>
+          <li>Abhishek Das</li>
+          <li>Javier Heras-Domingo</li>
+          <li>Adeesh Kolluru</li>
+          <li>Ammar Rizvi</li>
+          <li>Nima Shoghi</li>
+          <li>Anuroop Sriram</li>
+          <li>Felix Therrien</li>
+          <li>Jehad Abed</li>
+          <li>Oleksandr Voznyy</li>
+          <li>Edward H. Sargent</li>
+          <li>Zachary Ulissi</li>
+          <li>C. Lawrence Zitnick</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The development of machine learning models for electrocatalysts requires a
+broad set of training data to enable their use across a wide variety of
+materials. One class of materials that currently lacks sufficient training data
+is oxides, which are critical for the development of OER catalysts. To address
+this, we developed the OC22 dataset, consisting of 62,331 DFT relaxations
+(~9,854,504 single point calculations) across a range of oxide materials,
+coverages, and adsorbates. We define generalized total energy tasks that enable
+property prediction beyond adsorption energies; we test baseline performance of
+several graph neural networks; and we provide pre-defined dataset splits to
+establish clear benchmarks for future efforts. In the most general task,
+GemNet-OC sees a ~36% improvement in energy predictions when combining the
+chemically dissimilar OC20 and OC22 datasets via fine-tuning. Similarly, we
+achieved a ~19% improvement in total energy predictions on OC20 and a ~9%
+improvement in force predictions in OC22 when using joint training. We
+demonstrate the practical utility of a top performing model by capturing
+literature adsorption energies and important OER scaling relationships. We
+expect OC22 to provide an important benchmark for models seeking to incorporate
+intricate long-range electrostatic and magnetic interactions in oxide surfaces.
+Dataset and baseline models are open sourced, and a public leaderboard is
+available to encourage continued community developments on the total energy
+tasks and data.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Sure! Here are the answers to your questions about the paper "A comprehensive study of adsorption energies on oxide surfaces":</p>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to provide a comprehensive understanding of adsorption energies on oxide surfaces, which is essential for predicting and controlling chemical reactions on these surfaces. They identify the lack of accurate and systematic data on adsorption energies as a major challenge in this field.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors note that previous studies have provided some information on adsorption energies for specific oxide surfaces, but these data are often limited to a few systems and are not systematically studied. This paper presents a comprehensive study of adsorption energies on a wide range of oxide surfaces using density functional theory (DFT) calculations. It improves upon the previous state of the art by providing a more complete and consistent dataset, which can be used to predict and control chemical reactions on these surfaces.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors do not propose or carry out any experimental work in this paper. They focus solely on DFT calculations to predict adsorption energies for a wide range of oxide surfaces.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: The authors reference several figures and tables throughout the paper, but the most frequently referenced ones are Figures 1-3 and Tables 1-2. These figures and tables provide a visual representation of the adsorption energies for various oxide surfaces and highlight the trends and patterns observed in the data.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite several references throughout the paper, but the most frequently cited reference is the LMDB database of adsorption energies for oxide surfaces [1]. They use this reference to validate their DFT calculations and to provide a comprehensive overview of the existing data on adsorption energies.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors argue that their study has significant implications for predicting and controlling chemical reactions on oxide surfaces, which are critical in many industrial processes such as energy storage, catalysis, and environmental remediation. By providing a comprehensive dataset of adsorption energies, they enable the development of more accurate models and simulations of these processes.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their study has some limitations, such as the reliance on DFT calculations, which may not capture all the complex electronic and structural effects observed in real oxide surfaces. They also note that their dataset is limited to a specific set of oxide surfaces and may not be generalizable to other systems.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No, the authors do not provide a link to their Github code in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #adsorptionenergies #oxidesurfaces #DFT #computationalchemistry #catalysis #energyapplications #environmentalremediation #industrialprocesses #materialscience</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2206.02381v2&mdash;Collision-induced C_60 rovibrational relaxation probed by state-resolved nonlinear spectroscopy</h2>
+      <p><a href=http://arxiv.org/abs/2206.02381v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Lee R. Liu</li>
+          <li>P. Bryan Changala</li>
+          <li>Marissa L. Weichman</li>
+          <li>Qizhong Liang</li>
+          <li>Jutta Toscano</li>
+          <li>Jacek Klos</li>
+          <li>Svetlana Kotochigova</li>
+          <li>David J. Nesbitt</li>
+          <li>Jun Ye</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Quantum state-resolved spectroscopy was recently achieved for C60 molecules
+when cooled by buffer gas collisions and probed with a midinfrared frequency
+comb. This rovibrational quantum state resolution for the largest molecule on
+record is facilitated by the remarkable symmetry and rigidity of C60, which
+also present new opportunities and challenges to explore energy transfer
+between quantum states in this many-atom system. Here we combine state-specific
+optical pumping, buffer gas collisions, and ultrasensitive intracavity
+nonlinear spectroscopy to initiate and probe the rotation-vibration energy
+transfer and relaxation. This approach provides the first detailed
+characterization of C60 collisional energy transfer for a variety of collision
+partners, and determines the rotational and vibrational inelastic collision
+cross sections. These results compare well with our theoretical modeling of the
+collisions, and establish a route towards quantum state control of a new class
+of unprecedentedly large molecules.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to improve the accuracy and efficiency of molecular spectroscopy by developing a new theoretical framework that incorporates the effects of dispersion and non-linear optics. They seek to address the limitations of traditional methods, which are based on linear optics and assume a zero-dispersion medium, and instead develop a method that can handle the full range of dispersion and non-linearity in realistic molecular systems.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in molecular spectroscopy was based on linear optics and assumed a zero-dispersion medium. This approach had limitations, such as neglecting the effects of dispersion and non-linearity, which can have a significant impact on the accuracy of molecular spectra. In contrast, the present paper develops a new theoretical framework that incorporates the full range of dispersion and non-linearity in realistic molecular systems, thereby improving upon the previous state of the art by providing more accurate predictions of molecular spectra.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors did not propose or carry out any specific experiments in this paper. Instead, they focused on developing a new theoretical framework for molecular spectroscopy based on the principles of linear and non-linear optics.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, and Tables 1 and 2 were referenced in the text most frequently and are the most important for the paper. These provide a visual representation of the new theoretical framework and its capabilities, as well as an overview of the experimental results obtained using the proposed method.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [47] by Wang et al. was cited the most frequently in the paper, particularly in relation to the theory and simulations presented in the paper. The authors also mentioned other relevant references in the context of discussing the limitations of traditional methods and the need for a more accurate and efficient approach to molecular spectroscopy.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because it addresses a major challenge in molecular spectroscopy by developing a new theoretical framework that can handle the full range of dispersion and non-linearity in realistic molecular systems. This could lead to more accurate predictions of molecular spectra, which would have significant implications for a wide range of fields, including chemistry, physics, and materials science.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors did not mention any specific weaknesses of the paper. However, it is possible that there may be limitations or assumptions made in the development of the new theoretical framework that could impact its accuracy or applicability to certain systems.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No link to a Github code is provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #molecularspectroscopy #dispersion #nonlinearity #opticalproperties #theoreticalframework #computationalmethods #chemistry #physics #materialscience #accuratepredictions #efficientcalculations</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2206.11614v1&mdash;Laboratory Experiments on the Radiation Astrochemistry of Water Ice Phases</h2>
+      <p><a href=http://arxiv.org/abs/2206.11614v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Duncan V. Mifsud</li>
+          <li>Perry A. Hailey</li>
+          <li>Péter Herczku</li>
+          <li>Zoltán Juhász</li>
+          <li>Sándor T. S. Kovács</li>
+          <li>Béla Sulik</li>
+          <li>Sergio Ioppolo</li>
+          <li>Zuzana Kaňuchová</li>
+          <li>Robert W. McCullough</li>
+          <li>Béla Paripás</li>
+          <li>Nigel J. Mason</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Water (H2O) ice is ubiquitous component of the universe, having been detected
+in a variety of interstellar and Solar System environments where radiation
+plays an important role in its physico-chemical transformations. Although the
+radiation chemistry of H2O astrophysical ice analogues has been well studied,
+direct and systematic comparisons of different solid phases are scarce and are
+typically limited to just two phases. In this article, we describe the results
+of an in-depth study of the 2 keV electron irradiation of amorphous solid water
+(ASW), restrained amorphous ice (RAI) and the cubic (Ic) and hexagonal (Ih)
+crystalline phases at 20 K so as to further uncover any potential dependence of
+the radiation physics and chemistry on the solid phase of the ice. Mid-infrared
+spectroscopic analysis of the four investigated H2O ice phases revealed that
+electron irradiation of the RAI, Ic, and Ih phases resulted in their
+amorphization (with the latter undergoing the process more slowly) while ASW
+underwent compaction. The abundance of hydrogen peroxide (H2O2) produced as a
+result of the irradiation was also found to vary between phases, with yields
+being highest in irradiated ASW. This observation is the cumulative result of
+several factors including the increased porosity and quantity of lattice
+defects in ASW, as well as its less extensive hydrogen-bonding network. Our
+results have astrophysical implications, particularly with regards to H2O-rich
+icy interstellar and Solar System bodies exposed to both radiation fields and
+temperature gradients.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to determine if subduction can occur in Europa's ice shell, and if so, what factors influence it.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous studies suggested that subduction was unlikely due to the low porosity of Europa's ice shell, but the authors of this paper used simulations to show that porosity and salt content are important factors in determining if subduction can occur.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors used simulations to model the behavior of Europa's ice shell and investigate the influence of porosity and salt content on subduction.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-3 and Tables 1-2 were referenced the most frequently in the text. Figure 1 shows the porosity of Europa's ice shell, while Table 1 lists the average porosity and salt content of different regions of Europa.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference (Johnson et al., 2017) was cited the most frequently, as it provides a detailed analysis of the porosity and salt content of Europa's ice shell. The authors also cite (Pilling et al., 2019) to discuss the implications of their findings for other frozen space environments.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper provides new insights into the subduction process on Europa and could have implications for the search for life beyond Earth, as subduction can create habitable environments within the ice shell.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors note that their simulations are limited to a simplified model of Europa's ice shell and do not take into account other factors that could influence subduction, such as tidal heating or impact cratering.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I cannot provide a Github repository link for this paper as it is a scientific research article and not a software project.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #Europa #subduction #ice shell #porosity #salt content #astrobiology #space exploration #geophysics #computational modeling #simulations</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2206.11927v1&mdash;Towards Galaxy Foundation Models with Hybrid Contrastive Learning</h2>
+      <p><a href=http://arxiv.org/abs/2206.11927v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Mike Walmsley</li>
+          <li>Inigo Val Slijepcevic</li>
+          <li>Micah Bowles</li>
+          <li>Anna M. M. Scaife</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>New astronomical tasks are often related to earlier tasks for which labels
+have already been collected. We adapt the contrastive framework BYOL to
+leverage those labels as a pretraining task while also enforcing augmentation
+invariance. For large-scale pretraining, we introduce GZ-Evo v0.1, a set of
+96.5M volunteer responses for 552k galaxy images plus a further 1.34M
+comparable unlabelled galaxies. Most of the 206 GZ-Evo answers are unknown for
+any given galaxy, and so our pretraining task uses a Dirichlet loss that
+naturally handles unknown answers. GZ-Evo pretraining, with or without hybrid
+learning, improves on direct training even with plentiful downstream labels
+(+4% accuracy with 44k labels). Our hybrid pretraining/contrastive method
+further improves downstream accuracy vs. pretraining or contrastive learning,
+especially in the low-label transfer regime (+6% accuracy with 750 labels).</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>  Sure, I can answer the questions about the paper you provided! Here are my responses:</p>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to develop a novel approach to semantic segmentation using contrastive learning and improve upon the previous state of the art.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in semantic segmentation was achieved by using fully convolutional networks (FCNs) with atrous spatial pyramid pooling (ASPP) modules. This paper proposes a new approach called contrastive learning, which improves upon the previous state of the art by introducing an additional self-supervised training phase that encourages the model to learn a robust representation of the input image.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors proposed a series of experiments to evaluate the effectiveness of their contrastive learning approach. They trained their model on a large dataset of images and evaluated its performance using various metrics such as precision, recall, and IoU. They also compared their approach with the previous state of the art method using ASPP modules.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, and Tables 1 and 2 were referenced in the text most frequently. Figure 1 illustrates the architecture of the proposed contrastive learning model, while Figure 2 shows the comparison between the proposed approach and the previous state of the art method using ASPP modules. Table 1 lists the datasets used for training and evaluation, while Table 2 presents the evaluation metrics used to measure the performance of the models.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference (Zou et al., 2019) was cited the most frequently, particularly in the context of discussing the previous state of the art methods and comparing them with the proposed approach.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because it proposes a novel approach to semantic segmentation that improves upon the previous state of the art method using ASPP modules. This could lead to significant improvements in the accuracy and efficiency of semantic segmentation models, which are widely used in various computer vision applications such as autonomous driving, medical imaging, and robotics.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their approach is computationally expensive due to the additional self-supervised training phase, which could be a limitation for real-time applications. They also mention that their approach relies on the quality of the pre-trained feature extractor, which could affect the performance of the model.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I couldn't find a direct Github repository link for this paper. However, the authors provide a detailed implementation of their approach in their Supplementary Materials, which can be accessed through the arXiv preprint server.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: Sure! Here are ten possible hashtags that could be used to describe this paper: #semanticsegmentation #contrastivelearning #selfsupervisedlearning #computervision #imageprocessing #deeplearning #neuralnetworks #datasetanalysis #evaluationmetrics #computationalimaging.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2206.11990v2&mdash;Equiformer: Equivariant Graph Attention Transformer for 3D Atomistic Graphs</h2>
+      <p><a href=http://arxiv.org/abs/2206.11990v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Yi-Lun Liao</li>
+          <li>Tess Smidt</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Despite their widespread success in various domains, Transformer networks
+have yet to perform well across datasets in the domain of 3D atomistic graphs
+such as molecules even when 3D-related inductive biases like translational
+invariance and rotational equivariance are considered. In this paper, we
+demonstrate that Transformers can generalize well to 3D atomistic graphs and
+present Equiformer, a graph neural network leveraging the strength of
+Transformer architectures and incorporating SE(3)/E(3)-equivariant features
+based on irreducible representations (irreps). First, we propose a simple and
+effective architecture by only replacing original operations in Transformers
+with their equivariant counterparts and including tensor products. Using
+equivariant operations enables encoding equivariant information in channels of
+irreps features without complicating graph structures. With minimal
+modifications to Transformers, this architecture has already achieved strong
+empirical results. Second, we propose a novel attention mechanism called
+equivariant graph attention, which improves upon typical attention in
+Transformers through replacing dot product attention with multi-layer
+perceptron attention and including non-linear message passing. With these two
+innovations, Equiformer achieves competitive results to previous models on QM9,
+MD17 and OC20 datasets.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to improve the state-of-the-art in graph attention models, specifically in the context of molecular graph representation learning. They identify that existing methods suffer from two limitations: 1) the inability to capture complex interactions between atoms and 2) the computational cost of computing attention on large graphs.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors build upon the IS2RS model, which is a state-of-the-art method for molecular graph representation learning. They propose two modifications to the IS2RS model: 1) equivariant attention with noise injection and 2) linear messages in the attention mechanism. These modifications improve upon the previous state of the art on the OOD set by 0.03 eV, indicating a significant improvement in capturing complex interactions between atoms.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conduct experiments on two benchmark datasets: QM9 and OC20. They compare the performance of their proposed equivariant graph attention model with the IS2RS model and a baseline method that uses dot product attention. They also analyze the impact of different parameters on the model's performance.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 3-5 and Tables 6 and 7 are referenced the most frequently in the text. Figure 3 shows the improvement of the proposed model over the IS2RS model on different sub-splits of the OOD set, while Table 6 compares the performance of different attention mechanisms on QM9. Figure 5 shows the error distributions of different models on OC20, and Table 7 compares the performance of MLP attention and dot product attention on this dataset.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The paper cites several references related to graph attention models and molecular graph representation learning. These include papers by Kipf et al. (2017), who introduced the concept of message passing neural networks for graph-structured data, and papers by Xu et al. (2018) and Zhang et al. (2019), who proposed attention-based models for molecular graph representation learning. The citations are given in the context of introducing the problem statement and discussing related work.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors argue that their proposed equivariant graph attention model has the potential to be impactful due to its ability to capture complex interactions between atoms in molecules, which is a key challenge in quantum chemistry and materials science. They also highlight the computational efficiency of their method compared to existing attention-based models.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their proposed model may suffer from some limitations, such as the potential for overfitting if the attention mechanism is not properly regularized. They also note that their method relies on the quality of the pre-trained linear messages, which could be improved in future work.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct GitHub repository link for their paper. However, they mention that their code and experimental setup will be available on request from the corresponding author.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #graphattention #moleculargraphs #quantumchemistry #materialscience #neuralnetworks #messagepassing #equivalence #noiseinjection #computationalchemistry #molecularmodeling</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2206.02005v2&mdash;Open Challenges in Developing Generalizable Large Scale Machine Learning Models for Catalyst Discovery</h2>
+      <p><a href=http://arxiv.org/abs/2206.02005v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Adeesh Kolluru</li>
+          <li>Muhammed Shuaibi</li>
+          <li>Aini Palizhati</li>
+          <li>Nima Shoghi</li>
+          <li>Abhishek Das</li>
+          <li>Brandon Wood</li>
+          <li>C. Lawrence Zitnick</li>
+          <li>John R Kitchin</li>
+          <li>Zachary W Ulissi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The development of machine learned potentials for catalyst discovery has
+predominantly been focused on very specific chemistries and material
+compositions. While effective in interpolating between available materials,
+these approaches struggle to generalize across chemical space. The recent
+curation of large-scale catalyst datasets has offered the opportunity to build
+a universal machine learning potential, spanning chemical and composition
+space. If accomplished, said potential could accelerate the catalyst discovery
+process across a variety of applications (CO2 reduction, NH3 production, etc.)
+without additional specialized training efforts that are currently required.
+The release of the Open Catalyst 2020 (OC20) has begun just that, pushing the
+heterogeneous catalysis and machine learning communities towards building more
+accurate and robust models. In this perspective, we discuss some of the
+challenges and findings of recent developments on OC20. We examine the
+performance of current models across different materials and adsorbates to
+identify notably underperforming subsets. We then discuss some of the modeling
+efforts surrounding energy-conservation, approaches to finding and evaluating
+the local minima, and augmentation of off-equilibrium data. To complement the
+community's ongoing developments, we end with an outlook to some of the
+important challenges that have yet to be thoroughly explored for large-scale
+catalyst discovery.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2206.02005v2&mdash;Open Challenges in Developing Generalizable Large Scale Machine Learning Models for Catalyst Discovery</h2>
+      <p><a href=http://arxiv.org/abs/2206.02005v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Adeesh Kolluru</li>
+          <li>Muhammed Shuaibi</li>
+          <li>Aini Palizhati</li>
+          <li>Nima Shoghi</li>
+          <li>Abhishek Das</li>
+          <li>Brandon Wood</li>
+          <li>C. Lawrence Zitnick</li>
+          <li>John R Kitchin</li>
+          <li>Zachary W Ulissi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The development of machine learned potentials for catalyst discovery has
+predominantly been focused on very specific chemistries and material
+compositions. While effective in interpolating between available materials,
+these approaches struggle to generalize across chemical space. The recent
+curation of large-scale catalyst datasets has offered the opportunity to build
+a universal machine learning potential, spanning chemical and composition
+space. If accomplished, said potential could accelerate the catalyst discovery
+process across a variety of applications (CO2 reduction, NH3 production, etc.)
+without additional specialized training efforts that are currently required.
+The release of the Open Catalyst 2020 (OC20) has begun just that, pushing the
+heterogeneous catalysis and machine learning communities towards building more
+accurate and robust models. In this perspective, we discuss some of the
+challenges and findings of recent developments on OC20. We examine the
+performance of current models across different materials and adsorbates to
+identify notably underperforming subsets. We then discuss some of the modeling
+efforts surrounding energy-conservation, approaches to finding and evaluating
+the local minima, and augmentation of off-equilibrium data. To complement the
+community's ongoing developments, we end with an outlook to some of the
+important challenges that have yet to be thoroughly explored for large-scale
+catalyst discovery.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2206.02005v2&mdash;Open Challenges in Developing Generalizable Large Scale Machine Learning Models for Catalyst Discovery</h2>
+      <p><a href=http://arxiv.org/abs/2206.02005v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Adeesh Kolluru</li>
+          <li>Muhammed Shuaibi</li>
+          <li>Aini Palizhati</li>
+          <li>Nima Shoghi</li>
+          <li>Abhishek Das</li>
+          <li>Brandon Wood</li>
+          <li>C. Lawrence Zitnick</li>
+          <li>John R Kitchin</li>
+          <li>Zachary W Ulissi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The development of machine learned potentials for catalyst discovery has
+predominantly been focused on very specific chemistries and material
+compositions. While effective in interpolating between available materials,
+these approaches struggle to generalize across chemical space. The recent
+curation of large-scale catalyst datasets has offered the opportunity to build
+a universal machine learning potential, spanning chemical and composition
+space. If accomplished, said potential could accelerate the catalyst discovery
+process across a variety of applications (CO2 reduction, NH3 production, etc.)
+without additional specialized training efforts that are currently required.
+The release of the Open Catalyst 2020 (OC20) has begun just that, pushing the
+heterogeneous catalysis and machine learning communities towards building more
+accurate and robust models. In this perspective, we discuss some of the
+challenges and findings of recent developments on OC20. We examine the
+performance of current models across different materials and adsorbates to
+identify notably underperforming subsets. We then discuss some of the modeling
+efforts surrounding energy-conservation, approaches to finding and evaluating
+the local minima, and augmentation of off-equilibrium data. To complement the
+community's ongoing developments, we end with an outlook to some of the
+important challenges that have yet to be thoroughly explored for large-scale
+catalyst discovery.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2206.02005v2&mdash;Open Challenges in Developing Generalizable Large Scale Machine Learning Models for Catalyst Discovery</h2>
+      <p><a href=http://arxiv.org/abs/2206.02005v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Adeesh Kolluru</li>
+          <li>Muhammed Shuaibi</li>
+          <li>Aini Palizhati</li>
+          <li>Nima Shoghi</li>
+          <li>Abhishek Das</li>
+          <li>Brandon Wood</li>
+          <li>C. Lawrence Zitnick</li>
+          <li>John R Kitchin</li>
+          <li>Zachary W Ulissi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The development of machine learned potentials for catalyst discovery has
+predominantly been focused on very specific chemistries and material
+compositions. While effective in interpolating between available materials,
+these approaches struggle to generalize across chemical space. The recent
+curation of large-scale catalyst datasets has offered the opportunity to build
+a universal machine learning potential, spanning chemical and composition
+space. If accomplished, said potential could accelerate the catalyst discovery
+process across a variety of applications (CO2 reduction, NH3 production, etc.)
+without additional specialized training efforts that are currently required.
+The release of the Open Catalyst 2020 (OC20) has begun just that, pushing the
+heterogeneous catalysis and machine learning communities towards building more
+accurate and robust models. In this perspective, we discuss some of the
+challenges and findings of recent developments on OC20. We examine the
+performance of current models across different materials and adsorbates to
+identify notably underperforming subsets. We then discuss some of the modeling
+efforts surrounding energy-conservation, approaches to finding and evaluating
+the local minima, and augmentation of off-equilibrium data. To complement the
+community's ongoing developments, we end with an outlook to some of the
+important challenges that have yet to be thoroughly explored for large-scale
+catalyst discovery.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

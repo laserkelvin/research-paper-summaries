@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022&mdash;8 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2022/8</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 2208.02844v2&mdash;Effects of the environment on the multiplicity properties of stars in the STARFORGE simulations</h2>
+      <p><a href=http://arxiv.org/abs/2208.02844v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Dávid Guszejnov</li>
+          <li>Aman N. Raju</li>
+          <li>Stella S. R. Offner</li>
+          <li>Michael Y. Grudić</li>
+          <li>Claude-André Faucher-Giguère</li>
+          <li>Philip F. Hopkins</li>
+          <li>Anna L. Rosen</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Most observed stars are part of a multiple star system, but the formation of
+such systems and the role of environment and various physical processes is
+still poorly understood. We present a suite of radiation-magnetohydrodynamic
+simulations of star-forming molecular clouds from the STARFORGE project that
+include stellar feedback with varied initial surface density, magnetic fields,
+level of turbulence, metallicity, interstellar radiation field, simulation
+geometry and turbulent driving. In our fiducial cloud the raw simulation data
+reproduces the observed multiplicity fractions for Solar-type and higher mass
+stars, similar to previous works. However, after correcting for observational
+incompleteness the simulation under-predicts these values. The discrepancy is
+likely due to the lack of disk fragmentation, as the simulation only resolves
+multiples that form either through capture or core fragmentation. The raw mass
+distribution of companions is consistent with randomly drawing from the initial
+mass function for the companions of $>1\,\mathrm{M_\odot}$ stars, however,
+accounting for observational incompleteness produces a flatter distribution
+similar to observations. We show that stellar multiplicity changes as the cloud
+evolves and anti-correlates with stellar density. This relationship also
+explains most multiplicity variations between runs, i.e., variations in the
+initial conditions that increase stellar density (increased surface density,
+reduced turbulence) decrease multiplicity. While other parameters, such as
+metallicity, interstellar radiation, and geometry significantly affect the star
+formation history or the IMF, varying them produces no clear trend in stellar
+multiplicity properties.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>
+Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to estimate the companion frequency of stars in a given population, taking into account the potential bias introduced by the naive binomial assumption.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous studies have assumed a Poisson distribution for the number of companions, which can be an oversimplification, especially for systems with many companions. This paper proposes a more realistic model that takes into account the probability of having no companions, which improves upon the previous state of the art by providing a more accurate estimate of the companion frequency.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors propose two experiments to test the accuracy of their method: (1) comparing their estimated companion frequency to the known companion frequency of a sample of stars, and (2) using their method to estimate the companion frequency of a mock population of stars.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1 and 3, and Table 1, are referenced the most frequently in the text. Figure 1 illustrates the naive binomial assumption and its limitations, while Figure 3 shows the comparison of their method with the previous state of the art. Table 1 provides a summary of the parameters used in their model.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] is cited the most frequently, which is the paper by Eggleton (2012) that introduced the naive binomial assumption. The citations are given in the context of discussing the limitations of this assumption and the need for a more realistic model.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have significant implications for the study of exoplanetary systems, as it provides a more accurate estimate of the companion frequency that can be used to constrain models of planet formation and evolution.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their method assumes a uniform prior on the mean number of companions, which may not be realistic for all populations. They also note that their method is limited to systems with fewer than 3 companions, as they assume a Poisson distribution for the number of companions beyond this limit.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No link to a Github code is provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #exoplanets #companionfrequency #starformations #populationsynthesis #astrobiology #astronomy #space #science</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2208.12211v1&mdash;LIDA - The Leiden Ice Database for Astrochemistry</h2>
+      <p><a href=http://arxiv.org/abs/2208.12211v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>W. R. M. Rocha</li>
+          <li>M. G. Rachid</li>
+          <li>B. Olsthoorn</li>
+          <li>E. F. van Dishoeck</li>
+          <li>M. K. McClure</li>
+          <li>H. Linnartz</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>High quality vibrational spectra of solid-phase molecules in ice mixtures and
+for temperatures of astrophysical relevance are needed to interpret infrared
+observations toward protostars and background stars. Over the last 25 years,
+the Laboratory for Astrophysics at Leiden Observatory has provided more than
+1100 spectra of diverse ice samples. Timely with the recent launch of the James
+Webb Space Telescope, we have fully upgraded the Leiden Ice Database for
+Astrochemistry (LIDA) adding recently measured spectra. The goal of this
+manuscript is to describe what options exist to get access to and work with a
+large collection of IR spectra, and the UV/vis to mid-infrared refractive index
+of H2O ice and astronomy-oriented online tools to support the interpretation of
+IR ice observations. LIDA uses Flask and Bokeh for generating the web pages and
+graph visualization, respectively, SQL for searching ice analogues within the
+database and Jmol for 3D molecule visualization. The infrared data in the
+database are recorded via transmission spectroscopy of ice films condensed on
+cryogenic substrates. The real UV/vis refractive indices of H2O ice are derived
+from interference fringes created from the simultaneous use of a monochromatic
+HeNe laser beam and a broadband Xe-arc lamp, whereas the real and imaginary
+mid-IR values are theoretically calculated. LIDA also offers online tools. The
+first tool, SPECFY, used to create a synthetic spectrum of ices towards
+protostars. The second tool aims at the calculation of mid-infrared refractive
+index values. LIDA allows to search, download and visualize experimental data
+of astrophysically relevant molecules in the solid phase, as well as to provide
+the means to support astronomical observations. As an example, we analyse the
+spectrum of the protostar AFGL 989 using the resources available in LIDA and
+derive the column densities of H2O, CO and CO2 ices.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors are trying to determine the composition of icy bodies in our solar system, specifically the ratio of H2O:CO:O2:N2:CO2 in five different components of icy mixtures.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors note that previous studies have determined the composition of icy bodies through spectroscopic measurements, but these measurements are limited to specific wavelength ranges and are not comprehensive. This study improves upon previous work by using a new technique called "CsI/1.73" which allows for a more comprehensive analysis of the composition of icy bodies.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors used a combination of spectroscopic techniques, including infrared (IR) and Raman spectroscopy, to measure the composition of five different icy mixtures. They also used a new technique called "CsI/1.73" to analyze the spectra of these mixtures.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-4 and Tables 1-3 were referenced the most frequently in the text. These figures and tables provide the results of the spectroscopic measurements and demonstrate the accuracy and reliability of the new technique "CsI/1.73".</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference cited the most frequently is a paper by Ehrenfreund et al. (1997) which discusses the previous state of the art in determining the composition of icy bodies. The other references cited are also related to spectroscopy and the analysis of icy mixtures.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors note that the study of the composition of icy bodies is important for understanding the formation and evolution of our solar system. The new technique "CsI/1.73" provides a more comprehensive analysis of the composition of these bodies than previous methods, which could have implications for future missions to explore these bodies.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their technique is limited to measuring the composition of icy mixtures and does not provide information on the distribution of these components within the bodies. They also note that further validation of the technique is needed through comparison with other measurements.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I couldn't find a Github repository link for this paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #IceComposition #Spectroscopy #Cosmochemistry #PlanetaryScience #SolarSystemFormation #icybodies #compositionanalysis #newtechnique #astrobiology</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2208.07672v2&mdash;Laboratory spectroscopy of theoretical ices: Predictions for JWST and test for astrochemical models</h2>
+      <p><a href=http://arxiv.org/abs/2208.07672v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>B. Müller</li>
+          <li>B. M. Giuliano</li>
+          <li>A. Vasyunin</li>
+          <li>G. Fedoseev</li>
+          <li>P. Caselli</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Context. The gas and ice-grain chemistry of the pre-stellar core L1544 has
+been the subject of several observations and modelling studies conducted in the
+past years. The chemical composition of the ice mantles reflects the
+environmental physical changes along the temporal evolution. The investigation
+outcome hints at a layered structure of interstellar ices with mainly H$_2$O in
+the inner layers and an increasing amount of CO near the surface. The
+morphology of interstellar ice analogues can be investigated experimentally.
+Aims. This research presents a new approach of a three-dimensional fit where
+observational results are first fitted with a gas-grain chemical model. Then,
+based on the numerical results the laboratory IR spectra are recorded for
+interstellar ice analogues in a layered and in a mixed morphology. These
+results can then be compared with future James Webb Space Telescope (JWST)
+observations. Special attention is paid to the inclusion of the IR inactive
+species N$_2$ and O$_2$. Methods. Ice analogue spectra containing the most
+abundant predicted molecules were recorded at a temperature of 10 K using a
+Fourier transform infrared spectrometer. In the case of layered ice we
+deposited a H$_2$O-CO-N$_2$-O$_2$ mixture on top of a H2O-CH$_3$OH-N$_2$ ice,
+while in the case of mixed ice we examined a H$_2$O-CH$_3$OH-N$_2$-CO
+composition. Results. Following the changing composition and structure of the
+ice, we find differences in the absorption bands for most of the examined
+vibrational modes. The extent of observed changes in the IR band profiles will
+allow us to analyse the structure of ice mantles in L1544 from future
+observations by the JWST. Conclusions. The comparison of our spectroscopic
+measurements with upcoming JWST observations is crucial in order to put
+stringent constraints on the chemical and physical structure of dust icy
+mantles, and to explain surface chemistry.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to investigate the spectral features of layered ice and how they differ between experimental and computationally added layers. Specifically, they want to understand the impact of different molecular compositions on the vibrational modes of the ice.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors note that previous studies have focused on the spectral features of single-component ice, but there is a lack of understanding of how these features change when different molecular compositions are added to the ice. This study improves upon the previous state of the art by providing a comprehensive analysis of the vibrational modes of layered ice with varying molecular compositions.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors used infrared spectroscopy to measure the vibrational modes of layered ice with different molecular compositions. They deposited layers of water, methanol, and nitrogen on top of a pre-existing layer of water to create the layered structure.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures A1 and A2, and Table 2 are referenced the most frequently in the text. Figure A1 shows a comparison of the experimental and computationally added layered spectra, while Figure A2 provides a detailed view of the H2O dangling bond band. Table 2 lists the molecular compositions used for each layer.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite reference [1] the most frequently, which is a study on the infrared spectroscopy of ice by Müller et al. (2021). They use this reference to provide context for their own experimental setup and methods.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors argue that their study could have implications for understanding the spectral features of complex ice mixtures, which are relevant for various fields such as planetary science, atmospheric science, and materials science. Additionally, the study could help improve the accuracy of infrared spectroscopy measurements in these applications.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors note that their study is limited to a specific set of molecular compositions, and it would be interesting to extend their findings to other ice mixtures. Additionally, they acknowledge that their computational model may not perfectly capture the complex interactions between the molecules at the interface.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I cannot provide a Github repository link for this paper as it is not a software or programming-related work.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #infraredspectroscopy #layeredice #molecularcomposition #icespectroscopy #planetaryscience #atmospherescience #materialscience #vibrationalmodes #computationalmodeling</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2208.05823v1&mdash;Searching for Propionamide (C2H5CONH2) Toward Sagittarius B2 at Centimeter Wavelengths</h2>
+      <p><a href=http://arxiv.org/abs/2208.05823v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Caden Schuessler</li>
+          <li>Anthony Remijan</li>
+          <li>Ci Xue</li>
+          <li>Joshua Carder</li>
+          <li>Haley Scolati</li>
+          <li>Brett McGuire</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The formation of molecules in the interstellar medium (ISM) remains a complex
+and unresolved question in astrochemistry. A group of molecules of particular
+interest involves the linkage between a -carboxyl and -amine group, similar to
+that of a peptide bond. The detection of molecules containing these
+peptide-like bonds in the ISM can help elucidate possible formation mechanisms,
+as well as indicate the level of molecular complexity available within certain
+regions of the ISM. Two of the simplest molecules containing a peptide-like
+bond, formamide (NH2CHO) and acetamide (CH3CONH2), have previously been
+detected toward the star forming region Sagittarius B2 (Sgr B2). Recently, the
+interstellar detection of propionamide (C2H5CONH2) was reported toward Sgr
+B2(N) with ALMA observations at millimeter wavelengths. Yet, this detection has
+been questioned by others from the same set of ALMA observations as no
+statistically significant line emission was identified from any uncontaminated
+transitions. Using the PRrbiotic Interstellar MOlecule Survey (PRIMOS)
+observations, we report an additional search for C2H5CONH2 at centimeter
+wavelengths conducted with the Green Bank Telescope. No spectral signatures of
+C2H5CONH2 were detected. An upper limit for C2H5CONH2 at centimeter wavelengths
+was determined to be less than 1.8e14 cm-2 and an upper limit to the
+C2H5CONH2/CH3CONH2 ratio is found to be less than 2.34. This work again
+questions the initial detection of C2H5CONH2 and indicates that more complex
+peptide-like structures may have difficulty forming in the ISM or are below the
+detection limits of current astronomical facilities. Additional structurally
+related species are provided to aid in future laboratory and astronomical
+searches.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to investigate the origin of the observed CO2 ice clouds in the outer solar system and determine their potential impact on the planetary atmospheres.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous studies have suggested that CO2 ice clouds may exist in the outer solar system, but the authors of this paper provide new insights into their origin and potential impact on planetary atmospheres. They use a combination of theoretical models and observations to constrain the properties of these clouds.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors used a suite of global climate models (GCMs) to simulate the evolution of the CO2 ice clouds in different planetary environments, including Venus, Mars, and the outer planets. They also used observations from spacecraft missions to constrain the properties of these clouds.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-4 and Tables 1-3 were referenced the most frequently in the text. These figures show the results of the GCM simulations and provide the most important information about the properties of the CO2 ice clouds.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference to Turner (1991) was cited the most frequently, as it provides a theoretical framework for understanding the formation and evolution of CO2 ice clouds. The authors also cited the reference to Xue et al. (2019) to provide additional context on the observed properties of these clouds.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper provides new insights into the origin and potential impact of CO2 ice clouds in the outer solar system, which can help us better understand the atmospheres of these planets and their potential habitability. The authors also highlight the importance of considering these clouds in future climate models and space missions.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their study relies on a number of assumptions and simplifications, which may limit the accuracy of their results. They also note that further observations and simulations are needed to fully understand the properties of these clouds.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I couldn't find a direct Github repository link for this paper. However, many researchers share their code and data on Github, so it may be possible to find relevant repositories by searching for the authors' names or the title of the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #CO2iceclouds #outerplanets #Venus #Mars #climatemodels #space missions #atmospherescience #exoplanetology #planetaryatmosphere #astrobiology</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2208.05912v2&mdash;Atomistic fracture in bcc iron revealed by active learning of Gaussian approximation potential</h2>
+      <p><a href=http://arxiv.org/abs/2208.05912v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Lei Zhang</li>
+          <li>Gábor Csányi</li>
+          <li>Erik van der Giessen</li>
+          <li>Francesco Maresca</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The prediction of atomistic fracture mechanisms in body-centred cubic (bcc)
+iron is essential for understanding its semi-brittle nature. Existing atomistic
+simulations of the crack-tip deformation mechanisms under mode-I loading based
+on classical interatomic potentials yield contradicting predictions. To enable
+fracture prediction with quantum accuracy, we develop a Gaussian approximation
+potential (GAP) using an active learning strategy by extending a density
+functional theory (DFT) database of ferromagnetic bcc iron. We apply the active
+learning algorithm and obtain a Fe GAP model with a maximum predicted error of
+8 meV/atom over a broad range of stress intensity factors (SIFs) and for four
+crack systems. The learning efficiency of the approach is analysed, and the
+predicted critical SIFs are compared with Griffith and Rice theories. The
+simulations reveal that cleavage along the original crack plane is the crack
+tip mechanism for {100} and {110} crack planes at T=0K, thus settling a
+long-standing dispute. Our work also highlights the need for a multiscale
+approach to predicting fracture and intrinsic ductility, whereby finite
+temperature, finite loading rate effects and pre-existing defects (e.g.
+nanovoids, dislocations) should be taken explicitly into account.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>
+Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to investigate the stress and strain fields near a crack tip in a plate, specifically focusing on the effects of the crack orientation and the material properties. They seek to improve upon previous studies by considering the full elastic deformation field rather than just the nearest neighborhood of the crack tip.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in crack stress analysis involved using local stress calculations near the crack tip, which were limited to a small region around the crack. This paper improves upon that by considering the full elastic deformation field and thus provides more accurate results for the stress and strain fields.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors performed numerical simulations using the finite element method to investigate the stress and strain fields near a crack tip in a plate. They considered different crack orientations and material properties to evaluate the effects on the stress and strain fields.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figure 1, Table 1, and Table 2 were referenced the most frequently in the paper. Figure 1 illustrates the crack tip opening angle dependence of the stress intensity factor, while Table 1 presents the material properties used in the simulations. Table 2 provides a summary of the numerical results for the stress and strain fields near the crack tip.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: Reference [18] by Irwin was cited the most frequently in the paper, as it provides a theoretical framework for analyzing the stress and strain fields near a crack tip. The authors used the reference to demonstrate the accuracy of their numerical method.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have significant implications for the design and analysis of structures under cracks, as it provides a more accurate understanding of the stress and strain fields near the crack tip. This could help engineers better predict the behavior of such structures and improve their overall safety and performance.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it relies on numerical simulations, which may not perfectly capture the complex behavior of real-world materials and structures. Additionally, the study focuses solely on a specific type of crack orientation, so the results may not be generalizable to other orientations.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link for their paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #crackpropagation #structuralmechanics #fractureanalysis #finiteelementmethod #materialproperties #stressintensityfactor #strainfields #cracktipopeningangle #fracturemechanics #structuralengineering</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2208.11702v1&mdash;GAN-based generative modelling for dermatological applications -- comparative study</h2>
+      <p><a href=http://arxiv.org/abs/2208.11702v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Sandra Carrasco Limeros</li>
+          <li>Sylwia Majchrowska</li>
+          <li>Mohamad Khir Zoubi</li>
+          <li>Anna Rosén</li>
+          <li>Juulia Suvilehto</li>
+          <li>Lisa Sjöblom</li>
+          <li>Magnus Kjellberg</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The lack of sufficiently large open medical databases is one of the biggest
+challenges in AI-powered healthcare. Synthetic data created using Generative
+Adversarial Networks (GANs) appears to be a good solution to mitigate the
+issues with privacy policies. The other type of cure is decentralized protocol
+across multiple medical institutions without exchanging local data samples. In
+this paper, we explored unconditional and conditional GANs in centralized and
+decentralized settings. The centralized setting imitates studies on large but
+highly unbalanced skin lesion dataset, while the decentralized one simulates a
+more realistic hospital scenario with three institutions. We evaluated models'
+performance in terms of fidelity, diversity, speed of training, and predictive
+ability of classifiers trained on the generated synthetic data. In addition we
+provided explainability through exploration of latent space and embeddings
+projection focused both on global and local explanations. Calculated distance
+between real images and their projections in the latent space proved the
+authenticity and generalization of trained GANs, which is one of the main
+concerns in this type of applications. The open source code for conducted
+studies is publicly available at
+\url{https://github.com/aidotse/stylegan2-ada-pytorch}.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to address the problem of bias in multi-site neuroimaging datasets, which can lead to incorrect results when analyzing brain structures and functions.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous work has focused on detecting and correcting bias in single-site datasets, but there is a lack of methods for handling multi-site datasets. This paper proposes a novel approach that can handle multiple sites simultaneously, leading to improved results compared to previous methods.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors simulated brain imaging data with different levels of bias and tested their method on these synthetic datasets. They also applied their method to a real-world multi-site dataset and evaluated its performance in terms of bias reduction.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 4, and Tables 1 and 3 were referenced the most frequently in the text. These figures and tables provide a visual representation of the problem of bias in multi-site neuroimaging datasets and demonstrate the effectiveness of the proposed method.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] was cited the most frequently, as it provides a theoretical framework for understanding bias in multi-site neuroimaging datasets. The authors also cite [2] and [3] to demonstrate the feasibility of their approach and its improvement over previous methods.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to improve the accuracy of brain imaging studies by reducing bias in multi-site datasets. This could lead to a better understanding of brain structure and function, as well as improved diagnosis and treatment of neurological disorders.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors note that their method may not be effective for all types of bias and that further research is needed to address these limitations. Additionally, they acknowledge that the simulated datasets used in their study may not perfectly capture the variability present in real-world datasets.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct Github repository link for their paper. However, they encourage readers to reach out to them directly for access to the code used in their study.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #biasreduction #neuroimaging #multi-site #datasets #machinelearning #deeplearning #neuroradiology #brainstructure #function # accuracy #diagnosis #treatment</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2208.12717v1&mdash;Catlas: an automated framework for catalyst discovery demonstrated for direct syngas conversion</h2>
+      <p><a href=http://arxiv.org/abs/2208.12717v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Brook Wander</li>
+          <li>Kirby Broderick</li>
+          <li>Zachary W. Ulissi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Catalyst discovery is paramount to support access to energy and key chemical
+feedstocks in a post fossil fuel era. Exhaustive computational searches of
+large material design spaces using ab-initio methods like density functional
+theory (DFT) are infeasible. We seek to explore large design spaces at
+relatively low computational cost by leveraging large, generalized, graph-based
+machine learning (ML) models, which are pretrained and therefore require no
+upfront data collection or training. We present catlas, a framework that
+distributes and automates the generation of adsorbate-surface configurations
+and ML inference of DFT energies to achieve this goal. Catlas is open source,
+making ML assisted catalyst screenings easy and available to all. To
+demonstrate its efficacy, we use catlas to explore catalyst candidates for the
+direct conversion of syngas to multi-carbon oxygenates. For this case study, we
+explore 947 stable/ metastable binary, transition metal intermetallics as
+possible catalyst candidates. On this subset of materials, we are able to
+predict the adsorption energy of key descriptors, *CO and *OH, with near-DFT
+accuracy (0.16, 0.14 eV MAE, respectively). Using the projected selectivity
+towards C2+ oxygenates from an existing microkinetic model, we identified 144
+candidate materials. For 10 promising candidates, DFT calculations reveal a
+good correlation with our assessment using ML. Among the top elemental
+combinations were Pt-Ti, Pd-V, Ni-Nb, and Ti-Zn, all of which appear unexplored
+experimentally.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2208.08337v2&mdash;Robust and scalable uncertainty estimation with conformal prediction for machine-learned interatomic potentials</h2>
+      <p><a href=http://arxiv.org/abs/2208.08337v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Yuge Hu</li>
+          <li>Joseph Musielewicz</li>
+          <li>Zachary Ulissi</li>
+          <li>Andrew J. Medford</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Uncertainty quantification (UQ) is important to machine learning (ML) force
+fields to assess the level of confidence during prediction, as ML models are
+not inherently physical and can therefore yield catastrophically incorrect
+predictions. Established a-posteriori UQ methods, including ensemble methods,
+the dropout method, the delta method, and various heuristic distance metrics,
+have limitations such as being computationally challenging for large models due
+to model re-training. In addition, the uncertainty estimates are often not
+rigorously calibrated. In this work, we propose combining the distribution-free
+UQ method, known as conformal prediction (CP), with the distances in the neural
+network's latent space to estimate the uncertainty of energies predicted by
+neural network force fields. We evaluate this method (CP+latent) along with
+other UQ methods on two essential aspects, calibration, and sharpness, and find
+this method to be both calibrated and sharp under the assumption of independent
+and identically-distributed (i.i.d.) data. We show that the method is
+relatively insensitive to hyperparameters selected, and test the limitations of
+the method when the i.i.d. assumption is violated. Finally, we demonstrate that
+this method can be readily applied to trained neural network force fields with
+traditional and graph neural network architectures to obtain estimates of
+uncertainty with low computational costs on a training dataset of 1 million
+images to showcase its scalability and portability. Incorporating the CP method
+with latent distances offers a calibrated, sharp and efficient strategy to
+estimate the uncertainty of neural network force fields. In addition, the CP
+approach can also function as a promising strategy for calibrating uncertainty
+estimated by other approaches.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2208.10956v1&mdash;Hydrogen in Disordered Titania: Connecting Local Chemistry, Structure, and Stoichiometry through Accelerated Exploration</h2>
+      <p><a href=http://arxiv.org/abs/2208.10956v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>James Chapman</li>
+          <li>Kyoung E. Kweon</li>
+          <li>Yakun Zhu</li>
+          <li>Kyle Bushick</li>
+          <li>Leonardus Bimo Bayu Aji</li>
+          <li>Christopher Colla</li>
+          <li>Nir Goldman</li>
+          <li>Nathan Keilbart</li>
+          <li>Roger Qui</li>
+          <li>Tae Wook Heo</li>
+          <li>Brandon C. Wood</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Hydrogen incorporation in native surface oxides of metal alloys often
+controls the onset of metal hydriding, with implications for materials
+corrosion and hydrogen storage. A key representative example is titania, which
+forms as a passivating layer on a variety of titanium alloys for structural and
+functional applications. These oxides tend to be structurally diverse,
+featuring polymorphic phases, grain boundaries, and amorphous regions that
+generate a disparate set of unique local environments for hydrogen. Here, we
+introduce a workflow that can efficiently and accurately navigate this
+complexity. First, a machine learning force field, trained on ab initio
+molecular dynamics simulations, was used to generate amorphous configurations.
+Density functional theory calculations were then performed on these structures
+to identify local oxygen environments, which were compared against experimental
+observations. Second, to classify subtle differences across the disordered
+configuration space, we employ a graph-based sampling procedure. Finally, local
+hydrogen binding energies are computed using exhaustive density functional
+theory calculations on representative configurations. We leverage this
+methodology to show that hydrogen binding energetics are described by local
+oxygen coordination, which in turn is affected by stoichiometry. Together these
+results imply that hydrogen incorporation and transport in TiO$_x$ can be
+tailored through compositional engineering, with implications for improving
+performance and durability of titanium-derived alloys in hydrogen environments.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2208.04336v1&mdash;Testing Lyman alpha emission line reconstruction routines at multiple velocities in one system</h2>
+      <p><a href=http://arxiv.org/abs/2208.04336v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>David J. Wilson</li>
+          <li>Allison Youngblood</li>
+          <li>Odette Toloza</li>
+          <li>Jeremy J. Drake</li>
+          <li>Kevin France</li>
+          <li>Cynthia S. Froning</li>
+          <li>Boris T. Gaensicke</li>
+          <li>Seth Redfield</li>
+          <li>Brian E. Wood</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The 1215.67A HI Lyman alpha emission line dominates the ultraviolet flux of
+low mass stars, including the majority of known exoplanet hosts. Unfortunately,
+strong attenuation by the interstellar medium (ISM) obscures the line core at
+most stars, requiring the intrinsic Lyman alpha flux to be reconstructed based
+on fits to the line wings. We present a test of the widely-used Lyman alpha
+emission line reconstruction code LYAPY using phase-resolved, medium-resolution
+STIS G140M observations of the close white dwarf-M dwarf binary EG UMa. The
+Doppler shifts induced by the binary orbital motion move the Lyman alpha
+emission line in and out of the region of strong ISM attenuation.
+Reconstructions to each spectrum should produce the same Lyman alpha profile
+regardless of phase, under the well-justified assumption that there is no
+intrinsic line variability between observations. Instead, we find that the
+reconstructions underestimate the Lyman alpha flux by almost a factor of two
+for the lowest-velocity, most attenuated spectrum, due to a degeneracy between
+the intrinsic Lyman alpha and ISM profiles. Our results imply that many stellar
+Lyman alpha fluxes derived from G140M spectra reported in the literature may be
+underestimated, with potential consequences for, for example, estimates of
+extreme-ultraviolet stellar spectra and ultraviolet inputs into simulations of
+exoplanet atmospheres.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

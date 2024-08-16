@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022&mdash;12 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2022/12</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 2212.05238v1&mdash;Structured information extraction from complex scientific text with fine-tuned large language models</h2>
+      <p><a href=http://arxiv.org/abs/2212.05238v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Alexander Dunn</li>
+          <li>John Dagdelen</li>
+          <li>Nicholas Walker</li>
+          <li>Sanghoon Lee</li>
+          <li>Andrew S. Rosen</li>
+          <li>Gerbrand Ceder</li>
+          <li>Kristin Persson</li>
+          <li>Anubhav Jain</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Intelligently extracting and linking complex scientific information from
+unstructured text is a challenging endeavor particularly for those
+inexperienced with natural language processing. Here, we present a simple
+sequence-to-sequence approach to joint named entity recognition and relation
+extraction for complex hierarchical information in scientific text. The
+approach leverages a pre-trained large language model (LLM), GPT-3, that is
+fine-tuned on approximately 500 pairs of prompts (inputs) and completions
+(outputs). Information is extracted either from single sentences or across
+sentences in abstracts/passages, and the output can be returned as simple
+English sentences or a more structured format, such as a list of JSON objects.
+We demonstrate that LLMs trained in this way are capable of accurately
+extracting useful records of complex scientific knowledge for three
+representative tasks in materials chemistry: linking dopants with their host
+materials, cataloging metal-organic frameworks, and general
+chemistry/phase/morphology/application information extraction. This approach
+represents a simple, accessible, and highly-flexible route to obtaining large
+databases of structured knowledge extracted from unstructured text. An online
+demo is available at http://www.matscholar.com/info-extraction.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to improve the accuracy and efficiency of materials science extraction tasks by developing a hierarchical graph-based model, LLM-NERRE. The authors aim to recognize not just relationships between individual entities, but hierarchical relationships with relationship types which need not be explicitly and comprehensively enumerated beforehand.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The paper builds upon existing work in natural language processing (NLP) and materials science extraction, specifically the use of neural networks for relationship extraction. The authors improve upon the previous state of the art by introducing a hierarchical graph-based model that can capture complex relationships between entities and their substructures.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted experiments using a test set of 320 abstracts from materials science papers to evaluate the performance of the LLM-NERRE model. They used class support tables to analyze the model's performance in various tasks, such as doping, host-dopant relationships, and general materials NERRE.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: The authors reference Figures S1-S4 and Tables S1-S4 most frequently in the text. These figures and tables provide visualizations of the hierarchical graph structure and class support for various tasks, which are important for understanding the performance and capabilities of the LLM-NERRE model.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite several references related to NLP and materials science extraction. They cite the paper by Li et al. (2015) most frequently, which is a previous work on hierarchical graph-based relationship extraction. The citations are provided in the context of building upon existing work and improving upon the previous state of the art.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors argue that the LLM-NERRE model has the potential to be impactful or important due to its ability to capture complex relationships between entities and their substructures, which can improve the accuracy and efficiency of materials science extraction tasks. They also suggest that the model's hierarchical structure can enable more precise and comprehensive relationships than previous models.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their approach is limited to materials science abstracts and may not generalize well to other domains or contexts. They also note that the model's performance can be improved with additional training data or modifications to the architecture.</p>
+          <p>Q: Is a link to the Github code provided? If there isn't or you are unsure, say you don't know.
+A: No link to a Github code is provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #materialscience #extraction #relationships #hierarchicalgraph #LLM-NERRE #NLP #neuralnetworks #computationalchemistry #structuralbiology</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
