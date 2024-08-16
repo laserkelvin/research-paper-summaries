@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2019&mdash;4 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2019/4</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 1904.02042v3&mdash;On-the-Fly Active Learning of Interpretable Bayesian Force Fields for Atomistic Rare Events</h2>
+      <p><a href=http://arxiv.org/abs/1904.02042v3>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Jonathan Vandermause</li>
+          <li>Steven B. Torrisi</li>
+          <li>Simon Batzner</li>
+          <li>Yu Xie</li>
+          <li>Lixin Sun</li>
+          <li>Alexie M. Kolpak</li>
+          <li>Boris Kozinsky</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Machine learned force fields typically require manual construction of
+training sets consisting of thousands of first principles calculations, which
+can result in low training efficiency and unpredictable errors when applied to
+structures not represented in the training set of the model. This severely
+limits the practical application of these models in systems with dynamics
+governed by important rare events, such as chemical reactions and diffusion. We
+present an adaptive Bayesian inference method for automating the training of
+interpretable, low-dimensional, and multi-element interatomic force fields
+using structures drawn on the fly from molecular dynamics simulations. Within
+an active learning framework, the internal uncertainty of a Gaussian process
+regression model is used to decide whether to accept the model prediction or to
+perform a first principles calculation to augment the training set of the
+model. The method is applied to a range of single- and multi-element systems
+and shown to achieve a favorable balance of accuracy and computational
+efficiency, while requiring a minimal amount of ab initio training data. We
+provide a fully open-source implementation of our method, as well as a
+procedure to map trained models to computationally efficient tabulated force
+fields.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

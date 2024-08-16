@@ -315,5 +315,313 @@ A: #astrochemistry #protoplanetarydisks #grainsurface #watervapor #COdepletion #
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2307.10072v2&mdash;Efficiency, Accuracy, and Transferability of Machine Learning Potentials: Application to Dislocations and Cracks in Iron</h2>
+      <p><a href=http://arxiv.org/abs/2307.10072v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Lei Zhang</li>
+          <li>Gábor Csányi</li>
+          <li>Erik van der Giessen</li>
+          <li>Francesco Maresca</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Machine learning interatomic potentials (ML-IAPs) enable quantum-accurate,
+classical molecular dynamics simulations of large systems, beyond reach of
+density functional theory (DFT). Yet, their efficiency and ability to predict
+systems larger than DFT supercells are not fully explored, posing a question
+regarding transferability to large-scale simulations with defects (e.g.
+dislocations, cracks). Here, we apply a three-step validation approach to
+body-centered-cubic iron. First, accuracy and efficiency are assessed by
+optimizing ML-IAPs based on four state-of-the-art ML packages. The Pareto front
+of computational speed versus testing root-mean-square-error (RMSE) is
+computed. Second, benchmark properties relevant to plasticity and fracture are
+evaluated. Their average relative error Q with respect to DFT is found to
+correlate with RMSE. Third, transferability of ML-IAPs to dislocations and
+cracks is investigated by using per-atom model uncertainty quantification. The
+core structures and Peierls barriers of screw, M111 and three edge dislocations
+are compared with DFT. Traction-separation curve and critical stress intensity
+factor (K_Ic) are also predicted. Cleavage on the pre-existing crack plane is
+found to be the zero-temperature atomistic fracture mechanism of pure
+body-centered-cubic iron under mode-I loading, independent of ML package and
+training database. Quantitative predictions of dislocation glide paths and KIc
+can be sensitive to database, ML package, cutoff radius, and are limited by DFT
+accuracy. Our results highlight the importance of validating ML-IAPs by using
+indicators beyond RMSE. Moreover, significant computational speed-ups can be
+achieved by using the most efficient ML-IAP package, yet the assessment of the
+accuracy and transferability should be performed with care.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to develop an accurate and transferable machine learning potential for the carbon atom, which is a fundamental challenge in materials science due to the complexity of its electronic structure.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in machine learning potentials for carbon was limited to simple functional forms that could not capture the complex electronic structure of the atom. This paper improves upon these methods by using a more sophisticated machine learning algorithm and incorporating additional data sources, such as quantum mechanics calculations and experimental measurements.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors propose and carry out a series of experiments to validate their machine learning potential against a set of benchmarks, including the accuracy of calculated properties, the transferability to new environments, and the ability to capture non-linear relationships between properties.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-3 and Tables 1-2 are referenced the most frequently in the text, as they provide a visual representation of the performance of the machine learning potential against benchmarks.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: Reference [1] is cited the most frequently in the paper, as it provides the theoretical background and methodology for the machine learning potential. References [3-5] are also frequently cited, as they provide additional validation and comparison of the machine learning potential with other approaches.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because it presents a new and accurate machine learning potential for carbon, which is a fundamental element in materials science. This potential can be used to improve the accuracy of simulations and predictions in a wide range of materials systems, leading to a better understanding of their properties and behavior.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it relies on a specific machine learning algorithm and data sources, which may not be applicable or effective for all other materials systems. Additionally, the accuracy of the potential may depend on the quality and quantity of training data available.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not explicitly provided in the text. However, the authors likely used a version control system such as GitHub or GitLab to manage their code and data during the development and validation of their machine learning potential.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #MachineLearning #MaterialsScience #CarbonAtom #QuantumMechanics #ExperimentalValidation #Transferability #NonLinearRelationships #TheoryPractice #Accuracy #Prediction</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2307.03717v1&mdash;Modeling intercalation chemistry with multi-redox reactions by sparse lattice models in disordered rocksalt cathodes</h2>
+      <p><a href=http://arxiv.org/abs/2307.03717v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Peichen Zhong</li>
+          <li>Fengyu Xie</li>
+          <li>Luis Barroso-Luque</li>
+          <li>Liliang Huang</li>
+          <li>Gerbrand Ceder</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Modern battery materials can contain many elements with substantial site
+disorder, and their configurational state has been shown to be critical for
+their performance. The intercalation voltage profile is a critical parameter to
+evaluate the performance of energy storage. The application of commonly used
+cluster expansion techniques to model the intercalation thermodynamics of such
+systems from \textit{ab-initio} is challenged by the combinatorial increase in
+configurational degrees of freedom as the number of species grows. Such
+challenges necessitate efficient generation of lattice models without
+over-fitting and proper sampling of the configurational space under charge
+balance in ionic systems. In this work, we introduce a combined approach that
+addresses these challenges by (1) constructing a robust cluster-expansion
+Hamiltonian using the sparse regression technique, including
+$\ell_0\ell_2$-norm regularization and structural hierarchy; and (2)
+implementing semigrand-canonical Monte Carlo to sample charge-balanced ionic
+configurations using the table-exchange method and an ensemble-average
+approach. These techniques are applied to a disordered rocksalt oxyfluoride
+Li$_{1.3-x}$Mn$_{0.4}$Nb$_{0.3}$O$_{1.6}$F$_{0.4}$ (LMNOF) which is part of a
+family of promising earth-abundant cathode materials. The simulated voltage
+profile is found to be in good agreement with experimental data and
+particularly provides a clear demonstration of the Mn and oxygen contribution
+to the redox potential as a function of Li content.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2307.02016v1&mdash;What dictates soft clay-like Lithium superionic conductor formation from rigid-salts mixture</h2>
+      <p><a href=http://arxiv.org/abs/2307.02016v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Sunny Gupta</li>
+          <li>Xiaochen Yang</li>
+          <li>Gerbrand Ceder</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Soft clay-like Li-superionic conductors have been recently synthesized by
+mixing rigid-salts. Through computational and experimental analysis, we clarify
+how a soft clay-like material can be created from a mixture of rigid-salts.
+Using molecular dynamics simulations with a deep learning-based interatomic
+potential energy model, we uncover the microscopic features responsible for
+soft clay-formation from ionic solid mixtures. We find that salt mixtures
+capable of forming molecular solid units on anion exchange, along with the slow
+kinetics of such reactions, are key to soft-clay formation. Molecular solid
+units serve as sites for shear transformation zones, and their inherent
+softness enables plasticity at low stress. Extended X-ray absorption fine
+structure spectroscopy confirms the formation of molecular solid units. A
+general strategy for creating soft clay-like materials from ionic solid
+mixtures is formulated.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2307.00878v1&mdash;Crystal Structures and Phase Stability of the Li$_2$S-P$_2$S$_5$ System from First Principles</h2>
+      <p><a href=http://arxiv.org/abs/2307.00878v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Ronald L. Kam</li>
+          <li>KyuJung Jun</li>
+          <li>Luis Barroso-Luque</li>
+          <li>Julia H. Yang</li>
+          <li>Fengyu Xie</li>
+          <li>Gerbrand Ceder</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The Li$_2$S-P$_2$S$_5$ pseudo-binary system has been a valuable source of
+promising superionic conductors, with $\alpha$-Li$_3$PS$_4$,
+$\beta$-Li$_3$PS$_4$, HT-Li$_7$PS$_6$, and Li$_7$P$_3$S$_{11}$ having excellent
+room temperature Li-ion conductivity > 0.1 mS/cm. The metastability of these
+phases at ambient temperature motivates a study to quantify thermodynamic
+accessibility. Through calculating the electronic, configurational, and
+vibrational sources of free energy from first principles, a phase diagram of
+the crystalline Li$_2$S-P$_2$S$_5$ space is constructed. Well-established phase
+stability trends from experiments are recovered, such as polymorphic phase
+transitions in Li$_7$PS$_6$ and Li$_3$PS$_4$, and the metastability of
+Li$_7$P$_3$S$_{11}$ at high temperature. At ambient temperature, it is
+predicted that all superionic conductors in this space are indeed metastable,
+but thermodynamically accessible. Vibrational and configurational sources of
+entropy are shown to be essential towards describing the stability of
+superionic conductors. New details of the Li sublattices are revealed, and are
+found to be crucial towards accurately predicting configurational entropy. All
+superionic conductors contain significant configurational entropy, which
+suggests an inherent correlation between superionic conductivity and high
+configurational entropy.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2308.00193v1&mdash;C-DARL: Contrastive diffusion adversarial representation learning for label-free blood vessel segmentation</h2>
+      <p><a href=http://arxiv.org/abs/2308.00193v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Boah Kim</li>
+          <li>Yujin Oh</li>
+          <li>Bradford J. Wood</li>
+          <li>Ronald M. Summers</li>
+          <li>Jong Chul Ye</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Blood vessel segmentation in medical imaging is one of the essential steps
+for vascular disease diagnosis and interventional planning in a broad spectrum
+of clinical scenarios in image-based medicine and interventional medicine.
+Unfortunately, manual annotation of the vessel masks is challenging and
+resource-intensive due to subtle branches and complex structures. To overcome
+this issue, this paper presents a self-supervised vessel segmentation method,
+dubbed the contrastive diffusion adversarial representation learning (C-DARL)
+model. Our model is composed of a diffusion module and a generation module that
+learns the distribution of multi-domain blood vessel data by generating
+synthetic vessel images from diffusion latent. Moreover, we employ contrastive
+learning through a mask-based contrastive loss so that the model can learn more
+realistic vessel representations. To validate the efficacy, C-DARL is trained
+using various vessel datasets, including coronary angiograms, abdominal digital
+subtraction angiograms, and retinal imaging. Experimental results confirm that
+our model achieves performance improvement over baseline methods with noise
+robustness, suggesting the effectiveness of C-DARL for vessel segmentation.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2307.13710v1&mdash;Robust Training of Machine Learning Interatomic Potentials with Dimensionality Reduction and Stratified Sampling</h2>
+      <p><a href=http://arxiv.org/abs/2307.13710v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Ji Qi</li>
+          <li>Tsz Wai Ko</li>
+          <li>Brandon C. Wood</li>
+          <li>Tuan Anh Pham</li>
+          <li>Shyue Ping Ong</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Machine learning interatomic potentials (MLIPs) enable the accurate
+simulation of materials at larger sizes and time scales, and play increasingly
+important roles in the computational understanding and design of materials.
+However, MLIPs are only as accurate and robust as the data they are trained on.
+In this work, we present DImensionality-Reduced Encoded Clusters with
+sTratified (DIRECT) sampling as an approach to select a robust training set of
+structures from a large and complex configuration space. By applying DIRECT
+sampling on the Materials Project relaxation trajectories dataset with over one
+million structures and 89 elements, we develop an improved materials 3-body
+graph network (M3GNet) universal potential that extrapolate more reliably to
+unseen structures. We further show that molecular dynamics (MD) simulations
+with universal potentials such as M3GNet can be used in place of expensive
+\textit{ab initio} MD to rapidly create a large configuration space for target
+materials systems. Combined with DIRECT sampling, we develop a highly reliable
+moment tensor potential for Ti-H system without the need for iterative
+optimization. This work paves the way towards robust high throughput
+development of MLIPs across any compositional complexity.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2307.01744v1&mdash;Far beyond the Sun: II. Probing the stellar magnetism of the young Sun ι Horologii from the photosphere to its corona</h2>
+      <p><a href=http://arxiv.org/abs/2307.01744v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>E. M. Amazo-Gómez</li>
+          <li>J. D. Alvarado-Gómez</li>
+          <li>K. Poppenhaeger</li>
+          <li>G. A. J. Hussain</li>
+          <li>B. E. Wood</li>
+          <li>J. J. Drake</li>
+          <li>J. -D. do Nascimento Jr.</li>
+          <li>F. Anthony</li>
+          <li>J. Sanz-Forcada</li>
+          <li>B. Stelzer</li>
+          <li>J. F. Donati</li>
+          <li>F. Del Sordo</li>
+          <li>M. Damasso</li>
+          <li>S. Redfield</li>
+          <li>P. C. König</li>
+          <li>G. Hébrard</li>
+          <li>P. A. Miles-Páez</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>A comprehensive multi-wavelength campaign has been carried out to probe
+stellar activity and variability in the young Sun-like star $\iota$-Horologii.
+We present the results from long-term spectropolarimetric monitoring of the
+system by using the ultra-stable spectropolarimeter/velocimeter HARPS at the
+ESO 3.6-m telescope. Additionally, we included high-precision photometry from
+the NASA Transiting Exoplanet Survey Satellite (TESS) and observations in the
+far- and near-ultraviolet spectral regions using the STIS instrument on the
+NASA/ESA Hubble Space Telescope (HST). The high-quality dataset allows a robust
+characterisation of the star's rotation period, as well as a probe of the
+variability using a range of spectroscopic and photometric activity proxies. By
+analyzing the gradient of the power spectra (GPS) of the TESS lightcurves we
+constrained the faculae-to-spot driver ratio ($\rm S_{fac}/S_{spot}$) to
+0.510$\pm$0.023, which indicates that the stellar surface is spot dominated
+during the time of the observations. We compared the photospheric activity
+properties derived from the GPS method with a magnetic field map of the star
+derived using Zeeman-Doppler imaging (ZDI) from simultaneous
+spectropolarimetric data for the first time. Different stellar activity proxies
+enable a more complete interpretation of the observed variability. For example,
+we observed enhanced emission in the HST transition line diagnostics C IV and C
+III, suggesting a flaring event. From the analysis of TESS data acquired
+simultaneously with the HST data, we investigate the photometric variability at
+the precise moment that the emission increased and derive correlations between
+different observables, probing the star from its photosphere to its corona.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

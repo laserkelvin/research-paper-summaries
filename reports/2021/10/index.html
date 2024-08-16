@@ -95,5 +95,405 @@ A: #galaxyclassification #deeplearning #neuralnetworks #convolutionalneutralnetw
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2110.08614v2&mdash;Deep Learning and Spectral Embedding for Graph Partitioning</h2>
+      <p><a href=http://arxiv.org/abs/2110.08614v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Alice Gatti</li>
+          <li>Zhixiong Hu</li>
+          <li>Tess Smidt</li>
+          <li>Esmond G. Ng</li>
+          <li>Pieter Ghysels</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present a graph bisection and partitioning algorithm based on graph neural
+networks. For each node in the graph, the network outputs probabilities for
+each of the partitions. The graph neural network consists of two modules: an
+embedding phase and a partitioning phase. The embedding phase is trained first
+by minimizing a loss function inspired by spectral graph theory. The
+partitioning module is trained through a loss function that corresponds to the
+expected value of the normalized cut. Both parts of the neural network rely on
+SAGE convolutional layers and graph coarsening using heavy edge matching. The
+multilevel structure of the neural network is inspired by the multigrid
+algorithm. Our approach generalizes very well to bigger graphs and has
+partition quality comparable to METIS, Scotch and spectral partitioning, with
+shorter runtime compared to METIS and spectral partitioning.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to develop a scalable and efficient spectral clustering algorithm for stochastic block models, which are widely used in graph partitioning applications. They address the streaming graph challenge, where the graph is too large to fit into memory, and the algorithms need to operate on streaming data.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The paper builds upon the previous work on spectral clustering for stochastic block models, which were limited by their computational complexity and memory requirements. The proposed algorithm leverages the Pytorch and Pytorch Geometric frameworks to provide an efficient and scalable solution.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conduct experiments on several real-world graphs to evaluate the performance of the proposed algorithm. They compare it with existing methods in terms of clustering quality, computational efficiency, and scalability.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-3 and Tables 1 and 2 are referenced frequently throughout the paper. Figure 1 illustrates the streaming graph challenge, while Figure 2 shows the previous state of the art methods for spectral clustering on stochastic block models. Table 1 provides a comparison of the proposed algorithm with existing methods in terms of computational complexity, and Table 2 presents the results of the experiments conducted by the authors.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The paper cites several references related to spectral clustering, stochastic block models, and streaming graph processing. These citations are provided in the context of explaining the background and related work in the field, as well as highlighting the novelty and contributions of the proposed algorithm.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper addresses a significant challenge in graph partitioning applications by developing an efficient and scalable spectral clustering algorithm for stochastic block models. This can have practical implications in various domains, such as social network analysis, recommendation systems, and fraud detection.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their proposed algorithm assumes that the graph is dense enough to capture the structure of the stochastic block model. However, in practice, the graph may be too sparse to achieve good clustering results. Additionally, the algorithm relies on the Pytorch and Pytorch Geometric frameworks, which may have limitations or dependencies that are not well-understood by the authors.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct Github repository link for their paper. However, they mention that the code and data used in their experiments are available on request from the authors.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #spectralclustering #stochasticblockmodel #graphpartitioning #streaminggraph #pytorch #pytorchgeometric #efficiency #scalability #novelapproach #relatedwork</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2110.14816v1&mdash;Less wrong: a more realistic initial condition for simulations of turbulent molecular clouds</h2>
+      <p><a href=http://arxiv.org/abs/2110.14816v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Henry B. Lane</li>
+          <li>Michael Y. Grudić</li>
+          <li>Dávid Guszejnov</li>
+          <li>Stella S. R. Offner</li>
+          <li>Claude-André Faucher-Giguère</li>
+          <li>Anna L. Rosen</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Simulations of isolated giant molecular clouds (GMCs) are an important tool
+for studying the dynamics of star formation, but their turbulent initial
+conditions (ICs) are uncertain. Most simulations have either initialized a
+velocity field with a prescribed power spectrum on a smooth density field
+(failing to model the full structure of turbulence) or "stirred" turbulence
+with periodic boundary conditions (which may not model real GMC boundary
+conditions). We develop and test a new GMC simulation setup (called TURBSPHERE)
+that combines advantages of both approaches: we continuously stir an isolated
+cloud to model the energy cascade from larger scales, and use a static
+potential to confine the gas. The resulting cloud and surrounding envelope
+achieve a quasi-equilibrium state with the desired hallmarks of supersonic ISM
+turbulence (e.g. density PDF and a $\sim k^{-2}$ velocity power spectrum),
+whose bulk properties can be tuned as desired. We use the final stirred state
+as initial conditions for star formation simulations with self-gravity, both
+with and without continued driving and protostellar jet feedback, respectively.
+We then disentangle the respective effects of the turbulent cascade, simulation
+geometry, external driving, and gravity/MHD boundary conditions on the
+resulting star formation. Without external driving, the new setup obtains
+results similar to previous simple spherical cloud setups, but external driving
+can suppress star formation considerably in the new setup. Periodic box
+simulations with the same dimensions and turbulence parameters form stars
+significantly slower, highlighting the importance of boundary conditions and
+the presence or absence of a global collapse mode in the results of star
+formation calculations.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to investigate triggered star formation in a turbulent interstellar medium (ISM) and explore how it relates to the overall evolution of galaxies.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous studies have shown that triggered star formation is an important mechanism for galaxy evolution, but there has been limited progress in understanding the role of turbulence in this process. This paper improves upon the previous state of the art by using high-resolution simulations to study the interplay between turbulence and star formation in a more realistic environment.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors performed high-resolution simulations of triggered star formation in a turbulent ISM, using the adaptive mesh refinement (AMR) technique to ensure accurate resolution in regions of interest. They also compared their results to observational data to validate their findings.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-4 and Tables 1-3 were referenced most frequently in the text, as they provide a detailed overview of the simulation results and comparisons to observations.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: Reference [1] was cited the most frequently, as it provides a comprehensive overview of the current state of the art in triggered star formation simulations. The citations in this paper are primarily related to the methodology and validation of the simulations.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to significantly advance our understanding of the role of turbulence in triggered star formation, which is a crucial mechanism for galaxy evolution. By improving upon previous simulations with high-resolution AMR techniques, this study provides valuable insights into the interplay between turbulence and star formation in a more realistic environment.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their simulations have limited computational resources, which may limit the accuracy of their results in certain regions. Additionally, they note that further validation with observational data is needed to fully confirm their findings.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I apologize, but there is no Github repository link provided in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #triggredstarformation #turbulence #starformationsimulations #galleyevolution #AMR #highresolutionsimulations #turbulencemodelings #interstellarmedium #observationaldata #validation</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2110.14816v1&mdash;Less wrong: a more realistic initial condition for simulations of turbulent molecular clouds</h2>
+      <p><a href=http://arxiv.org/abs/2110.14816v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Henry B. Lane</li>
+          <li>Michael Y. Grudić</li>
+          <li>Dávid Guszejnov</li>
+          <li>Stella S. R. Offner</li>
+          <li>Claude-André Faucher-Giguère</li>
+          <li>Anna L. Rosen</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Simulations of isolated giant molecular clouds (GMCs) are an important tool
+for studying the dynamics of star formation, but their turbulent initial
+conditions (ICs) are uncertain. Most simulations have either initialized a
+velocity field with a prescribed power spectrum on a smooth density field
+(failing to model the full structure of turbulence) or "stirred" turbulence
+with periodic boundary conditions (which may not model real GMC boundary
+conditions). We develop and test a new GMC simulation setup (called TURBSPHERE)
+that combines advantages of both approaches: we continuously stir an isolated
+cloud to model the energy cascade from larger scales, and use a static
+potential to confine the gas. The resulting cloud and surrounding envelope
+achieve a quasi-equilibrium state with the desired hallmarks of supersonic ISM
+turbulence (e.g. density PDF and a $\sim k^{-2}$ velocity power spectrum),
+whose bulk properties can be tuned as desired. We use the final stirred state
+as initial conditions for star formation simulations with self-gravity, both
+with and without continued driving and protostellar jet feedback, respectively.
+We then disentangle the respective effects of the turbulent cascade, simulation
+geometry, external driving, and gravity/MHD boundary conditions on the
+resulting star formation. Without external driving, the new setup obtains
+results similar to previous simple spherical cloud setups, but external driving
+can suppress star formation considerably in the new setup. Periodic box
+simulations with the same dimensions and turbulence parameters form stars
+significantly slower, highlighting the importance of boundary conditions and
+the presence or absence of a global collapse mode in the results of star
+formation calculations.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to investigate triggered star formation in a turbulent interstellar medium (ISM) and to understand the role of magnetic fields in this process.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous studies have shown that magnetic fields play a crucial role in triggered star formation, but there is still limited understanding of how magnetic fields interact with turbulence to trigger star formation. This paper improves upon previous work by using high-resolution simulations to study the interplay between magnetic fields and turbulence in detail.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors used high-resolution numerical simulations to model the interactions between magnetic fields and turbulence in a simulated ISM. They focused on studying the triggers of star formation in these simulations, paying particular attention to the role of magnetic fields.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-3 and Tables 1-2 were referenced most frequently in the text. Figure 1 shows the setup of the simulation, while Figures 2 and 3 display the resulting star formation patterns. Table 1 lists the initial conditions of the simulation, and Table 2 summarizes the properties of the resulting stars.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [Rosen et al. 2016] was cited the most frequently, as it provides a detailed study on the role of magnetic fields in triggered star formation. The authors also cite [Padoan et al. 2016], which studies the effect of turbulence on star formation, and [Schmidt et al. 2004], which investigates the interplay between magnetic fields and turbulence in a numerical simulation.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have significant implications for our understanding of star formation in the Galaxy and other galaxies, as it highlights the importance of magnetic fields in triggering star formation. The authors suggest that their findings could be used to improve models of galaxy evolution and star formation in future studies.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their simulations have limitations, such as the simplification of the ISM and the neglect of other potential factors that could influence star formation, such as gas dynamics and chemical processes. However, they note that these limitations do not significantly affect the overall conclusions of the study.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors did not provide a Github repository link for their paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #starformation #magneticfields #turbulence #galaxyEvolution #ISM #numericalSimulation #astrophysics #spaceScience</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2110.14816v1&mdash;Less wrong: a more realistic initial condition for simulations of turbulent molecular clouds</h2>
+      <p><a href=http://arxiv.org/abs/2110.14816v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Henry B. Lane</li>
+          <li>Michael Y. Grudić</li>
+          <li>Dávid Guszejnov</li>
+          <li>Stella S. R. Offner</li>
+          <li>Claude-André Faucher-Giguère</li>
+          <li>Anna L. Rosen</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Simulations of isolated giant molecular clouds (GMCs) are an important tool
+for studying the dynamics of star formation, but their turbulent initial
+conditions (ICs) are uncertain. Most simulations have either initialized a
+velocity field with a prescribed power spectrum on a smooth density field
+(failing to model the full structure of turbulence) or "stirred" turbulence
+with periodic boundary conditions (which may not model real GMC boundary
+conditions). We develop and test a new GMC simulation setup (called TURBSPHERE)
+that combines advantages of both approaches: we continuously stir an isolated
+cloud to model the energy cascade from larger scales, and use a static
+potential to confine the gas. The resulting cloud and surrounding envelope
+achieve a quasi-equilibrium state with the desired hallmarks of supersonic ISM
+turbulence (e.g. density PDF and a $\sim k^{-2}$ velocity power spectrum),
+whose bulk properties can be tuned as desired. We use the final stirred state
+as initial conditions for star formation simulations with self-gravity, both
+with and without continued driving and protostellar jet feedback, respectively.
+We then disentangle the respective effects of the turbulent cascade, simulation
+geometry, external driving, and gravity/MHD boundary conditions on the
+resulting star formation. Without external driving, the new setup obtains
+results similar to previous simple spherical cloud setups, but external driving
+can suppress star formation considerably in the new setup. Periodic box
+simulations with the same dimensions and turbulence parameters form stars
+significantly slower, highlighting the importance of boundary conditions and
+the presence or absence of a global collapse mode in the results of star
+formation calculations.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to investigate triggered star formation in a turbulent interstellar medium (ISM) and explore its implications for the origins of stars and galaxies.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous studies have shown that triggered star formation can occur in response to shock waves or density fluctuations, but there is limited understanding of the mechanisms involved in a turbulent ISM. This paper improves upon the previous state of the art by using simulations to study triggered star formation in a more realistic and detailed way than previous studies.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors used large-scale hydrodynamic simulations to model the interactions between turbulence and gas in a galaxy-like environment, with a particular focus on the role of triggered star formation. They also explored the implications of their results for our understanding of the origins of stars and galaxies.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-3 and Tables 2-4 are referenced the most frequently in the text. Figure 1 shows the simulation setup, Figure 2 illustrates the initial conditions of the simulation, Figure 3 displays the resulting star formation activity, Table 2 presents the parameters used in the simulations, Table 3 lists the characteristics of the stars formed in the simulations, and Table 4 compares the results of the present study with previous works.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The most frequently cited reference is [Rosen et al. 2016], which is mentioned several times throughout the paper as a benchmark for the simulations presented here. The citation is given in the context of discussing the previous state of the art in triggered star formation and comparing the results of the present study to those of [Rosen et al. 2016].</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to significantly improve our understanding of the origins of stars and galaxies, as well as the role of triggered star formation in these processes. By exploring the mechanisms involved in a turbulent ISM, the authors provide new insights into the physics of galaxy evolution and the formation of stars within them.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it relies on simulations, which may not perfectly capture the complex and dynamic processes involved in galaxy evolution. Additionally, the study focuses solely on one specific aspect of triggered star formation, so further work may be needed to fully understand its implications.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I cannot provide a Github repository link for this paper as it is a research article published in a scientific journal and not a software development project hosted on Github.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: Sure, here are ten possible hashtags that could be used to describe this paper: #starformation #turbulence #ISM #galaxyevolution #simulations #astrophysics #astronomy #space #sciencediscovery</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2110.14083v1&mdash;Internal Structure of the 2019 April 2 CME</h2>
+      <p><a href=http://arxiv.org/abs/2110.14083v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Brian E. Wood</li>
+          <li>Carlos R. Braga</li>
+          <li>Angelos Vourlidas</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present the first analysis of internal coronal mass ejection (CME)
+structure observed very close to the Sun by the Wide-field Imager for Solar
+PRobe (WISPR) instrument on board Parker Solar Probe (PSP). The transient
+studied here is a CME observed during PSP's second perihelion passage on 2019
+April 2, when PSP was only 40 R_sun from the Sun. The CME was also well
+observed from 1 au by the STEREO-A spacecraft, which tracks the event all the
+way from the Sun to 1 au. However, PSP/WISPR observes internal structure not
+apparent in the images from 1 au. In particular, two linear features are
+observed, one bright and one dark. We model these features as two loops within
+the CME flux rope channel. The loops can be interpreted as bundles of field
+lines, with the brightness of the bright loop indicative of lots of mass being
+loaded into those field lines, and with the dark loop being devoid of such mass
+loading. It is possible that these loops are actually representative of two
+independent flux rope structures within the overall CME outline.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2110.13712v1&mdash;Galactic cosmic ray propagation through M dwarf planetary systems</h2>
+      <p><a href=http://arxiv.org/abs/2110.13712v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>A. L. Mesquita</li>
+          <li>D. Rodgers-Lee</li>
+          <li>A. A. Vidotto</li>
+          <li>D. Atri</li>
+          <li>B. E. Wood</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Quantifying the flux of cosmic rays reaching exoplanets around M dwarfs is
+essential to understand their possible effects on exoplanet habitability. Here,
+we investigate the propagation of Galactic cosmic rays as they travel through
+the stellar winds (astrospheres) of five nearby M dwarfs, namely: GJ 15A, GJ
+273, GJ 338B, GJ 411 and GJ 887. Our selected stars each have 1 or 2 detected
+exoplanets and they all have wind mass-loss rates constrained by Lyman-alpha
+observations. Our simulations use a combined 1D magnetohydrodynamic (MHD)
+Alfv\'en-wave-driven stellar wind model and 1D cosmic ray transport model. We
+find that GJ 411 and GJ 887 have Galactic cosmic rays fluxes comparable with
+Earth's at their habitable zones. On the other hand, GJ 15A, GJ 273 and GJ 338B
+receive a lower Galactic cosmic ray flux in their habitable zones. All
+exoplanets in our sample, with exception of GJ 15A c and GJ 411 c, have a
+significantly lower flux of Galactic cosmic rays than values observed at the
+Earth because they orbit closer-in. The fluxes found here can be further used
+for chemical modelling of planetary atmospheres. Finally, we calculate the
+radiation dose at the surface of the habitable-zone planet GJ 273 b, assuming
+it has an Earth-like atmosphere. This planet receives up to 209 times less 15
+MeV energy cosmic ray fluxes than values observed at Earth. However, for
+high-energy cosmic rays (~ GeV), the difference in flux is only 2.3 times
+smaller, which contributes to GJ 273 b receiving a significant surface
+radiation dose of 0.13 mSv/yr (40% of the annual dose on Earth's surface).</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2110.13152v2&mdash;CH3-Terminated Carbon Chains in the GOTHAM Survey of TMC-1: Evidence of Interstellar CH3C7N</h2>
+      <p><a href=http://arxiv.org/abs/2110.13152v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Mark A. Siebert</li>
+          <li>Kin Long Kelvin Lee</li>
+          <li>Anthony J. Remijan</li>
+          <li>Andrew M. Burkhardt</li>
+          <li>Ryan A. Loomis</li>
+          <li>Michael C. McCarthy</li>
+          <li>Brett A. McGuire</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We report a systematic study of all known methyl carbon chains toward TMC-1
+using the second data release of the GOTHAM survey, as well as a search for
+larger species. Using Markov-Chain Monte Carlo simulations and spectral line
+stacking of over 30 rotational transitions, we report statistically significant
+emission from methylcyanotriacetylene (CH$_3$C$_7$N) at a confidence level of
+4.6$\sigma$, and use it to derive a column density of ${\sim}$10$^{11}$
+cm$^{-2}$. We also searched for the related species, methyltetraacetylene
+(CH$_3$C$_8$H), and place upper limits on the column density of this molecule.
+By carrying out the above statistical analyses for all other previously
+detected methyl-terminated carbon chains that have emission lines in our
+survey, we assess the abundances, excitation conditions, and formation
+chemistry of methylpolyynes (CH3C$_{2n}$H) and methylcyanopolyynes
+(CH3C$_{2n-1}$N) in TMC-1, and compare those with predictions from a chemical
+model. Based on our observed trends in column density and relative populations
+of the A and E nuclear spin isomers, we find that the methylpolyynes and
+methylcyanopolyynes families exhibit stark differences from one another,
+pointing to separate interstellar formation pathways, which is confirmed
+through gas-grain chemical modeling with nautilus.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2110.13152v2&mdash;CH3-Terminated Carbon Chains in the GOTHAM Survey of TMC-1: Evidence of Interstellar CH3C7N</h2>
+      <p><a href=http://arxiv.org/abs/2110.13152v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Mark A. Siebert</li>
+          <li>Kin Long Kelvin Lee</li>
+          <li>Anthony J. Remijan</li>
+          <li>Andrew M. Burkhardt</li>
+          <li>Ryan A. Loomis</li>
+          <li>Michael C. McCarthy</li>
+          <li>Brett A. McGuire</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We report a systematic study of all known methyl carbon chains toward TMC-1
+using the second data release of the GOTHAM survey, as well as a search for
+larger species. Using Markov-Chain Monte Carlo simulations and spectral line
+stacking of over 30 rotational transitions, we report statistically significant
+emission from methylcyanotriacetylene (CH$_3$C$_7$N) at a confidence level of
+4.6$\sigma$, and use it to derive a column density of ${\sim}$10$^{11}$
+cm$^{-2}$. We also searched for the related species, methyltetraacetylene
+(CH$_3$C$_8$H), and place upper limits on the column density of this molecule.
+By carrying out the above statistical analyses for all other previously
+detected methyl-terminated carbon chains that have emission lines in our
+survey, we assess the abundances, excitation conditions, and formation
+chemistry of methylpolyynes (CH3C$_{2n}$H) and methylcyanopolyynes
+(CH3C$_{2n-1}$N) in TMC-1, and compare those with predictions from a chemical
+model. Based on our observed trends in column density and relative populations
+of the A and E nuclear spin isomers, we find that the methylpolyynes and
+methylcyanopolyynes families exhibit stark differences from one another,
+pointing to separate interstellar formation pathways, which is confirmed
+through gas-grain chemical modeling with nautilus.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

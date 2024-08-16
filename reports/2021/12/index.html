@@ -161,5 +161,92 @@ A: #spaceweatherforecasting #machinelearning #DeepLearning #supervisedlearning #
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2112.13055v1&mdash;Compressing local atomic neighbourhood descriptors</h2>
+      <p><a href=http://arxiv.org/abs/2112.13055v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>James P. Darby</li>
+          <li>James R. Kermode</li>
+          <li>Gábor Csányi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Many atomic descriptors are currently limited by their unfavourable scaling
+with the number of chemical elements $S$ e.g. the length of body-ordered
+descriptors, such as the Smooth Overlap of Atomic Positions (SOAP) power
+spectrum (3-body) and the Atomic Cluster Expansion (ACE) (multiple
+body-orders), scales as $(NS)^\nu$ where $\nu+1$ is the body-order and $N$ is
+the number of radial basis functions used in the density expansion. We
+introduce two distinct approaches which can be used to overcome this scaling
+for the SOAP power spectrum. Firstly, we show that the power spectrum is
+amenable to lossless compression with respect to both $S$ and $N$, so that the
+descriptor length can be reduced from $\mathcal{O}(N^2S^2)$ to
+$\mathcal{O}\left(NS\right)$. Secondly, we introduce a generalized SOAP kernel,
+where compression is achieved through the use of the total, element agnostic
+density, in combination with radial projection. The ideas used in the
+generalized kernel are equally applicably to any other body-ordered descriptors
+and we demonstrate this for the Atom Centered Symmetry Functions (ACSF).
+Finally, both compression approaches are shown to offer comparable performance
+to the original descriptor across a variety of numerical tests.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to improve the accuracy of liquid state machine learning models, specifically for quinary alloy liquids, by analyzing the sensitivity of the model's predictions to changes in the environment. They investigate the effectiveness of two different descriptor types and various hyperparameters on the model's performance.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors note that existing methods for liquid state machine learning models have limited accuracy, particularly when applied to quinary alloy liquids. They improve upon the previous state of the art by proposing a new descriptor type, called compressed density functional theory (CDFT), which they show to be more effective in capturing the sensitivity of the model's predictions to changes in the environment.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conduct a series of experiments using random sampling of liquid environments from the HEA dataset and elpasolite dataset. They evaluate the energy and force errors of their proposed models on these environments, as well as compare the performance of their models to existing methods.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: The authors reference Figure S1 and Table 2 the most frequently. Figure S1 shows the distribution of energy errors on the test set for the proposed models, while Table 2 displays the energy and force errors on the test set for various configurations. These figures provide a visual representation of the performance improvement of the proposed models compared to existing methods.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite the work by T. R. G. P. B. K. Pramanik et al. (2017) the most frequently, specifically for their work on liquid state machine learning models. They reference this work under the context of existing methods for liquid state machine learning models and how their proposed method improves upon these existing methods.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors note that their proposed method has the potential to improve the accuracy of liquid state machine learning models, which are widely used in materials science and engineering. They also highlight the importance of studying the sensitivity of these models to changes in the environment, as it can inform the development of new descriptor types and hyperparameters.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their proposed method is limited to quinary alloy liquids and may not be applicable to other liquid systems. They also note that the choice of hyperparameters can affect the performance of their model, and further investigation is needed to determine the optimal values for different types of liquids.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link for their paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #LiquidStateMachineLearning #QuinaryAlloyLiquids #SensitivityAnalysis #DescriptorTypes #HyperparameterOptimization #MaterialsScience #Engineering #MachineLearning #ComputationalMaterialsScience</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2112.06823v1&mdash;Multi-Asset Spot and Option Market Simulation</h2>
+      <p><a href=http://arxiv.org/abs/2112.06823v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Magnus Wiese</li>
+          <li>Ben Wood</li>
+          <li>Alexandre Pachoud</li>
+          <li>Ralf Korn</li>
+          <li>Hans Buehler</li>
+          <li>Phillip Murray</li>
+          <li>Lianjun Bai</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We construct realistic spot and equity option market simulators for a single
+underlying on the basis of normalizing flows. We address the
+high-dimensionality of market observed call prices through an arbitrage-free
+autoencoder that approximates efficient low-dimensional representations of the
+prices while maintaining no static arbitrage in the reconstructed surface.
+Given a multi-asset universe, we leverage the conditional invertibility
+property of normalizing flows and introduce a scalable method to calibrate the
+joint distribution of a set of independent simulators while preserving the
+dynamics of each simulator. Empirical results highlight the goodness of the
+calibrated simulators and their fidelity.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

@@ -205,5 +205,144 @@ A: #astrochemistry #interstellarmedium #N2O #molecularclouds #ALMA #spectroscopy
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2008.08461v4&mdash;Relevance of Rotationally Equivariant Convolutions for Predicting Molecular Properties</h2>
+      <p><a href=http://arxiv.org/abs/2008.08461v4>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Benjamin Kurt Miller</li>
+          <li>Mario Geiger</li>
+          <li>Tess E. Smidt</li>
+          <li>Frank Noé</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Equivariant neural networks (ENNs) are graph neural networks embedded in
+$\mathbb{R}^3$ and are well suited for predicting molecular properties. The ENN
+library e3nn has customizable convolutions, which can be designed to depend
+only on distances between points, or also on angular features, making them
+rotationally invariant, or equivariant, respectively. This paper studies the
+practical value of including angular dependencies for molecular property
+prediction directly via an ablation study with \texttt{e3nn} and the QM9 data
+set. We find that, for fixed network depth and parameter count, adding angular
+features decreased test error by an average of 23%. Meanwhile, increasing
+network depth decreased test error by only 4% on average, implying that
+rotationally equivariant layers are comparatively parameter efficient. We
+present an explanation of the accuracy improvement on the dipole moment, the
+target which benefited most from the introduction of angular features.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>
+Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to improve the state-of-the-art in multi-target regression tasks by exploring different architectures and hyperparameter settings.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in multi-target regression tasks was L1Net, which achieved a minimum loss averaged over normalized losses on all targets. This paper improved upon L1Net by proposing new architectures and hyperparameter settings that led to better performance.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted a random hyperparameter search to find the best architecture and hyperparameters for multi-target regression tasks. They sampled forty different sets of hyperparameters from a range of values and did multi-target training for ten epochs with each set of hyperparameters.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figure 4 is referenced the most frequently, as it shows the performance of different L0Net-style architectures on validation data. Table 3 is also important as it lists the ranges of hyperparameters used in the random search.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: SchNet [4] and DimeNet [22] were cited the most frequently, as they provide a basis for understanding the L0Net architecture and its performance.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have a significant impact on the field of machine learning as it proposes new architectures and hyperparameter settings that can improve the state-of-the-art in multi-target regression tasks. It also provides a systematic way of exploring different architectures and hyperparameters, which can be useful for future research.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness is that the random hyperparameter search may not have exhaustively covered all possible combinations of hyperparameters, which could result in a limited representation of the optimal architecture and hyperparameters. Additionally, the choice of Figueiras et al. [4] as the basis for understanding L0Net may be subjective and could be challenged by other interpretations of the same reference.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I don't have access to the Github repository link for this paper as it is not publicly available.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #MachineLearning #Regression #MultiTarget #L0Net #ArchitectureSearch #HyperparameterOptimization #RandomSearch #NeurIPS2022</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2008.08461v4&mdash;Relevance of Rotationally Equivariant Convolutions for Predicting Molecular Properties</h2>
+      <p><a href=http://arxiv.org/abs/2008.08461v4>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Benjamin Kurt Miller</li>
+          <li>Mario Geiger</li>
+          <li>Tess E. Smidt</li>
+          <li>Frank Noé</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Equivariant neural networks (ENNs) are graph neural networks embedded in
+$\mathbb{R}^3$ and are well suited for predicting molecular properties. The ENN
+library e3nn has customizable convolutions, which can be designed to depend
+only on distances between points, or also on angular features, making them
+rotationally invariant, or equivariant, respectively. This paper studies the
+practical value of including angular dependencies for molecular property
+prediction directly via an ablation study with \texttt{e3nn} and the QM9 data
+set. We find that, for fixed network depth and parameter count, adding angular
+features decreased test error by an average of 23%. Meanwhile, increasing
+network depth decreased test error by only 4% on average, implying that
+rotationally equivariant layers are comparatively parameter efficient. We
+present an explanation of the accuracy improvement on the dipole moment, the
+target which benefited most from the introduction of angular features.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>
+Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper is focused on improving the state-of-the-art in multi-target regression tasks, specifically in the context of deep neural networks. The authors aim to explore the potential of different architectures and hyperparameters to achieve better performance.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: According to the paper, the previous state-of-the-art in multi-target regression tasks was achieved by a model called L1Net, which used a combination of convolutional and gated blocks. The authors of this paper propose several variations of this architecture, including L0Net, L0Net Deep, L0Net Outdeep, and L0Net Both Deep, each with different combinations of convolutional layers and gated blocks. These variations were evaluated through a random hyperparameter search, and the results showed that L0Net Deep performed the best among all the proposed architectures.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted a random hyperparameter search to evaluate the performance of the proposed architectures on multi-target regression tasks. They sampled forty different sets of hyperparameters from predefined ranges, trained each model for ten epochs, and evaluated their performance on a validation set. The hyperparameters searched included cosine, Gaussian, and Bessel distributions, among others.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figure 4 is referenced the most frequently in the paper, as it shows the performance of different L0Net-style architectures on validation data. Table 3 is also important, as it lists the ranges of hyperparameters used for the random search.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The paper cites SchNet [4] and DimeNet [22] the most frequently, both of which are related to deep neural networks for multi-target regression tasks. The citations are given in the context of exploring different architectures and hyperparameters for improving performance.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have a significant impact on the field of deep learning, particularly in the context of multi-target regression tasks. By proposing several novel architectures and evaluating their performance through a random hyperparameter search, the authors provide valuable insights into the potential of different approaches for improving performance in these tasks.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that the evaluation was conducted on a single dataset, which may limit the generalizability of the results to other datasets. Additionally, the authors did not perform an exhaustive search of all possible architectures and hyperparameters, which could have provided further insights into the performance of different approaches.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I don't have access to the Github repository link for this paper as it is not publicly available.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #MultiTargetRegression #DeepNeuralNetworks #RandomHyperparameterSearch #ConvolutionalNeurons #GatedBlocks #L0Net #L1Net #PerformanceEvaluation #NeuralNetworkArchitecture #DeepLearning</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2008.10773v1&mdash;Enabling robust offline active learning for machine learning potentials using simple physics-based priors</h2>
+      <p><a href=http://arxiv.org/abs/2008.10773v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Muhammed Shuaibi</li>
+          <li>Saurabh Sivakumar</li>
+          <li>Rui Qi Chen</li>
+          <li>Zachary W. Ulissi</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Machine learning surrogate models for quantum mechanical simulations has
+enabled the field to efficiently and accurately study material and molecular
+systems. Developed models typically rely on a substantial amount of data to
+make reliable predictions of the potential energy landscape or careful active
+learning and uncertainty estimates. When starting with small datasets,
+convergence of active learning approaches is a major outstanding challenge
+which limited most demonstrations to online active learning. In this work we
+demonstrate a $\Delta$-machine learning approach that enables stable
+convergence in offline active learning strategies by avoiding unphysical
+configurations. We demonstrate our framework's capabilities on a structural
+relaxation, transition state calculation, and molecular dynamics simulation,
+with the number of first principle calculations being cut down anywhere from
+70-90%. The approach is incorporated and developed alongside AMPtorch, an
+open-source machine learning potential package, along with interactive Google
+Colab notebook examples.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
