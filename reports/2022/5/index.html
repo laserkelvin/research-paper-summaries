@@ -379,5 +379,148 @@ A: #DFT #chemistry #physics #materialscience #simulation #reactiondynamics #elec
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2205.15071v1&mdash;Incorporation of density scaling constraint in density functional design via contrastive representation learning</h2>
+      <p><a href=http://arxiv.org/abs/2205.15071v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Weiyi Gong</li>
+          <li>Tao Sun</li>
+          <li>Hexin Bai</li>
+          <li>Shah Tanvir ur Rahman Chowdhury</li>
+          <li>Peng Chu</li>
+          <li>Anoj Aryal</li>
+          <li>Jie Yu</li>
+          <li>Haibin Ling</li>
+          <li>John P. Perdew</li>
+          <li>Qimin Yan</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>In a data-driven paradigm, machine learning (ML) is the central component for
+developing accurate and universal exchange-correlation (XC) functionals in
+density functional theory (DFT). It is well known that XC functionals must
+satisfy several exact conditions and physical constraints, such as density
+scaling, spin scaling, and derivative discontinuity. In this work, we
+demonstrate that contrastive learning is a computationally efficient and
+flexible method to incorporate a physical constraint in ML-based density
+functional design. We propose a schematic approach to incorporate the uniform
+density scaling property of electron density for exchange energies by adopting
+contrastive representation learning during the pretraining task. The pretrained
+hidden representation is transferred to the downstream task to predict the
+exchange energies calculated by DFT. The electron density encoder transferred
+from the pretraining task based on contrastive learning predicts exchange
+energies that satisfy the scaling property, while the model trained without
+using contrastive learning gives poor predictions for the scaling-transformed
+electron density systems. Furthermore, the model with pretrained encoder gives
+a satisfactory performance with only small fractions of the whole augmented
+dataset labeled, comparable to the model trained from scratch using the whole
+dataset. The results demonstrate that incorporating exact constraints through
+contrastive learning can enhance the understanding of density-energy mapping
+using neural network (NN) models with less data labeling, which will be
+beneficial to generalizing the application of NN-based XC functionals in a wide
+range of scenarios that are not always available experimentally but
+theoretically justified. This work represents a viable pathway toward the
+machine learning design of a universal density functional via representation
+learning.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to develop a method for predicting exchange energies in molecule systems using a contrastive learning approach. The authors aim to improve upon previous state-of-the-art methods, which rely on supervised learning and require large amounts of labeled data.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art for predicting exchange energies in molecule systems was achieved by supervised learning models that used a combination of feature engineering and transfer learning. However, these models require large amounts of labeled data, which can be time-consuming and expensive to obtain. In contrast, the proposed method uses a contrastive learning approach that does not require labeled data, making it more efficient and scalable.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors propose using a contrastive learning approach combined with transfer learning to predict exchange energies in molecule systems. They use a ResNet or DoubleConv density encoder to encode the molecular structures into a compact representation, and then use a projection matrix to map the encoded representations onto a lower-dimensional space. The authors also explore the effect of different label percentages on the performance of the model.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 2 and 3 are referenced the most frequently in the text, as they show the comparison of performance between supervised learning and contrastive learning models on datasets with different scaling factors. Table 1 is also important, as it shows the performance of different models trained using various label percentages.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [1] is cited the most frequently, as it provides a general overview of contrastive learning and its applications. The authors also cite [2], which introduces the concept of density encoding and its use in machine learning.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because it proposes a novel approach to predicting exchange energies in molecule systems using contrastive learning, which does not require large amounts of labeled data. This could make it more efficient and scalable than previous methods, which rely on supervised learning and require large amounts of labeled data.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that the proposed method relies on a specific type of contrastive learning algorithm, which may not be applicable to all molecule systems or problems. Additionally, the authors do not provide a comprehensive evaluation of the proposed method on a wide range of datasets, which could limit its generalizability.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not provided in the text.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #machinelearning #contrastivelarning #densityencoding #supervisedlearning #exchangeenergies #moleculesystems #scalability #efficiency #novelapproach #potentiallyimpactful #important</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2205.01559v4&mdash;A study on rare-earth Laves phases for magnetocaloric liquefaction of hydrogen</h2>
+      <p><a href=http://arxiv.org/abs/2205.01559v4>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Wei Liu</li>
+          <li>Eduard Bykov</li>
+          <li>Sergey Taskaev</li>
+          <li>Mikhail Bogush</li>
+          <li>Vladimir Khovaylo</li>
+          <li>Nuno Fortunato</li>
+          <li>Alex Aubert</li>
+          <li>Hongbin Zhang</li>
+          <li>Tino Gottschall</li>
+          <li>Jochen Wosniza</li>
+          <li>Franziska Scheibel</li>
+          <li>Konstantin Skokov</li>
+          <li>Oliver Gutfleisch</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We are witnessing a great transition towards a society powered by renewable
+energies to meet the ever-stringent climate target. Hydrogen, as an energy
+carrier, will play a key role in building a climate-neutral society. Although
+liquid hydrogen is essential for hydrogen storage and transportation,
+liquefying hydrogen is costly with the conventional methods based on
+Joule-Thomas effect. As an emerging technology which is potentially more
+efficient, magnetocaloric hydrogen liquefaction is a "game-changer". In this
+work, we have investigated the rare-earth-based Laves phases ${\rm R}Al_2$ and
+${\rm R}Ni_2$ for magnetocaloric hydrogen liquefaction. We have noticed an
+unaddressed feature that the magnetocaloric effect of second-order
+magnetocaloric materials can become "giant" near the hydrogen boiling point.
+This feature indicates strong correlations, down to the boiling point of
+hydrogen, among the three important quantities of the magnetocaloric effect:
+the maximum magnetic entropy change $\Delta S_{m}^{max}$, the maximum adiabatic
+temperature change $\Delta T_{ad}^{max}$, and the Curie temperature $T_C$. Via
+a comprehensive literature review, we interpret the correlations for a
+rare-earth intermetallic series as two trends: (1) $\Delta S_{m}^{max}$
+increases with decreasing $T_C$; (2) $\Delta T_{ad}^{max}$ decreases near room
+temperature with decreasing $T_C$ but increases at cryogenic temperatures.
+Moreover, we have developed a mean-field approach to describe these two trends
+theoretically. The dependence of $\Delta S_{m}^{max}$ and $\Delta T_{ad}^{max}$
+on $T_C$ revealed in this work helps us quickly anticipate the magnetocaloric
+performance of rare-earth-based compounds, guiding material design and
+accelerating the discoveries of magnetocaloric materials for hydrogen
+liquefaction.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>
+Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to investigate the magnetocaloric effect in Laves phase compounds and to identify the factors that influence its maximum adiabatic temperature change. The authors seek to improve upon the previous state of the art by providing a comprehensive understanding of the thermodynamic and magnetic properties of these materials.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Prior to this study, there was limited knowledge on the magnetocaloric effect in Laves phase compounds. The authors built upon existing research by conducting a systematic study of the thermodynamic and magnetic properties of these materials using ab initio simulations. They also explored the effects of crystalline electric field on the magnetocaloric effect, which had not been previously investigated in depth.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors performed ab initio simulations to predict the thermodynamic and magnetic properties of Laves phase compounds. They also analyzed the results of previous experiments on these materials to gain insights into their magnetocaloric effect.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 5 were referenced in the text most frequently, as they provide a visual representation of the predicted thermodynamic properties of Laves phase compounds. Table 1 was also frequently referenced, as it presents the list of materials considered in the study.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [131] by Inoue et al. was cited the most frequently, as it provides a comprehensive overview of the thermodynamic properties of rare earth aluminum Laves phase compounds. The citation is given in the context of discussing the effects of crystalline electric field on the magnetocaloric effect.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful as it provides a comprehensive understanding of the thermodynamic and magnetic properties of Laves phase compounds, which are crucial for optimizing their performance in magnetocaloric applications. The authors also identify the factors that influence the maximum adiabatic temperature change, which can help researchers design new materials with improved magnetocaloric properties.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their study has limitations, such as the simplified crystal structure assumption and the lack of experimental validation. They also mention that further investigations are needed to fully understand the magnetocaloric effect in Laves phase compounds.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I cannot provide a Github repository link for this paper as it is not available on GitHub or any other open-source code sharing platform.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #magnetocaloric #Lavesphase #compounds #thermodynamics #magnetism #abinitio #simulations #rareearth #rareearthcompounds #magneticmaterials #applications</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

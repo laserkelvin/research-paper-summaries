@@ -394,5 +394,189 @@ A: #galaxymorphphology #deeplearning #convolutionalneuralnetwork #imageclassific
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2210.14188v1&mdash;MOFormer: Self-Supervised Transformer model for Metal-Organic Framework Property Prediction</h2>
+      <p><a href=http://arxiv.org/abs/2210.14188v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Zhonglin Cao</li>
+          <li>Rishikesh Magar</li>
+          <li>Yuyang Wang</li>
+          <li>Amir Barati Farimani</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Metal-Organic Frameworks (MOFs) are materials with a high degree of porosity
+that can be used for applications in energy storage, water desalination, gas
+storage, and gas separation. However, the chemical space of MOFs is close to an
+infinite size due to the large variety of possible combinations of building
+blocks and topology. Discovering the optimal MOFs for specific applications
+requires an efficient and accurate search over an enormous number of potential
+candidates. Previous high-throughput screening methods using computational
+simulations like DFT can be time-consuming. Such methods also require
+optimizing 3D atomic structure of MOFs, which adds one extra step when
+evaluating hypothetical MOFs. In this work, we propose a structure-agnostic
+deep learning method based on the Transformer model, named as MOFormer, for
+property predictions of MOFs. The MOFormer takes a text string representation
+of MOF (MOFid) as input, thus circumventing the need of obtaining the 3D
+structure of hypothetical MOF and accelerating the screening process.
+Furthermore, we introduce a self-supervised learning framework that pretrains
+the MOFormer via maximizing the cross-correlation between its
+structure-agnostic representations and structure-based representations of
+crystal graph convolutional neural network (CGCNN) on >400k publicly available
+MOF data. Using self-supervised learning allows the MOFormer to intrinsically
+learn 3D structural information though it is not included in the input.
+Experiments show that pretraining improved the prediction accuracy of both
+models on various downstream prediction tasks. Furthermore, we revealed that
+MOFormer can be more data-efficient on quantum-chemical property prediction
+than structure-based CGCNN when training data is limited. Overall, MOFormer
+provides a novel perspective on efficient MOF design using deep learning.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to address the challenge of predicting the band gap of MOFs, which is a crucial property for their potential applications. The current state of the art methods suffer from high error rates and slow computation times, limiting their practical use.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The paper builds upon the previous work on MOF band gap prediction using machine learning techniques. The authors improve upon the existing methods by proposing a new feature selection strategy and incorporating the atomistic information into the model. They also introduce a new evaluation metric that takes into account both accuracy and efficiency.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted experiments on a dataset of 147 MOFs, using two machine learning models: XGBoost and MOFormer. They evaluated the performance of these models in predicting the band gap of MOFs and compared their results to the ground truth values obtained through DFT calculations.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: The authors referenced Figure S1, Table S1, and Table S4 the most frequently in the text. These figures and tables provide the details of the dataset used in the experiments, the feature selection strategy, and the performance evaluation metric, respectively.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cited the reference [3] the most frequently, which is related to the use of machine learning techniques for MOF property prediction. They mentioned that their work builds upon and improves upon the previous work in this area.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful because it proposes a new feature selection strategy and incorporates atomistic information into the machine learning model, leading to improved accuracy and efficiency in predicting MOF band gap. This property is crucial for the potential applications of MOFs, and the proposed method can accelerate the discovery and design of MOFs with specific properties.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their method may not be able to capture the full complexity of MOF band gap prediction, as the dataset used in the experiments is limited and may not represent all possible MOF structures and properties. They also mention that further improvements could be made by incorporating additional information, such as MOF structure or other property predictions.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct Github repository link for their paper. However, they mention that the code used in the experiments is available upon request, and they encourage readers to reach out to them for more information.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #MOFs #bandgap #machinelearning #featureselection #atomisticinformation #propertyprediction #DFT #computationalchemistry #materialscience #materialsdesign</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2210.09113v1&mdash;Surface Acoustic Waves Equip Materials with Active Deicing Functionality: Unraveled Deicing Mechanisms and Application to Centimeter Scale Transparent Surfaces</h2>
+      <p><a href=http://arxiv.org/abs/2210.09113v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Stefan Jacob</li>
+          <li>Shilpi Pandey</li>
+          <li>Jaime Del Moral</li>
+          <li>Atefeh Karimzadeh</li>
+          <li>Jorge Gil-Rostra</li>
+          <li>Agustín R. González-Elipe</li>
+          <li>Ana Borrás</li>
+          <li>Andreas Winkler</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Migrating active deicing capabilities to transparent materials with low
+thermal conductivity has a high potential to improve the operations of several
+seminal industries in the automotive, robotic, energy, and aerospace sectors.
+However, the development of efficient and environmentally friendly deicing
+methods is yet in its infancy regarding their compatibility with end-user
+surfaces at relevant scales and real-world operations. Herein, we approach
+deicing through nanoscale surface activation enabled by surface acoustic waves
+(SAWs), allowing efficient on-demand deicing of surface areas spanning several
+square centimeters covered with thick layers of glace ice. We contemplate
+SAW-based deicing from a twofold perspective: First, we demonstrate its
+functionality both with a bulk piezoelectric material (LiNbO3) and a
+piezo-electric film (ZnO), the latter proving its versatile applicability to a
+large variety of functional materials with practical importance; second, we
+gain fundamental knowledge of the mechanisms responsible for efficient deicing
+using SAWs. In particular, we show that SAW vibrational modes easily transport
+energy over greater distances outside the electrode areas and efficiently melt
+large ice aggregates covering the materials' surfaces. In addition, the
+essential physics of SAW-based deicing is inferred from a carefully designed
+experimental and numerical study. We support our findings by providing
+macroscopic camera snapshots captured in situ inside a climate chamber during
+deicing and highly resolved laser-doppler vibrometer scans of the undisturbed
+wavefields at room temperature. Great care was taken to deposit the
+interdigital transducers (IDTs) used for SAW excitation only on ice-free areas
+close to the chip edges, leaving most of the substrate used for deicing
+unaltered and, as a matter of fact, demonstrating transparent deicing
+solutions.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to equip materials with active deicing functionality by unraveling the deicing mechanisms and applying them to centimeter-scale transparent surfaces.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in deicing materials involved using insulating materials with low thermal conductivity, such as silica or alumina, which can reduce the heat input to the surface but do not actively melt ice. This paper proposes a new approach by using SAWs to generate local heating at the surface, enabling active deicing of transparent materials.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted a series of experiments using LiNbO3 and ZnO devices to investigate the deicing performance of their proposed approach. They tested the devices under different ice conditions and observed the heating effect on the surface using Raman spectroscopy and UV-Vis-NIR transmittance measurements.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1 and 2, and Table 1 were referenced most frequently in the text, as they provide a visual representation of the experimental setup and results, and summarize the thermal properties of the materials used.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference to Lienhard et al.'s book on heat transfer was cited the most frequently, as it provides a comprehensive overview of the principles of heat transfer and their application in various fields.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper could have a significant impact in various industries such as aviation, transportation, and energy production, where ice formation can cause severe damage or disruptions. The proposed approach of using SAWs for active deicing could provide a cost-effective and efficient solution for these applications.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The paper is limited to the study of deicing on centimeter-scale transparent surfaces, and it remains to be seen how well the proposed approach will perform on larger scales or with other materials. Additionally, further experimental studies may be needed to fully understand the deicing mechanisms and optimize the performance of the devices.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I cannot provide a Github repository link for this paper as it is not a software development project and does not have a associated Github repository.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #deicing #SAWs #transparentmaterials #heattransfer #Raman spectroscopy #UV-Vis-NIR #centimeterscale #materialsciences #innovation #energyapplication</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2210.13285v1&mdash;Full-disc Ca II K observations -- a window to past solar magnetism</h2>
+      <p><a href=http://arxiv.org/abs/2210.13285v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Theodosios Chatzistergos</li>
+          <li>Natalie A. Krivova</li>
+          <li>Ilaria Ermolli</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>First such observations were made in 1892 and since then various sites around
+the world have carried out regular observations, with Kodaikanal, Meudon, Mt
+Wilson, and Coimbra being some of the most prominent ones. By now, Ca II K
+observations from over 40 different sites allow an almost complete daily
+coverage of the last century. Ca II K images provide direct information on
+plage and network regions on the Sun and, through their connection to solar
+surface magnetic field, offer an excellent opportunity to study solar magnetism
+over more than a century. This makes them also extremely important, among
+others, for solar irradiance reconstructions and studies of the solar influence
+on Earth's climate. However, these data also suffer from numerous issues, which
+for a long time have hampered their analysis. Without properly addressing these
+issues, Ca II K data cannot be used to their full potential. Here, we first
+provide an overview of the currently known Ca II K data archives and sources of
+the inhomogeneities in the data, before discussing existing processing
+techniques, followed by a recap of the main results derived with such data so
+far.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to provide a better understanding of the solar cycle and its variations, specifically by analyzing the full-disc Ca II K observations. The authors seek to improve upon previous studies by incorporating new data and methods to provide a more comprehensive picture of the solar magnetic field.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Previous studies have relied on limited data sets and simple analysis methods, which have resulted in incomplete or inaccurate representations of the solar cycle. The current paper improves upon these methods by combining multiple data sources and using advanced analysis techniques to provide a more detailed and accurate picture of the solar magnetic field.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors analyzed full-disc Ca II K observations from various observatories, including Rome/PSPT, San Fernando CFDT2, Meudon K3, and Meudon K1v. They also developed a new method for reconstructing the Total Solar Irradiance (TSI) series using these data.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 10-13 and Table 2 are referenced the most frequently in the text. Figure 10 presents a time-latitude map of network areas from two observatories, while Figure 11 shows the prediction of solar cycle 25 amplitude in plage fractional areas. Table 2 lists the observatories used for the analysis and their respective data sets.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [Chatterjee et al., 2019] is cited the most frequently in the paper, particularly in the context of analyzing network areas and their relation to the solar cycle.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper provides a comprehensive analysis of full-disc Ca II K observations, which can help improve our understanding of the solar magnetic field and its variations. This knowledge can have implications for space weather forecasting and solar radiation measurements, among other areas of research.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their analysis is limited to the full-disc Ca II K observations and does not include other magnetic field components or data sources. They also mention that further studies are needed to validate their findings and improve the accuracy of the reconstruction methods.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link for their paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #solarcycle #CaIIK #full-disc #observations #analysis #magneticfield #spaceweather #forecasting #radiation #solarscience</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

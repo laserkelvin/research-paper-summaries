@@ -1115,5 +1115,114 @@ A: #sunspotcycles #Earthclimate #Jupiterinfluence #machinelearning #solarscience
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2311.17932v3&mdash;Swallowing the Bitter Pill: Simplified Scalable Conformer Generation</h2>
+      <p><a href=http://arxiv.org/abs/2311.17932v3>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Yuyang Wang</li>
+          <li>Ahmed A. Elhag</li>
+          <li>Navdeep Jaitly</li>
+          <li>Joshua M. Susskind</li>
+          <li>Miguel Angel Bautista</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>We present a novel way to predict molecular conformers through a simple
+formulation that sidesteps many of the heuristics of prior works and achieves
+state of the art results by using the advantages of scale. By training a
+diffusion generative model directly on 3D atomic positions without making
+assumptions about the explicit structure of molecules (e.g. modeling torsional
+angles) we are able to radically simplify structure learning, and make it
+trivial to scale up the model sizes. This model, called Molecular Conformer
+Fields (MCF), works by parameterizing conformer structures as functions that
+map elements from a molecular graph directly to their 3D location in space.
+This formulation allows us to boil down the essence of structure prediction to
+learning a distribution over functions. Experimental results show that scaling
+up the model capacity leads to large gains in generalization performance
+without enforcing inductive biases like rotational equivariance. MCF represents
+an advance in extending diffusion models to handle complex scientific problems
+in a conceptually simple, scalable and effective manner.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to develop a scalable and simplified conformer generation method for molecules using machine learning (MCF). They want to address the issue of limited flexibility in defining conformer generation problems as a field, and demonstrate that MCF can generate feasible conformers even when the input interpolated eigenfunctions have never been seen during training.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors note that traditional conformer generation methods are limited by their reliance on predefined atomic positions, which can result in a lack of flexibility and scalability. They claim that their proposed MCF method improves upon these traditional methods by using machine learning to generate continuous conformer fields, allowing for more flexible and scalable conformer generation.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conduct an experiment to demonstrate the effectiveness of MCF in generating feasible conformers for molecules. They use a dataset of molecular conformations from GEOM-QM9 and train their MCF model without atom features. They then visualize the results, including generated conformer fields for different molecules, and compare them to ground truth, Torsional Diff., and other samples.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: The authors reference Figures 1-8 and Tables 1-2 most frequently in the text. Figure 1 depicts an overview of the MCF method, while Figure 8 shows continuous evaluations of generated conformer fields for different molecules. Table 1 lists the dataset used for training and evaluation, and Table 2 provides a summary of the experiments conducted.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite Nightingale and Umrigar (1998) the most frequently, as it is related to the dataset used for training and evaluation. They also cite Gao et al. (2018) for its relevance to the field of conformer generation.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors suggest that their proposed MCF method has the potential to be impactful in the field of molecular simulations, as it provides a scalable and simplified approach to conformer generation. They also note that their method can be extended to predict electron density beyond atomic positions, which could lead to further advancements in the field.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their proposed MCF method relies on pre-trained machine learning models, which may not be optimal for all molecules. They also note that further investigation is needed to determine the full potential of their approach.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link in the paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #machinelearning #conformergeneration #molecular simulations #GEOM-QM9 #TorsionalDiff #scaleability #simplifiedapproach #atomposition #electrondensity #molecularmodeling</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2311.12657v1&mdash;Carbohydrate NMR chemical shift predictions using E(3) equivariant graph neural networks</h2>
+      <p><a href=http://arxiv.org/abs/2311.12657v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Maria Bånkestad</li>
+          <li>Keven M. Dorst</li>
+          <li>Göran Widmalm</li>
+          <li>Jerk Rönnols</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Carbohydrates, vital components of biological systems, are well-known for
+their structural diversity. Nuclear Magnetic Resonance (NMR) spectroscopy plays
+a crucial role in understanding their intricate molecular arrangements and is
+essential in assessing and verifying the molecular structure of organic
+molecules. An important part of this process is to predict the NMR chemical
+shift from the molecular structure. This work introduces a novel approach that
+leverages E(3) equivariant graph neural networks to predict carbohydrate NMR
+spectra. Notably, our model achieves a substantial reduction in mean absolute
+error, up to threefold, compared to traditional models that rely solely on
+two-dimensional molecular structure. Even with limited data, the model excels,
+highlighting its robustness and generalization capabilities. The implications
+are far-reaching and go beyond an advanced understanding of carbohydrate
+structures and spectral interpretation. For example, it could accelerate
+research in pharmaceutical applications, biochemistry, and structural biology,
+offering a faster and more reliable analysis of molecular structures.
+Furthermore, our approach is a key step towards a new data-driven era in
+spectroscopy, potentially influencing spectroscopic techniques beyond NMR.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to develop a machine learning model for predicting NMR chemical shifts, which is a challenging task due to the complexity of the molecular structures and the limited availability of experimental data.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors build upon existing machine learning models for predicting NMR chemical shifts, such as the MMFF force field and the RDKit library, by incorporating additional features and using a larger dataset to train their model. They also use a novel approach called "δ-machine learning" to improve the accuracy of the predictions.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted experiments to validate the performance of their machine learning model on a set of test compounds. They used NMR spectroscopy to measure the chemical shifts of these compounds, and compared the predicted values from their model with the experimental ones.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1-3 and Tables 1 and 2 were referenced in the text most frequently. Figure 1 shows the architecture of their machine learning model, while Figures 2 and 3 illustrate the performance of their model on different types of molecules. Table 1 lists the chemical shift prediction errors for each of the test compounds, while Table 2 provides a summary of the results from the validation experiments.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference "Unzueta et al. (2021) Predicting density functional theory-quality NMR chemical shifts via δ-machine learning" was cited the most frequently, as it provides a related approach to predicting NMR chemical shifts using machine learning. The authors mention this reference in the context of comparing their own approach with existing methods and highlighting its advantages.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors argue that their paper could have significant impact on the field of NMR spectroscopy, as it provides a powerful tool for predicting chemical shifts without the need for experimental measurements. This could greatly simplify and accelerate the process of NMR-based structure elucidation in chemistry and related fields.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their model may not perform as well on larger or more complex molecules, and suggest that future work could involve extending their approach to these types of compounds. They also note that their model is based on a simplified representation of the molecular structure, which may limit its accuracy in certain cases.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a Github repository link for their paper.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #NMR #spectroscopy #machinelearning #chemicalshifts #prediction #structureelucidation #computationalchemistry #molecularmodeling #simulation</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

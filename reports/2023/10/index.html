@@ -1326,5 +1326,126 @@ A: #NaTransportSimulation #LangevinEquation #FilteringApproach #NumericalPhaseSh
         </div>
       </div>
     </div>
+    <div>
+      <h2> 2310.03121v2&mdash;OpenMM 8: Molecular Dynamics Simulation with Machine Learning Potentials</h2>
+      <p><a href=http://arxiv.org/abs/2310.03121v2>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Peter Eastman</li>
+          <li>Raimondas Galvelis</li>
+          <li>Raúl P. Peláez</li>
+          <li>Charlles R. A. Abreu</li>
+          <li>Stephen E. Farr</li>
+          <li>Emilio Gallicchio</li>
+          <li>Anton Gorenko</li>
+          <li>Michael M. Henry</li>
+          <li>Frank Hu</li>
+          <li>Jing Huang</li>
+          <li>Andreas Krämer</li>
+          <li>Julien Michel</li>
+          <li>Joshua A. Mitchell</li>
+          <li>Vijay S. Pande</li>
+          <li>João PGLM Rodrigues</li>
+          <li>Jaime Rodriguez-Guerra</li>
+          <li>Andrew C. Simmonett</li>
+          <li>Sukrit Singh</li>
+          <li>Jason Swails</li>
+          <li>Philip Turner</li>
+          <li>Yuanqing Wang</li>
+          <li>Ivy Zhang</li>
+          <li>John D. Chodera</li>
+          <li>Gianni De Fabritiis</li>
+          <li>Thomas E. Markland</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Machine learning plays an important and growing role in molecular simulation.
+The newest version of the OpenMM molecular dynamics toolkit introduces new
+features to support the use of machine learning potentials. Arbitrary PyTorch
+models can be added to a simulation and used to compute forces and energy. A
+higher-level interface allows users to easily model their molecules of interest
+with general purpose, pretrained potential functions. A collection of optimized
+CUDA kernels and custom PyTorch operations greatly improves the speed of
+simulations. We demonstrate these features on simulations of cyclin-dependent
+kinase 8 (CDK8) and the green fluorescent protein (GFP) chromophore in water.
+Taken together, these features make it practical to use machine learning to
+improve the accuracy of simulations at only a modest increase in cost.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to develop a new method for simulating ultrafast dynamics in molecular systems, specifically focusing on the anionic green fluorescent protein chromophore in water. The authors seek to improve upon existing methods, such as the Generalized Gradient Approximation (GGA) and the density functional theory (DFT), which have limitations when it comes to describing ultrafast dynamics.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art in simulating ultrafast dynamics was the GGA, which provided a reasonable description of the electronic structure but struggled with describing the dynamics of molecular systems. This paper improves upon the GGA by incorporating non-adiabatic effects and using a more accurate representation of the electronic structure, leading to better descriptions of the ultrafast dynamics of molecular systems.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors of the paper propose and carry out simulations of the anionic green fluorescent protein chromophore in water using their new method, which they refer to as Cp2k. They use a range of simulations to study the ultrafast dynamics of the system, including ab initio simulations, density functional theory (DFT) calculations, and molecular dynamics (MD) simulations.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 3, and Tables 1 and 2 are referenced the most frequently in the text. These figures and tables provide a visual representation of the performance of the new method compared to existing methods and demonstrate its improved accuracy in describing ultrafast dynamics.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference (48) by Grimme et al. is cited the most frequently in the text, particularly when discussing the density functional dispersion correction (DFD) method. The authors highlight the importance of accurate DFD methods for simulating ultrafast dynamics and provide a critical evaluation of existing methods, including their own method.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper has the potential to be impactful or important because it introduces a new method for simulating ultrafast dynamics in molecular systems, which are crucial for understanding a wide range of chemical and biological processes. The method proposed in the paper could be used to study the ultrafast dynamics of other molecular systems, potentially leading to new insights into these processes and the development of new materials or therapeutics.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their method is based on a simplification of the electronic structure, which may limit its accuracy in certain cases. They also note that further developments and improvements to their method could be made in future work.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: I couldn't find a direct Github repository link for this paper. However, the authors provide links to relevant software and data in the final section of the paper, including a link to the Cp2k code repository.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #ultrafastdynamics #molecularsimulation #densityfunctionaltheory #abinitiosimulation #greenfluorescentprotein #water #anionicchromophore #non-adiabaticeffects #accurateelectronicstructure #simulationmethodology</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 2310.02902v1&mdash;Searching for High-Value Molecules Using Reinforcement Learning and Transformers</h2>
+      <p><a href=http://arxiv.org/abs/2310.02902v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Raj Ghugare</li>
+          <li>Santiago Miret</li>
+          <li>Adriana Hugessen</li>
+          <li>Mariano Phielipp</li>
+          <li>Glen Berseth</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Reinforcement learning (RL) over text representations can be effective for
+finding high-value policies that can search over graphs. However, RL requires
+careful structuring of the search space and algorithm design to be effective in
+this challenge. Through extensive experiments, we explore how different design
+choices for text grammar and algorithmic choices for training can affect an RL
+policy's ability to generate molecules with desired properties. We arrive at a
+new RL-based molecular design algorithm (ChemRLformer) and perform a thorough
+analysis using 25 molecule design tasks, including computationally complex
+protein docking simulations. From this analysis, we discover unique insights in
+this problem space and show that ChemRLformer achieves state-of-the-art
+performance while being more straightforward than prior work by demystifying
+which design choices are actually helpful for text-based molecule design.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper aims to improve the stability and performance of transformer-based reinforcement learning (RL) agents in online settings, specifically in molecular optimization tasks. The authors observe that transformers can be unstable during training, leading to suboptimal performance. They investigate the reasons for this instability and propose several solutions to address it.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: Prior to this paper, the state-of-the-art in transformer-based RL agents for molecular optimization tasks was achieved by Parisotto et al.'s work [Parisotto et al., 2019], which used an online reinforcement learning algorithm. The authors of this paper improve upon this result by proposing several solutions to address the instability of transformers in online RL, including replay buffers, likelihood penalization, and KL regularization with a prior.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted several experiments on the augmented docking task to evaluate the effectiveness of their proposed solutions. They trained both transformer and recurrent neural network (RNN) based RL agents for 10 times more molecules and compared their performance. They also compared their results with another RL algorithm, proximal policy optimization (PPO).</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 12-16 and Table 1 are referenced the most frequently in the text. Figure 12 compares the performance of transformer and RNN based agents on augmented docking tasks, while Figure 13 compares their results with another RL algorithm, PPO. Table 1 provides a summary of their proposed solutions to address the instability of transformers in online RL.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The paper cites [Schulman et al., 2017] and [Cieplinski et al., 2021] the most frequently, both of which are related to complex algorithms like PPO. They mention that these algorithms have achieved higher performance on control tasks, but their results indicate that vanilla policy gradient algorithms are more stable than actor critic algorithms like PPO for molecular optimization tasks.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper is potentially impactful because it addresses a critical challenge in transformer-based RL agents, which are their instability and suboptimal performance in online settings. By proposing several solutions to address this issue, the authors provide a new perspective on how to improve the stability and performance of transformers in molecular optimization tasks.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that it focuses solely on transformer-based RL agents for molecular optimization tasks, without considering other types of RL algorithms or hybrid approaches. Additionally, the authors do not provide a comprehensive analysis of the proposed solutions' computational complexity and scalability, which could be an important consideration for practical applications.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The Github repository link for this paper is not provided in the text.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #ReinforcementLearning #Transformers #OnlineRL #MolecularOptimization #Stability #Performance #Algorithms #Complexity #HybridApproaches #Scalability</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

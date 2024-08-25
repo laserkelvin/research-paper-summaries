@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2019&mdash;5 summaries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.0/es5/latest?tex-mml-chtml.js">
+    </script>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+    <h1>Summaries for 2019/5</h1>
+    <hr>
+    <p>
+      <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
+    </p>
+    <div>
+      <h2> 1905.06048v3&mdash;Materials property prediction using symmetry-labeled graphs as atomic-position independent descriptors</h2>
+      <p><a href=http://arxiv.org/abs/1905.06048v3>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Peter Bjørn Jørgensen</li>
+          <li>Estefanía Garijo del Río</li>
+          <li>Mikkel N. Schmidt</li>
+          <li>Karsten Wedel Jacobsen</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Computational materials screening studies require fast calculation of the
+properties of thousands of materials. The calculations are often performed with
+Density Functional Theory (DFT), but the necessary computer time sets
+limitations for the investigated material space. Therefore, the development of
+machine learning models for prediction of DFT calculated properties are
+currently of interest. A particular challenge for \emph{new} materials is that
+the atomic positions are generally not known. We present a machine learning
+model for the prediction of DFT-calculated formation energies based on Voronoi
+quotient graphs and local symmetry classification without the need for detailed
+information about atomic positions. The model is implemented as a message
+passing neural network and tested on the Open Quantum Materials Database (OQMD)
+and the Materials Project database. The test mean absolute error is 20 meV on
+the OQMD database and 40 meV on Materials Project Database. The possibilities
+for prediction in a realistic computational screening setting is investigated
+on a dataset of 5976 ABSe$_3$ selenides with very limited overlap with the OQMD
+training set. Pretraining on OQMD and subsequent training on 100 selenides
+result in a mean absolute error below 0.1 eV for the formation energy of the
+selenides.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors aim to develop a new method for density functional theory (DFT) calculations, which they call Message Passing Neural Networks (MPNN), that can efficiently handle large-scale DFT simulations. They specifically address the issue of computational cost, which they claim is the main limitation in applying DFT to large systems.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors mention that traditional DFT algorithms have a computational complexity that grows exponentially with the size of the system, making it difficult to apply them to large systems. They argue that their MPNN method provides an order-of-magnitude speedup compared to state-of-the-art methods, which is essential for tackling large-scale DFT simulations.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors test the performance of their MPNN method on several benchmark systems, including hydrogen molecule ionization and electron affinity of graphene. They compare their results with those obtained using traditional DFT methods and show that MPNN provides more accurate predictions while being significantly faster.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1 and 2 are mentioned frequently throughout the paper as they demonstrate the performance of MPNN on different systems. Table 1 is also important as it compares the computational cost of MPNN with other DFT methods.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The reference [49] by Pearce et al. is cited several times throughout the paper, particularly when discussing the comparison of MPNN with other DFT methods. The authors highlight that their method builds upon the work of [49] and other machine learning-based DFT methods.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors argue that their MPNN method has the potential to revolutionize the field of computational chemistry by providing an efficient and accurate way of performing large-scale DFT simulations. This could lead to significant advances in fields such as materials science, drug discovery, and environmental science.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their method is based on a simplified representation of the electronic structure of the system, which may limit its accuracy. They also mention that further development is needed to handle more complex systems and to improve the efficiency of their algorithm.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors provide a link to their Github repository in the final sentence of the paper, which contains the implementation details and examples of how to use their method. The link is: <https://github.com/peterbjorgensen/msgnet>.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #MessagePassingNeuralNetworks #DFT #ComputationalChemistry #MaterialsScience #DrugDiscovery #EnvironmentalScience #MachineLearning #ArtificialIntelligence #NeuralNetworks #LargeScaleSimulations #HighPerformanceComputing</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2> 1905.01466v1&mdash;Efficient Electrocatalytic Reduction of CO2 by Nitrogen-Doped Nanoporous Carbon-Carbon Nanotube Membranes - A Step Towards the Electrochemical CO2 Refinery</h2>
+      <p><a href=http://arxiv.org/abs/1905.01466v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Hong Wang</li>
+          <li>Jia Jia</li>
+          <li>Pengfei Song</li>
+          <li>Qiang Wang</li>
+          <li>Debao Li</li>
+          <li>Shixiong Min</li>
+          <li>Chenxi Qian</li>
+          <li>Lu Wang</li>
+          <li>Young Feng Li</li>
+          <li>Chun Ma</li>
+          <li>Tom Wu</li>
+          <li>Jiayin Yuan</li>
+          <li>Markus Antonietti</li>
+          <li>Geoffrey A. Ozin</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>The search for earth abundant, efficient and stable electrocatalysts that can
+enable the chemical reduction of CO2 to value-added chemicals and fuels at an
+industrially relevant scale, is a high priority for the development of a global
+network of renewable energy conversion and storage systems that can
+meaningfully impact greenhouse gas induced climate change. Here we introduce a
+straightforward, low cost, scalable and technologically relevant method to
+manufacture an all-carbon, electroactive, nitrogen-doped nanoporous
+carbon-carbon nanotube composite membrane, dubbed "HNCM-CNT". The membrane is
+demonstrated to function as a binder-free, high-performance electrode for the
+electrocatalytic reduction of CO2 to formate. The Faradaic efficiency for the
+production of formate is 81%. Furthermore, the robust structural and
+electrochemical properties of the membrane endow it with excellent long-term
+stability.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>
+Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors are trying to improve the electrochemical stability and capacity of nitrogen-doped carbon materials for sodium-ion batteries. They aim to develop a novel N-doped carbon material derived from CNTs/PCMVImTf2N, which exhibits high electrochemical stability and capacity after 36 hours of electrolysis.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The previous state of the art for nitrogen-doped carbon materials involved using metal carbides or metals to dope the carbon lattice, which can lead to limited stability and capacity. This paper improved upon this by using a novel method to synthesize N-doped carbon materials derived from CNTs/PCMVImTf2N, which exhibits better electrochemical stability and capacity than traditional methods.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors carried out various experiments to evaluate the electrochemical stability and capacity of the N-doped carbon materials derived from CNTs/PCMVImTf2N. These experiments included cyclic voltammetry, galvanostatic charge/discharge, and electrochemical stability tests. They also compared the performance of these materials with traditional nitrogen-doped carbon materials.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures S16, S17, S18, and S19 were referenced the most frequently in the text, as they provide information on the morphology and electrochemical properties of the N-doped carbon materials. Table S2 was also referenced frequently, as it presents the electrochemical performance of the N-doped carbon materials.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: Reference (S1) by J. Yuan, C. Giordano, M. Antonietti was cited the most frequently in the paper, as it provides a comprehensive overview of the synthesis and electrochemical properties of nitrogen-doped carbon materials. The citations were given in the context of discussing the previous state of the art and the novelty of the approach proposed in this paper.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper is potentially impactful as it proposes a novel method to synthesize N-doped carbon materials with improved electrochemical stability and capacity, which could lead to more efficient and sustainable sodium-ion batteries. The use of CNTs as a precursor material also provides a scalable and cost-effective way to produce these materials on a large scale.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: One potential weakness of the paper is that the electrochemical stability tests were carried out only for 36 hours, which may not fully reflect the long-term stability of the N-doped carbon materials. Additionally, the authors did not compare their materials directly with state-of-the-art sodium-ion batteries, which could have provided a more comprehensive assessment of their performance.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The paper does not provide a Github repository link.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #sodiumionbatteries, #Ndopedcarbon, #CNTs, #electrochemicalstability, #capacity, #sustainableenergy, #novelmaterials, #synthesis, #nanotechnology, #batterytechnology</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
