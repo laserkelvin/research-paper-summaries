@@ -28,7 +28,8 @@
       <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
     </p>
     <div>
-      <h2> 2007.04459v3&mdash;Meta-Learning for One-Class Classification with Few Examples using Order-Equivariant Network</h2>
+      <details>
+      <summary><h2> 2007.04459v3&mdash;Meta-Learning for One-Class Classification with Few Examples using Order-Equivariant Network</h2></summary>
       <p><a href=http://arxiv.org/abs/2007.04459v3>Link to paper</a></p>
       <div id="author-block">
         <ul>
@@ -92,9 +93,11 @@ A: I cannot provide a direct Github repository link for the paper as it may not 
 A: #fewshotlearning #neuralnetworks #supportvectormethod #noveltydetection #metalearning #comparisonlearning #prototypicalnetworks #selfsupervisedlearning #semiSupervisedLearning #DeepLearning</p>
         </div>
       </div>
+      </details>
     </div>
     <div>
-      <h2> 2007.02005v2&mdash;Finding Symmetry Breaking Order Parameters with Euclidean Neural Networks</h2>
+      <details>
+      <summary><h2> 2007.02005v2&mdash;Finding Symmetry Breaking Order Parameters with Euclidean Neural Networks</h2></summary>
       <p><a href=http://arxiv.org/abs/2007.02005v2>Link to paper</a></p>
       <div id="author-block">
         <ul>
@@ -137,9 +140,11 @@ A: The paper's Github repository can be found at <https://github.com/e3nn/e3nn>.
 A: #NeuralNetworks #SymmetryBreaking #EuclideanNeuralNetworks #Interpretability #Generalization #MachineLearning #ArtificialIntelligence #DeepLearning #ComputerVision #NaturalLanguageProcessing</p>
         </div>
       </div>
+      </details>
     </div>
     <div>
-      <h2> 2007.09932v4&mdash;Transfer learning for materials informatics using crystal graph convolutional neural network</h2>
+      <details>
+      <summary><h2> 2007.09932v4&mdash;Transfer learning for materials informatics using crystal graph convolutional neural network</h2></summary>
       <p><a href=http://arxiv.org/abs/2007.09932v4>Link to paper</a></p>
       <div id="author-block">
         <ul>
@@ -189,6 +194,73 @@ A: The Github repository link for this paper is not provided in the text.</p>
 A: #DeepLearning #NeuralNetworks #TrainingMethod #VanishingGradientProblem #ExponentialLinearUnits #GradientBasedNN #ConvergenceBehavior #BenchmarkDatasets #AdvancedComputing</p>
         </div>
       </div>
+      </details>
+    </div>
+    <div>
+      <details>
+      <summary><h2> 2007.05534v1&mdash;Multi-Domain Image Completion for Random Missing Input Data</h2></summary>
+      <p><a href=http://arxiv.org/abs/2007.05534v1>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Liyue Shen</li>
+          <li>Wentao Zhu</li>
+          <li>Xiaosong Wang</li>
+          <li>Lei Xing</li>
+          <li>John M. Pauly</li>
+          <li>Baris Turkbey</li>
+          <li>Stephanie Anne Harmon</li>
+          <li>Thomas Hogue Sanford</li>
+          <li>Sherif Mehralivand</li>
+          <li>Peter Choyke</li>
+          <li>Bradford Wood</li>
+          <li>Daguang Xu</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Multi-domain data are widely leveraged in vision applications taking
+advantage of complementary information from different modalities, e.g., brain
+tumor segmentation from multi-parametric magnetic resonance imaging (MRI).
+However, due to possible data corruption and different imaging protocols, the
+availability of images for each domain could vary amongst multiple data sources
+in practice, which makes it challenging to build a universal model with a
+varied set of input data. To tackle this problem, we propose a general approach
+to complete the random missing domain(s) data in real applications.
+Specifically, we develop a novel multi-domain image completion method that
+utilizes a generative adversarial network (GAN) with a representational
+disentanglement scheme to extract shared skeleton encoding and separate flesh
+encoding across multiple domains. We further illustrate that the learned
+representation in multi-domain image completion could be leveraged for
+high-level tasks, e.g., segmentation, by introducing a unified framework
+consisting of image completion and segmentation with a shared content encoder.
+The experiments demonstrate consistent performance improvement on three
+datasets for brain tumor segmentation, prostate segmentation, and facial
+expression image completion respectively.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The paper addresses the challenge of multi-domain image completion, where a partial image is available in one or more modalities (T1, T2, ADC, HighB), and the goal is to complete the missing domains using information from the visible domains.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The paper builds upon previous work on image completion by incorporating a multi-domain framework, which allows for more accurate completion in the presence of missing information across multiple modalities. The proposed method outperforms the current state of the art in terms of both visual quality and segmentation accuracy.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors conducted two main experiments to evaluate their proposed method: (1) random completion on three datasets (BraTS, RaFD, and ProstateX), and (2) ablation studies to analyze the contribution of individual components to the overall performance.</p>
+          <p>Q: Which figures and tables were referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 10-14 and Table 1 are referenced the most frequently in the text. These figures show the results of random completion on three datasets, while Table 1 provides an overview of the proposed method and its performance compared to previous work.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The paper cites several references related to image completion, segmentation, and multi-modal image analysis. These citations are provided throughout the text to support the proposed method and its performance.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The paper addresses a critical challenge in medical imaging by developing a multi-domain image completion method that can handle missing information across multiple modalities. This has significant implications for image analysis and segmentation in various medical applications, such as tumor detection and diagnosis.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their proposed method relies on a simplifying assumption that the missing domains are independent and can be completed separately. However, in practice, the missing domains may not be independent, which could limit the accuracy of the completion.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors provide a Github link to access their code and results in the supplementary material.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #imagecompletion #multimodal #medicalimaging #tumorsegmentation # BraTS #RaFD #ProstateX #completion #segmentation #neuralnetworks</p>
+        </div>
+      </div>
+      </details>
     </div>
 </body>
 </html>

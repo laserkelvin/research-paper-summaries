@@ -28,7 +28,8 @@
       <em class="disclaimer">Disclaimer: summary content on this page has been generated using a LLM with RAG, and may not have been checked for factual accuracy. The human-written abstract is provided alongside each summary.</em>
     </p>
     <div>
-      <h2> 2011.12747v1&mdash;Symmetry-Aware Actor-Critic for 3D Molecular Design</h2>
+      <details>
+      <summary><h2> 2011.12747v1&mdash;Symmetry-Aware Actor-Critic for 3D Molecular Design</h2></summary>
       <p><a href=http://arxiv.org/abs/2011.12747v1>Link to paper</a></p>
       <div id="author-block">
         <ul>
@@ -76,9 +77,11 @@ A: I don't know. The paper does not provide a link to a Github repository for th
 A: #machinelearning #chemicalsimulation #solvationtask #quantumchemistry #drugdiscovery #materialscience #novelapproach #agentbased #rewardfunction #computationalefficiency</p>
         </div>
       </div>
+      </details>
     </div>
     <div>
-      <h2> 2011.09297v1&mdash;INFRA-ICE: an ultra-high vacuum experimental station for laboratory astrochemistry</h2>
+      <details>
+      <summary><h2> 2011.09297v1&mdash;INFRA-ICE: an ultra-high vacuum experimental station for laboratory astrochemistry</h2></summary>
       <p><a href=http://arxiv.org/abs/2011.09297v1>Link to paper</a></p>
       <div id="author-block">
         <ul>
@@ -141,6 +144,79 @@ A: The authors do not provide a Github repository link for their paper.</p>
 A: #Photochemistry #IceMolecules #InterstellarMatter #Astrophysics #LaboratoryExperiments #MassSpectrometry #VacuumUltraviolet #HydrogenAtoms #NISTStandards #Astronomy</p>
         </div>
       </div>
+      </details>
+    </div>
+    <div>
+      <details>
+      <summary><h2> 2011.04426v4&mdash;AutoMat: Accelerated Computational Electrochemical systems Discovery</h2></summary>
+      <p><a href=http://arxiv.org/abs/2011.04426v4>Link to paper</a></p>
+      <div id="author-block">
+        <ul>
+          <li>Emil Annevelink</li>
+          <li>Rachel Kurchin</li>
+          <li>Eric Muckley</li>
+          <li>Lance Kavalsky</li>
+          <li>Vinay I. Hegde</li>
+          <li>Valentin Sulzer</li>
+          <li>Shang Zhu</li>
+          <li>Jiankun Pu</li>
+          <li>David Farina</li>
+          <li>Matthew Johnson</li>
+          <li>Dhairya Gandhi</li>
+          <li>Adarsh Dave</li>
+          <li>Hongyi Lin</li>
+          <li>Alan Edelman</li>
+          <li>Bharath Ramsundar</li>
+          <li>James Saal</li>
+          <li>Christopher Rackauckas</li>
+          <li>Viral Shah</li>
+          <li>Bryce Meredig</li>
+          <li>Venkatasubramanian Viswanathan</li>
+        </ul>
+      </div>
+      <div class="pure-g" id="abstract-block">
+        <div class="pure-u-1-2">
+          <h3>Paper abstract</h3>
+          <p>Large-scale electrification is vital to addressing the climate crisis, but
+several scientific and technological challenges remain to fully electrify both
+the chemical industry and transportation. In both of these areas, new
+electrochemical materials will be critical, but their development currently
+relies heavily on human-time-intensive experimental trial and error and
+computationally expensive first-principles, meso-scale and continuum
+simulations. We present an automated workflow, AutoMat, that accelerates these
+computational steps by introducing both automated input generation and
+management of simulations across scales from first principles to continuum
+device modeling. Furthermore, we show how to seamlessly integrate
+multi-fidelity predictions such as machine learning surrogates or automated
+robotic experiments "in-the-loop". The automated framework is implemented with
+design space search techniques to dramatically accelerate the overall materials
+discovery pipeline by implicitly learning design features that optimize device
+performance across several metrics. We discuss the benefits of AutoMat using
+examples in electrocatalysis and energy storage and highlight lessons learned.</p>
+        </div>
+        <div class="pure-u-1-2">
+          <h3>LLM summary</h3>
+          <p>Q: What is the problem statement of the paper - what are they trying to solve?
+A: The authors are aiming to develop a more efficient and accurate method for predicting the properties of materials, specifically liquid electrolytes used in lithium-ion batteries. They note that current methods are limited by their reliance on simplistic models and empirical formulas, which can lead to inaccuracies and slow computation times.</p>
+          <p>Q: What was the previous state of the art? How did this paper improve upon it?
+A: The authors mention that previous work has focused on using machine learning algorithms to predict material properties, but these methods are often limited by their reliance on small datasets and simple models. They propose a novel approach that combines machine learning with quantum chemistry calculations to improve accuracy and efficiency.</p>
+          <p>Q: What were the experiments proposed and carried out?
+A: The authors describe the development of a new machine learning model trained on a large dataset of molecular structures and properties, as well as the implementation of a quantum chemistry pipeline using Psi4 and the QCEngine interface. They also mention the use of Reaction Mechanism Generator (RMG) to study the decomposition pathway of solvent molecules in a lithium environment.</p>
+          <p>Q: Which figures and tables referenced in the text most frequently, and/or are the most important for the paper?
+A: Figures 1, 2, and 5 are referenced frequently throughout the paper, as they provide an overview of the proposed method, illustrate the performance of the machine learning model, and show the potential impact of the quantum chemistry calculations on property predictions. Table 1 is also important, as it summarizes the key components of the proposed method.</p>
+          <p>Q: Which references were cited the most frequently? Under what context were the citations given in?
+A: The authors cite several references related to machine learning and quantum chemistry, including works by Williams et al., Brennan et al., and Schutt et al. These references are cited throughout the paper to provide context for the proposed method and to highlight the state of the art in each area.</p>
+          <p>Q: Why is the paper potentially impactful or important?
+A: The authors suggest that their proposed method has the potential to significantly improve the accuracy and efficiency of material property predictions, particularly in the context of lithium-ion batteries. They also mention that the approach could be applied to other systems where accurate property predictions are critical, such as drug discovery and materials science.</p>
+          <p>Q: What are some of the weaknesses of the paper?
+A: The authors acknowledge that their method is still in its early stages and faces challenges related to the size and quality of the training dataset, as well as the need for further development of the quantum chemistry pipeline. They also mention the potential limitations of using machine learning models for property predictions, such as overfitting and lack of interpretability.</p>
+          <p>Q: What is the Github repository link for this paper?
+A: The authors do not provide a direct Github repository link for their work. However, they mention that their code and data are available on request to interested parties.</p>
+          <p>Q: Provide up to ten hashtags that describe this paper.
+A: #materialscience #batterytechnology #quantumchemistry #machinelearning #propertyprediction #lithiumion #electrolytes #DeepLearning #ReactionMechanismGeneration #BayesianInference</p>
+        </div>
+      </div>
+      </details>
     </div>
 </body>
 </html>
